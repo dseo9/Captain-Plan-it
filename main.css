@@ -1,15 +1,8 @@
-
+/* Global Attributes */
 html, body, .fill {
   min-height: 100%;
   max-height: 100%;
   height: 100%;
-}
-
-@media only screen and (max-width: 720px) {
-  html, body {
-    /*width: 80%;
-    margin: 0 auto;*/
-  }
 }
 
 .header {
@@ -33,36 +26,94 @@ html, body, .fill {
   height: 100%;
 }
 
+.img-responsive {
+  max-height: 100%;
+  min-height: 100%;
+  padding: 0;
+}
+
 #back_navigation {
-  background-color: green;
+  background-color: #45828D;
 }
 
 #logo_navigation {
-  background-color: green;
+  background-color: #45828D;
 }
 
 #logout_navigation {
-  background-color: green;
+  background-color: #45828D;
 }
 
 #avatar_footer {
-  background-color: red;
+  background-color: #d9534f;
 }
 
 #planet_footer {
-  background-color: blue;
+  background-color: #428bca;
 }
 
 #stampboard_footer {
-  background-color: yellow;
+  background-color: #f0ad4e;
 }
 
 #faq_footer {
   background-color: pink;
 }
 
-.img-responsive {
-  max-height: 100%;
-  min-height: 100%;
-  padding: 0;
+/*Foodiverse Title Header*/
+.title_header {
+  width: auto;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  color: red;
+  overflow: auto;
+  background-color: yellow;
+  border-radius: 8px;
+  margin: 0 35%;
+  border: 2px solid black;
 }
+
+================================================================================
+/*
+.talk-bubble {
+	margin: 40px;
+  display: inline-block;
+  position: relative;
+	width: 200px;
+	height: auto;
+	background-color: lightyellow;
+}*/
+
+/* talk bubble contents */
+/*.talktext{
+  padding: 1em;
+	text-align: left;
+  line-height: 1.5em;
+}*/
+
+/*.tri-right.right-in:after{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: auto;
+	right: -20px;
+  top: 38px;
+	bottom: auto;
+	border: 12px solid;
+	border-color: lightyellow transparent transparent lightyellow;
+}*/
+
+/*.tri-right.border.right-in:before {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: auto;
+	right: -40px;
+  top: 30px;
+	bottom: auto;
+	border: 20px solid;
+	border-color: #666 transparent transparent #666;
+}*/
