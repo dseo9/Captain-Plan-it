@@ -74,6 +74,10 @@ html, body, .fill {
   border: 2px solid black;
 }
 
+.img-container {
+  display: inline-block;
+}
+
 ================================================================================
 /*
 .talk-bubble {
