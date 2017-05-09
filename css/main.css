@@ -6,11 +6,10 @@ html, body, .fill {
 }
 
 .container {
-  background-image: url("./../Images/universe.png");
+  background-image: url("./../images/universe.png");
   background-repeat: none;
   background-position: center;
   background-size: cover;
-
 }
 
 div.container .fill {
@@ -25,17 +24,15 @@ div.container .fill {
 }
 
 .mainbody {
-  margin: 0 auto;
-  overflow: scroll;
+  /*margin: 0 auto;
+  overflow: scroll;*/
   width: 100%;
   height:80%;
 }
 
 .footer {
   height: 12%;
-
 }
-
 
 .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-6, .col-xs-8 {
   height: 100%;
@@ -153,4 +150,13 @@ div.container .fill {
 
 .glyphicon .glyphicon-calendar .floatingcalendar {
   float: right; color: pink; font-size: 400%
+}
+
+
+
+#contactuspage {
+  background-image: url("./../images/Apple.png");
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
 }
