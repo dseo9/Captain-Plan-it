@@ -5,6 +5,12 @@ html, body, .fill {
   height: 100%;
 }
 
+.container {
+  background-image: url("images/bodybackground.jpg");
+  background-repeat: none;
+  background-size: cover;
+}
+
 .header {
   height: 8%;
   border-bottom: solid 2px black;
@@ -12,14 +18,11 @@ html, body, .fill {
 
 .footer {
   height: 12%;
-  border: solid 2px black;
 }
 
 .mainbody {
   height: 80%;
-  background-image: url("images/bodybackground.jpg");
-  background-repeat: none;
-  background-size: cover;
+
 }
 
 .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-6, .col-xs-8 {
@@ -46,18 +49,26 @@ html, body, .fill {
 
 #avatar_footer {
   background-color: #d9534f;
+  border-radius: 20px 20px 0 0;
+  border: solid 2px black;
 }
 
 #planet_footer {
   background-color: #428bca;
+  border-radius: 20px 20px 0 0;
+  border: solid 2px black;
 }
 
 #stampboard_footer {
   background-color: #f0ad4e;
+  border-radius: 20px 20px 0 0;
+  border: solid 2px black;
 }
 
 #faq_footer {
   background-color: pink;
+  border-radius: 20px 20px 0 0;
+  border: solid 2px black;
 }
 
 /*Foodiverse Title Header*/
@@ -74,9 +85,22 @@ html, body, .fill {
   border: 2px solid black;
 }
 
-.img-container {
-  display: inline-block;
+#fruit_fortress, #dairy_dome {
+  position: relative;
+  display: block;
+  left: 30%;
+  top: 2.5%;
+  width: 10%;
 }
+
+#pastry_palace, #meat_mansion {
+  position: relative;
+  display: block;
+  left: 60%;
+  top: 2.5%;
+  width: 10%;
+}
+
 
 ================================================================================
 /*
