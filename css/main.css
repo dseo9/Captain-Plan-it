@@ -6,18 +6,16 @@ html, body, .fill {
 }
 
 .container {
-  background-image: url("images/bodybackground.jpg");
+  background-image: url("./../Images/universe.png");
   background-repeat: none;
+  background-position: center;
   background-size: cover;
 }
 
+/* PAGE DIVISION CSS */
 .header {
   height: 8%;
   border-bottom: solid 2px black;
-}
-
-.footer {
-  height: 12%;
 }
 
 .mainbody {
@@ -25,8 +23,19 @@ html, body, .fill {
 
 }
 
+.footer {
+  height: 12%;
+}
+
+
 .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-6, .col-xs-8 {
   height: 100%;
+  text-align: center;
+}
+
+.glyphicon {
+  font-size: 150%;
+  color: black;
 }
 
 .img-responsive {
@@ -35,6 +44,7 @@ html, body, .fill {
   padding: 0;
 }
 
+/* HEADER NAVIGATION CSS */
 #back_navigation {
   background-color: #45828D;
 }
@@ -47,31 +57,28 @@ html, body, .fill {
   background-color: #45828D;
 }
 
-#avatar_footer {
-  background-color: #d9534f;
+/* FOOTER NAVIGATION CSS */
+#avatar_footer, #planet_footer, #faq_footer, #stampboard_footer {
   border-radius: 20px 20px 0 0;
   border: solid 2px black;
+}
+
+#avatar_footer {
+  background-color: #d9534f;
 }
 
 #planet_footer {
   background-color: #428bca;
-  border-radius: 20px 20px 0 0;
-  border: solid 2px black;
 }
 
 #stampboard_footer {
   background-color: #f0ad4e;
-  border-radius: 20px 20px 0 0;
-  border: solid 2px black;
 }
 
 #faq_footer {
   background-color: pink;
-  border-radius: 20px 20px 0 0;
-  border: solid 2px black;
 }
 
-/*Foodiverse Title Header*/
 .title_header {
   width: auto;
   display: block;
@@ -102,46 +109,39 @@ html, body, .fill {
 }
 
 
+/* TEST CODES START HERE */
 ================================================================================
-/*
-.talk-bubble {
-	margin: 40px;
-  display: inline-block;
-  position: relative;
-	width: 200px;
-	height: auto;
-	background-color: lightyellow;
+/*body {margin:0;}
+
+.icon-bar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+    height:100%;
+}
+
+.icon-bar a {
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+    height:100%;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+    height:100%;
+}
+
+.active {
+    background-color: #4CAF50 !important;
+    height:100%;
 }*/
 
-/* talk bubble contents */
-/*.talktext{
-  padding: 1em;
-	text-align: left;
-  line-height: 1.5em;
-}*/
 
-/*.tri-right.right-in:after{
-	content: ' ';
-	position: absolute;
-	width: 0;
-	height: 0;
-  left: auto;
-	right: -20px;
-  top: 38px;
-	bottom: auto;
-	border: 12px solid;
-	border-color: lightyellow transparent transparent lightyellow;
-}*/
-
-/*.tri-right.border.right-in:before {
-	content: ' ';
-	position: absolute;
-	width: 0;
-	height: 0;
-  left: auto;
-	right: -40px;
-  top: 30px;
-	bottom: auto;
-	border: 20px solid;
-	border-color: #666 transparent transparent #666;
-}*/
+.glyphicon .glyphicon-calendar .floatingcalendar {
+  float: right; color: pink; font-size: 400%
+}
