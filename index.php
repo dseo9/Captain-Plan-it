@@ -3,24 +3,27 @@
 
 <body>
   <div class="container fill">
+    <div class="row mainbody">
 
-      <div style="width: 20%" class="img-circle" id="top-left">
-        <img src="images/pastry_palace.png" alt="logo" class="img-responsive center-block"/>
-      </div>
+        <!-- <div id="upper_left"> -->
+          <img src="images/pastry_palace.png" alt="logo" class="rounded float-left "/>
+        <!-- </div> -->
 
-      <div style="width: 20%" class=" img-circle" id="top-right">
-        <img src="images/fruit_fortress.png" alt="logo" class="img-responsive center-block"/>
-      </div>
+        <!-- <div id="upper_right"> -->
+          <img src="images/fruit_fortress.png" alt="logo" class="rounded float-right "/>
 
-      <div style="width: 20%">
-        <img src="images/cp.png" alt="logo" class="img-responsive img-circle center-block"/>
-      </div>
+          <img src="images/pastry_palace.png" class="rounded float-left" alt="pastrylogo">
+          <img src="images/fruit_fortress.png" class="rounded float-right" alt="fruitlogo">
+        <!-- </div> -->
 
-      <div style="width: 20%" class=" img-circle" id="lower-right">
-        <img src="images/dairy_dome.png" alt="logo" class="img-responsive center-block"/>
-      </div>
+          <img src="images/cp.png" alt="logo" class="img-responsive "/>
 
-      <div style="width: 20%" class=" img-circle" id="lower-right">
-        <img src="images/meat_mansion.png" alt="logo" class="img-responsive center-block />
-      </div>
+        <div id="lower-right">
+          <img src="images/dairy_dome.png" alt="logo" class="img-responsive "/>
+        </div>
+
+        <div id="lower-left">
+          <img src="images/meat_mansion.png" alt="logo" class="img-responsive" />
+        </div>
+    </div>
   </div>
