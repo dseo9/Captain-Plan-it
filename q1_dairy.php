@@ -1,37 +1,45 @@
+<?php include 'header.php';?>
 
+<div class="row mainbody">
+	<div class="title_header"><h5>Dairy Dome - Level 1</h5></div>
+	<br/><br/>
+		<div class="row" id="planets">
+			<div class="col-xs-3"></div>
+			<div class="col-xs-6">
+				<div class="questionbox" id="q_dairy">
+					Q: Food category question goes here.
+				</div>
+			</div>
+			<div class="col-xs-3"></div>
+		</div>
 
-<!DOCTYPE html>
-	<html lang="en">
-	<head>
-		  <meta charset="utf-8">
-		  <title>Captain Plan-It</title>
-		  <link href="q_dairy.css" rel="stylesheet" type="text/css"/>
-	</head>
+		<div class="row" id="planets">
+			<div class="col-xs-1"></div>
+			<div class="col-xs-4"></div>
+			<div class="col-xs-1"></div>
+			<div class="col-xs-1"></div>
+			<div class="col-xs-4"></div>
+			<div class="col-xs-1 planets"></div>
+		</div>
 
-  <body>
+		<div class="row" id="planets">
+			<div class="col-xs-1"></div>
+			<div class="col-xs-4"><input type="button" value="Answer 1" class="btn-group" id="a_dairy"></div>
+			<div class="col-xs-1"></div>
+			<div class="col-xs-1"></div>
+			<div class="col-xs-4"><input type="button" value="Answer 2" class="btn-group" id="a_dairy"></div>
+			<div class="col-xs-1 planets"></div>
+		</div>
 
-	    <div class="outer">
+		<div class="row" id="planets">
+			<div class="col-xs-1"></div>
+			<div class="col-xs-4"><input type="button" value="Answer 3" class="btn-group" id="a_dairy"></div>
+			<div class="col-xs-1"></div>
+			<div class="col-xs-1"></div>
+			<div class="col-xs-4"><input type="button" value="Answer 4" class="btn-group" id="a_dairy"></div>
+			<div class="col-xs-1 planets"></div>
+		</div>
 
-				  <!-- Top portion of the question page -->
+	</div>
 
-					<div class="title">
-						Title of level
-					</div>
-
-					<div class="questionbox">
-							Q: Food category question goes here.
-					</div>
-
-					<!-- Bottom portion of the question page -->
-					<div class="bottom">
-							<input type="button" value="derp 1" class="button" id="q1">
-							<input type="button" value="derp 2" class="button" id="q1">
-							<input type="button" value="derp 3" class="button" id="q1">
-							<input type="button" value="derp 4" class="button" id="q1">
-					</div>
-
-		  </div>
-
-	</body>
-
-  </html>
+<?php include 'footer.php';?>

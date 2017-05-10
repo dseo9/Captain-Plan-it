@@ -1,0 +1,424 @@
+/* Global Attributes */
+html, body, .fill {
+  min-height: 100%;
+  max-height: 100%;
+  height: 100%;
+}
+
+.container {
+  background-image: url("./../images/universe.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.container .fill {
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* PAGE DIVISION CSS */
+.header {
+  height: 8%;
+  border-bottom: solid 2px black;
+}
+
+.mainbody {
+  /*margin: 0 auto;*/
+  margin: 0 auto;
+  width: 100%;
+  height:80%;
+}
+
+.footer {
+  height: 12%;
+}
+
+.col-xs-2, .col-xs-3, .col-xs-4, .col-xs-6, .col-xs-8 {
+  height: 100%;
+  text-align: center;
+}
+
+.glyphicon {
+  font-size: 2.5vw;
+  color: black;
+}
+
+.img-responsive {
+  max-height: 100%;
+  min-height: 100%;
+  padding: 0;
+}
+
+/* HEADER NAVIGATION CSS */
+#back_navigation {
+  background-color: #45828D;
+}
+
+#logo_navigation {
+  background-color: #45828D;
+}
+
+#logout_navigation {
+  background-color: #45828D;
+}
+
+/* FOOTER NAVIGATION CSS */
+#avatar_footer, #planet_footer, #faq_footer, #stampboard_footer {
+  border-radius: 20px 20px 0 0;
+  border: solid 2px black;
+  overflow: hidden;
+}
+
+#avatar_footer {
+  background-color: #d9534f;
+}
+
+#planet_footer {
+  background-color: #428bca;
+}
+
+#stampboard_footer {
+  background-color: #f0ad4e;
+}
+
+#faq_footer {
+  background-color: pink;
+}
+
+/* PAGE HEADER */
+.title_header {
+  width: auto;
+  display: block;
+  text-align: center;
+  color: red;
+  overflow: auto;
+  background-color: yellow;
+  border-radius: 8px;
+  margin: 0 35%;
+  border: 2px solid black;
+}
+
+
+/* PLANETS PAGE */
+#fruit_fortress, #dairy_dome {
+  position: relative;
+  display: block;
+  left: 30%;
+  top: 2.5%;
+  width: 10%;
+}
+
+#pastry_palace, #meat_mansion {
+  position: relative;
+  display: block;
+  left: 60%;
+  top: 2.5%;
+  width: 10%;
+}
+
+div .row #planets {
+  height: 20%;
+}
+/*
+div .row #splashscreen1 {
+  height: 25%;
+}
+
+div .row #splashscreen2 {
+  height: 50%;
+}*/
+
+
+/* Dairy Dome page */
+/*
+.table-responsive{
+  width: 60%;
+  position: relative;
+  display: block;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}*/
+
+.levels_body table{
+  overflow-x:auto;
+  position: relative;
+  display: block;
+  left: 33%;
+  margin-top: 5%;
+  margin: 5% auto 0;
+}
+
+.levels {
+  width: 150%;
+}
+
+#cowface {
+  width: 169%;
+}
+
+#level3{
+  margin-left: 70%;
+}
+
+#level4, #level2{
+  margin-left: 40%;
+}
+
+/* ABOUT US PAGE, SCROLLING CONTENT */
+.row .subbody {
+  width: 90%;
+  margin: 0 auto;
+  height:80%;
+  overflow: auto;
+}
+
+/* Register page */
+.icons {
+  width: 4%;
+}
+
+/* TEST CODES START HERE */
+<<<<<<< HEAD
+/*body {margin:0;}
+
+.icon-bar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+    height:100%;
+}
+
+.icon-bar a {
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+    height:100%;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+    height:100%;
+}
+
+.active {
+    background-color: #4CAF50 !important;
+    height:100%;
+}*/
+=======
+================================================================================
+>>>>>>> 2eaa3efc0d7b85155886ac4c690bcd7ea7843c0e
+
+.glyphicon .glyphicon-calendar .floatingcalendar {
+  float: right;
+  color: green;
+  font-size: 400%
+}
+
+#dairy_stage {
+  background-image: url("./../images/cow.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+#contactuspage {
+  background-image: url("./../images/Apple.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+#upper_left {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+  width: 10%;
+}
+
+#upper_right {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+  width: 10%;
+}
+
+#lower_left {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+  width: 10%
+}
+
+#lower_right {
+	bottom: 0px;
+	right: 0px;
+	position: absolute;
+  width: 10%
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid blue;
+  border-right: 16px solid green;
+  border-bottom: 16px solid red;
+  border-left: 16px solid pink;
+  width: 5%;
+  height: 10%;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  text-align: center;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 }
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom {
+  from{ bottom:-100px; opacity:0 }
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+  text-align: center;
+}
+
+
+
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 5%;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  width: 100%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover, .close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)}
+  to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+   display: block;
+   float: none;
+  }
+  .cancelbtn {
+   width: 100%;
+  }
+}
