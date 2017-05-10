@@ -18,11 +18,17 @@
 	<br/><br/>
 		<div class="row" id="planets">
 			<div class="col-xs-3"></div>
+<<<<<<< HEAD
 			<div class="col-xs-6">					<div class="questionbox">
 										Q: Food category question goes here.
 								</div>
 							</div>
 >>>>>>> develop
+=======
+			<div class="col-xs-6">
+				<div class="questionbox">Q: Food category question goes here.</div>
+			</div>
+>>>>>>> mark-feature
 			<div class="col-xs-3"></div>
 		</div>
 

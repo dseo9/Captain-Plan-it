@@ -1,19 +1,22 @@
 <?php include 'header.php'; ?>
 
-<div class="row mainbody">
-  <div class="title_header"><h5>Are you BOY or GIRL?</h5></div>
+  <!-- make two columns for avatar and customize fields-->
+  <div class="row mainbody" id="playeravatar" style="background-color: white;">
+    <div class="title_header"><h5>Customize your Avatar</h5></div>
 
-    <div class="row subbody">
-    <div class="row-xs-5">
-      <img src="images/boy_avatar.png" alt="boy avatar" class="float-left" />
-    </div>
+      <div class="col-sm-2"></div>
 
-    <div class="row-xs-2"></div>
+      <div class="col-sm-4">
+        <img src="images/boy_avatar.png" class="img-responsive center-block"/>
+      </div>
 
-    <div class="row-xs-5">
-      <img src="images/girl_avatar.png" alt="girl avatar" class="float-right" />
-    </div>
-    </div>
+      <div class="col-sm-4">
+        <img src="images/girl_avatar.png" class="img-responsive center-block"/>
+      </div>
+
+      <div class="col-sm-2"></div>
+
+
   </div>
 
 <?php include 'footer.php'; ?>
