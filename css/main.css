@@ -5,7 +5,7 @@ html, body, .fill {
   height: 100%;
 }
 
-.container {
+.bg {
   background-image: url("./../Images/universe.png");
   background-repeat: none;
   background-position: center;
@@ -108,6 +108,30 @@ html, body, .fill {
   width: 10%;
 }
 
+/* Dairy Dome page */
+.levels_body table{
+  position: relative;
+  display: block;
+  left: 33%;
+  margin-top: 5%;
+
+}
+
+.levels {
+  width: 150%;
+}
+
+#cowface {
+  width: 169%;
+}
+
+#level3{
+  margin-left: 70%;
+}
+
+#level4, #level2{
+  margin-left: 40%;
+}
 
 /* TEST CODES START HERE */
 ================================================================================
@@ -144,4 +168,3 @@ html, body, .fill {
 
 .glyphicon .glyphicon-calendar .floatingcalendar {
   float: right; color: pink; font-size: 400%
-}
