@@ -119,7 +119,18 @@ html, body, .fill {
 
 
 /* Dairy Dome page */
+/*
+.table-responsive{
+  width: 60%;
+  position: relative;
+  display: block;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}*/
+
 .levels_body table{
+  overflow-x:auto;
   position: relative;
   display: block;
   left: 33%;
@@ -149,6 +160,11 @@ html, body, .fill {
   margin: 0 auto;
   height:80%;
   overflow: auto;
+}
+
+/* Register page */
+.icons {
+  width: 4%;
 }
 
 /* TEST CODES START HERE */

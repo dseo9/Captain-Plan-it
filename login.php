@@ -5,21 +5,27 @@
 
   <div class="row subbody">
 <br>
-    <form action="avatar.php">
-        <label><b>Username</b></label>
+    <form action="avatar.php" method="post" class="">
+      <div class="form-group">
         <input type="text" placeholder="Enter Username" name="uname" required>
-
-        <label><b>Password</b></label>
+      </div>
+      <div class="form-group">
         <input type="password" placeholder="Enter Password" name="psw" required>
+      </div>
+      <div class="checkbox">
+        <label><input type="checkbox" checked="checked"> Remember me </label>
+      </div>
 
-        <button type="submit">Login</button>
-        <input type="checkbox" checked="checked"> Remember me
+      <button type="submit" class="btn btn-default">Login</button>
+      <button type="button" class="btn btn-default">Cancel</button>
 
-        <button type="button" class="cancelbtn">Cancel</button>
+      <div class="checkbox">
         <span class="psw">Forgot <a href="#">password?</a></span>
+      </div>
+      <div class="">
+        <button type="button" class="btn btn-default">I don't have an account yet!</button>
+      </div>
     </form>
-
-
 
   </div>
 
