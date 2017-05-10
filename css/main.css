@@ -6,10 +6,10 @@ html, body, .fill {
 }
 
 .container {
-  background-image: url("./../images/universe.png");
+  /*background-image: url("./../images/universe.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: cover;*/
 }
 
 .container .fill {
@@ -180,6 +180,7 @@ div .row #splashscreen2 {
 }
 
 /* TEST CODES START HERE */
+<<<<<<< HEAD
 /*body {margin:0;}
 
 .icon-bar {
@@ -209,6 +210,9 @@ div .row #splashscreen2 {
     background-color: #4CAF50 !important;
     height:100%;
 }*/
+=======
+================================================================================
+>>>>>>> mark-feature
 
 .glyphicon .glyphicon-calendar .floatingcalendar {
   float: right;
@@ -310,7 +314,7 @@ div .row #splashscreen2 {
 
 
 
-
+================================================================================
 /* Full-width input fields */
 input[type=text], input[type=password] {
     width: 100%;
@@ -417,4 +421,27 @@ span.psw {
   .cancelbtn {
    width: 100%;
   }
+}
+
+
+================================================================================
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+  from {top: 0px;}
+  to {top: 200px;}
+}
+
+@keyframes mymove {
+  from {top: 0px;}
+  to {top: 200px;}
+}
+
+.container .fill {
+  background:#FFFFFF url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+  z-index:0;
+  -webkit-animation: mymove 1s;  /* Safari 4.0 - 8.0 */
+  -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+  animation: mymove 1s;
+  animation-fill-mode: forwards;
 }
