@@ -6,10 +6,9 @@
 	<br/><br/>
 		<div class="row" id="planets">
 			<div class="col-xs-3"></div>
-			<div class="col-xs-6">					<div class="questionbox">
-										Q: Food category question goes here.
-								</div>
-							</div>
+			<div class="col-xs-6">
+				<div class="questionbox">Q: Food category question goes here.</div>
+			</div>
 			<div class="col-xs-3"></div>
 		</div>
 
