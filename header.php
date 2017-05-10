@@ -15,7 +15,7 @@
           <div class="col-xs-2"></div>
         </div>
         <div class="col-xs-3" id="logout_navigation">
-          <a href="login.php"><img src="images/logout_navigation.png" class="img-responsive center-block" alt="Back"></a>
+          <a href="index.php"><img src="images/logout_navigation.png" class="img-responsive center-block" alt="Back"></a>
         </div>
       </div>
 
