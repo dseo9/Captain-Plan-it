@@ -5,10 +5,6 @@ html, body, .fill {
   height: 100%;
 }
 
-.bg {
-  background-image: url("./../Images/universe.png");
-  background-repeat: none;
-
 .container {
   background-image: url("./../images/universe.png");
   background-repeat: no-repeat;
@@ -128,7 +124,7 @@ html, body, .fill {
   display: block;
   left: 33%;
   margin-top: 5%;
-
+  margin: 5% auto 0;
 }
 
 .levels {
@@ -145,6 +141,7 @@ html, body, .fill {
 
 #level4, #level2{
   margin-left: 40%;
+}
 
 /* ABOUT US PAGE, SCROLLING CONTENT */
 .row .subbody {
@@ -152,7 +149,6 @@ html, body, .fill {
   margin: 0 auto;
   height:80%;
   overflow: auto;
-
 }
 
 /* TEST CODES START HERE */
@@ -187,7 +183,6 @@ html, body, .fill {
 }*/
 
 .glyphicon .glyphicon-calendar .floatingcalendar {
-  float: right; color: pink; font-size: 400%
   float: right;
   color: green;
   font-size: 400%

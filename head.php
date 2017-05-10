@@ -24,6 +24,8 @@
 
     <!-- Custom styles for this template -->
     <link href="css/main.css" rel="stylesheet" media="screen">
+    <link href="css/main2.css" rel="stylesheet" media="screen">
+    <link href="css/main3.css" rel="stylesheet" media="screen">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
