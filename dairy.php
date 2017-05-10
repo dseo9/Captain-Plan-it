@@ -7,18 +7,7 @@
 
     <div class="levels_body">
 
-      <div class="row">
-        <div class="col-sm-3">
-        </div>
-        <div class="col-sm-2">
-        </div>
-        <div class="col-sm-2">
-        </div>
-        <div class="col-sm-2">
-        </div>
-        <div class="col-sm-3">
-        </div>
-      </div>
+      <div class="row"></div>
 
       <div class="row">
         <div class="col-sm-3">
@@ -26,7 +15,7 @@
         <div class="col-sm-2">
         </div>
         <div class="col-sm-2">
-          <a href="q1_dairy.php"><img src="images\cow_page\level1.png" alt="level 1" class="levels" id="level1" /></a>
+          <a href="q1_dairy.php"><img src="images\cow_page\level1.png" alt="level 1" class="img-responsive center-block"/></a>
         </div>
         <div class="col-sm-2">
         </div>
@@ -34,49 +23,41 @@
         </div>
       </div>
 
-      <div class="row">
-        <div class="col-sm-3">
-        </div>
-        <div class="col-sm-2">
-          <a href="#"><img src="images\cow_page\key.png" alt="key level" class="levels" id="key"/></a>
-        </div>
-        <div class="col-sm-2">
-        </div>
-        <div class="col-sm-2">
-          <a href="#"><img src="images\cow_page\level2.png" alt="level 2" class="levels" id="level2"/></a>
-        </div>
-        <div class="col-sm-3">
-        </div>
-      </div>
+      <br>
 
       <div class="row">
         <div class="col-sm-3">
         </div>
         <div class="col-sm-2">
-          <a href="#"><img src="images\cow_page\level5.png" alt="level 5" class="levels" id="level5"/></a>
+          <a href="#"><img src="images\cow_page\key.png" alt="key level" class="img-responsive center-block"/></a>
         </div>
         <div class="col-sm-2">
         </div>
         <div class="col-sm-2">
-          <a href="#"><img src="images\cow_page\level3.png" alt="level 3" class="levels" id="level3"/></a>
+          <a href="#"><img src="images\cow_page\level2.png" alt="level 2" class="img-responsive center-block"/></a>
         </div>
         <div class="col-sm-3">
         </div>
       </div>
 
+      <br>
+
       <div class="row">
         <div class="col-sm-3">
         </div>
         <div class="col-sm-2">
+          <a href="#"><img src="images\cow_page\level5.png" alt="level 5" class="img-responsive center-block"/></a>
         </div>
         <div class="col-sm-2">
-          <a href="#"><img src="images\cow_page\level4.png" alt="level 4" class="levels" id="level4"/></a>
         </div>
         <div class="col-sm-2">
+          <a href="#"><img src="images\cow_page\level3.png" alt="level 3" class="img-responsive center-block"/></a>
         </div>
         <div class="col-sm-3">
         </div>
       </div>
+
+      <br>
 
       <div class="row">
         <div class="col-sm-3">
@@ -84,6 +65,7 @@
         <div class="col-sm-2">
         </div>
         <div class="col-sm-2">
+          <a href="#"><img src="images\cow_page\level4.png" alt="level 4" class="img-responsive center-block"/></a>
         </div>
         <div class="col-sm-2">
         </div>
@@ -91,9 +73,7 @@
         </div>
       </div>
 
-
-
-
+      <br>
 
     </div>
   </div>
