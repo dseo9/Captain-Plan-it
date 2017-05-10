@@ -1,16 +1,37 @@
+<?php include 'header.php';?>
 
 
-<!DOCTYPE html>
-	<html lang="en">
-	<head>
-		  <meta charset="utf-8">
-		  <title>Captain Plan-It</title>
-		  <link href="q_dairy.css" rel="stylesheet" type="text/css"/>
-	</head>
+<div class="row mainbody">
+	<div class="title_header"><h5>Foodiverse</h5></div>
+	<br/><br/>
+		<div class="row" id="planets">
+			<div class="col-xs-3"></div>
+			<div class="col-xs-6">					<div class="questionbox">
+										Q: Food category question goes here.
+								</div>
+							</div>
+			<div class="col-xs-3"></div>
+		</div>
 
-  <body>
+		<div class="row" id="planets">
+			<div class="col-xs-1"></div>
+			<div class="col-xs-4">							<input type="button" value="derp 1" class="button" id="q1"></div>
+			<div class="col-xs-1"></div>
+			<div class="col-xs-1"></div>
+			<div class="col-xs-4">							<input type="button" value="derp 2" class="button" id="q1"></div>
+			<div class="col-xs-1 planets"></div>
+		</div>
 
-	    <div class="outer">
+		<div class="row" id="planets">
+			<div class="col-xs-1"></div>
+			<div class="col-xs-4">							<input type="button" value="derp 3" class="button" id="q1"></div>
+			<div class="col-xs-1"></div>
+			<div class="col-xs-1"></div>
+			<div class="col-xs-4">							<input type="button" value="derp 4" class="button" id="q1"></div>
+			<div class="col-xs-1 planets"></div>
+		</div>
+
+
 
 				  <!-- Top portion of the question page -->
 
@@ -18,20 +39,16 @@
 						Title of level
 					</div>
 
-					<div class="questionbox">
-							Q: Food category question goes here.
-					</div>
+
 
 					<!-- Bottom portion of the question page -->
 					<div class="bottom">
-							<input type="button" value="derp 1" class="button" id="q1">
-							<input type="button" value="derp 2" class="button" id="q1">
-							<input type="button" value="derp 3" class="button" id="q1">
-							<input type="button" value="derp 4" class="button" id="q1">
+
+
+
+
 					</div>
 
 		  </div>
 
-	</body>
-
-  </html>
+<?php include 'footer.php';?>

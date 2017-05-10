@@ -8,7 +8,7 @@
         <table>
           <tr>
             <td></td>
-            <td><a href="#"><img src="images\cow_page\level1.png" alt="level 1" class="levels" id="level1" /></a></td>
+            <td><a href="q1_dairy.php"><img src="images\cow_page\level1.png" alt="level 1" class="levels" id="level1" /></a></td>
             <td></td>
             <td><a href="#"><img src="images\cow_page\level2.png" alt="level 2" class="levels" id="level2"/></a></td>
             <td></td>
