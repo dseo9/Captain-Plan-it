@@ -15,9 +15,12 @@
           <div class="col-xs-2"></div>
         </div>
         <div class="col-xs-3" id="logout_navigation">
-          <a href="login.php"><img src="images/logout_navigation.png" class="img-responsive center-block" alt="Back"></a>
+          <a href="index.php"><img src="images/logout_navigation.png" class="img-responsive center-block" alt="Back"></a>
         </div>
       </div>
 
       <!-- FLOATING ABOUT US BUTTON -->
-    <a href="aboutus.php"><span class="glyphicon glyphicon-info-sign floatingcalendar" style="float: right; color: pink; font-size: 400%; right: 3%"></span></a>
+
+    <a href="aboutus.php">
+      <span class="glyphicon glyphicon-info-sign floatingcalendar" style="float: right; color: pink; font-size: 400%; right: 3%"></span>
+    </a>
