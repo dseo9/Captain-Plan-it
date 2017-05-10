@@ -1,29 +1,79 @@
 <!-- loading screen page (1.) center logo, 2.) four corners are the planets, 3.) loading bar (after loading, direct to login screen))-->
 <?php include'head.php'; ?>
 
-<body>
-  <div class="container fill">
-    <div class="row mainbody">
+<body onload="myFunction()" style="margin:0;">
+  <div class="container fill vcenter">
+    <div class="row mainbody ">
 
-        <!-- <div id="upper_left"> -->
-          <img src="images/pastry_palace.png" alt="logo" class="rounded float-left "/>
-        <!-- </div> -->
+      <div class="row" id="splashscreen1" style="height:20%">
+        <div class="col-xs-3"><img src="images\fruit_fortress.PNG" alt="Fruit_Fortress" class="img-responsive center-block"/></div>
+        <div class="col-xs-6"></div>
+        <div class="col-xs-3"><img src="images\pastry_palace.PNG" alt="Pastry_Palace" class="img-responsive center-block"/></div>
+      </div>
 
-        <!-- <div id="upper_right"> -->
-          <img src="images/fruit_fortress.png" alt="logo" class="rounded float-right "/>
+      <div class="row" id="splashscreen2" style="height:50%">
+        <div class="col-xs-3"></div>
+        <div class="col-xs-6"><img src="images\cp.png" alt="Pastry_Palace" class="img-responsive center-block"/></div>
+        <div class="col-xs-3"></div>
+      </div>
 
-          <img src="images/pastry_palace.png" class="rounded float-left" alt="pastrylogo">
-          <img src="images/fruit_fortress.png" class="rounded float-right" alt="fruitlogo">
-        <!-- </div> -->
+      <div class="row" id="splashscreen2" style="height:25%">
+        <div class="col-xs-3"></div>
+        <div class="col-xs-2"></div>
+        <div class="col-xs-2">
 
-          <img src="images/cp.png" alt="logo" class="img-responsive "/>
+          <button onclick="document.getElementById('id01').style.display='block'" style="width:80%;">Login</button>
+            <div id="id01" class="modal">
+              <form class="modal-content animate" action="avatar.php">
+                <div class="container">
 
-        <div id="lower-right">
-          <img src="images/dairy_dome.png" alt="logo" class="img-responsive "/>
+                  <label><b>Username</b></label>
+                  <input type="text" placeholder="Enter Username" name="uname" required>
+
+                  <label><b>Password</b></label>
+                  <input type="password" placeholder="Enter Password" name="psw" required>
+
+                  <button type="submit">Login</button>
+
+                  <input type="checkbox" checked="checked"> Remember me
+                </div>
+
+                <div class="container" style="background-color:#f1f1f1">
+                  <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                  <span class="psw">Forgot <a href="#">password?</a></span>
+                </div>
+              </form>
+            </div>
+
+
         </div>
+        <div class="col-xs-2"></div>
+        <div class="col-xs-3"></div>
+      </div>
 
-        <div id="lower-left">
-          <img src="images/meat_mansion.png" alt="logo" class="img-responsive" />
-        </div>
+      <div class="row" id="splashscreen1" style="height:20%">
+        <div class="col-xs-3"><img src="images\dairy_dome.png" alt="Fruit_Fortress" class="img-responsive center-block"/></div>
+        <div class="col-xs-6"></div>
+        <div class="col-xs-3"><img src="images\meat_mansion.PNG" alt="Pastry_Palace" class="img-responsive center-block"/></div>
+      </div>
+
+</div>
+
+
+
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+
     </div>
   </div>

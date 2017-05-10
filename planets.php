@@ -4,13 +4,60 @@
   <!-- make images responsive and link them to other pages-->
   <div class="row mainbody">
     <div class="title_header"><h5>Foodiverse</h5></div>
+    <br/><br/>
+      <div class="row" id="planets">
+        <div class="col-xs-1"></div>
+        <div class="col-xs-4">
+          <a href="#"><img src="images\fruit_fortress.PNG" alt="Fruit_Fortress" class="img-responsive center-block"/></a>
+        </div>
+        <div class="col-xs-1"></div>
+        <div class="col-xs-1"></div>
+        <div class="col-xs-4">
+          <a href="#"><img src="images\pastry_palace.PNG" alt="Pastry_Palace" class="img-responsive center-block"/></a>
+        </div>
+        <div class="col-xs-1 planets"></div>
+      </div>
 
-    <div class="row subbody">
+      <div class="row" id="planets">
+        <div class="col-xs-1"></div>
+        <div class="col-xs-4"></div>
+        <div class="col-xs-1"></div>
+        <div class="col-xs-1"></div>
+        <div class="col-xs-4"></div>
+        <div class="col-xs-1 planets"></div>
+      </div>
+
+      <div class="row" id="planets">
+        <div class="col-xs-1"></div>
+        <div class="col-xs-4">
+          <a href="dairy.php"><img src="images\dairy_dome.png" alt="Fruit_Fortress" class="img-responsive center-block"/></a>
+        </div>
+        <div class="col-xs-1"></div>
+        <div class="col-xs-1"></div>
+        <div class="col-xs-4">
+          <a href="#"><img src="images\meat_mansion.PNG" alt="Pastry_Palace" class="img-responsive center-block"/></a>
+        </div>
+        <div class="col-xs-1 planets"></div>
+      </div>
+
+<!-- <div class="row">
+    <div class="col-xs-4 planets"></div>
+    <div class="col-xs-4 planets"></div>
+    <div class="col-xs-4 planets"></div>
+</div>
+
+<div class="row">
+    <div class="col-xs-4 planets"></div>
+    <div class="col-xs-4 planets"></div>
+    <div class="col-xs-4 planets"></div>
+  </div> -->
+
+    <!-- <div class="row subbody">
       <img src="images\fruit_fortress.PNG" alt="Fruit_Fortress" id="fruit_fortress" />
       <img src="images\pastry_palace.PNG" alt="Pastry_Palace" id="pastry_palace"/>
       <img src="images\dairy_dome.png" alt="Dairy_Dome" id="dairy_dome"/>
       <img src="images\meat_mansion.PNG" alt="Meat_Mansion" id="meat_mansion"/>
-    </div>
+    </div> -->
 
   </div>
 

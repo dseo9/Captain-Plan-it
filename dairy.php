@@ -1,8 +1,8 @@
-<?php include 'planet_header.php';?>
+<?php include 'header.php';?>
 
 
   <!-- make images responsive and link them to other pages-->
-  <div class="row mainbody">
+  <div class="row mainbody" id="dairy_stage">
     <div class="title_header"><h5>Dairy Dome</h5></div>
     <div class="levels_body">
         <table>
