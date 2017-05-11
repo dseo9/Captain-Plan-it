@@ -2,7 +2,7 @@
 
 
   <!-- make images responsive and link them to other pages-->
-  <div class="row mainbody" id="dairy_stage">
+  <div class="row mainbody">
     <div class="title_header"><h5>Dairy Dome</h5></div>
 
     <div class="levels_body dairy_page">
