@@ -9,9 +9,18 @@
 
   <div class="col-sm-8">
     <form class="form-group" action="index.php" method="post">
+
+      <input type="hidden" name="recipients" class="form-control" id="recipient" value="corinne.kakiuchi@gmail.com">
+  		<input type="hidden" name="subject" class="form-control" id="subject" value="Message from Captain-Plan_it webapp">
+  		<input type="hidden" name="thanks_url" class="form-control" id="redirection" value="./thanks.php">
+
+      <input type="email" class="form-control" name="Email" placeholder="Email"><span id='email_error'></span>
+      <br>
       <input type="text" class="form-control" name="subject" placeholder="What is your topic?">
-      <textarea class="form-control" name="text_area" rows="8" cols="80">Type your message here!</textarea>
-      <button type="submit" class="btn btn-default btn btn-success">Submit</button>
+      <br>
+      <textarea class="form-control" name="text_area" rows="8" cols="80">Type your message here!</textarea><span id='message_error'></span>
+      <br>
+      <button type="submit" class="btn btn-default btn btn-success" onsubmit='return validateContactForm()'>Submit</button>
     </form>
 
     <div class="col-sm-2"></div>
