@@ -1,5 +1,4 @@
 /* Dairy Dome page */
-
 .dairy_page{
   background-image: url("./../images/cow_page/new_cow.png");
   background-repeat: no-repeat;
@@ -17,4 +16,11 @@
 /* Full-width input fields */
 button:hover {
     opacity: 0.8;
+}
+
+/* Stampboard page */
+#stampboard_box{
+  position: relative;
+  display: block;
+  margin-top: 10%;
 }
