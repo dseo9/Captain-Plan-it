@@ -23,7 +23,8 @@
         <div class="col-xs-2"></div>
         <div class="col-xs-2">
 
-          <button onclick="document.getElementById('id01').style.display='block'" style="width:80%;">Login</button>
+          <input type="image" src=""
+          <button  onclick="document.getElementById('id01').style.display='block'" style="width:80%;">Login</button>
             <div id="id01" class="modal">
               <form class="modal-content animate" action="avatar.php">
                 <div class="container">
