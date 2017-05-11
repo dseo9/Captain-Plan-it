@@ -3,8 +3,8 @@
 <?php include'head.php'; ?>
 
 <body onload="myFunction()" style="margin:0;">
-  <div class="container fill vcenter">
-    <div class="row mainbody ">
+  <div class="container fill">
+    <div class="row">
 
       <div class="row" id="splashscreen1" style="height:20%">
         <div class="col-xs-3"><img src="images\fruit_fortress.PNG" alt="Fruit_Fortress" class="img-responsive center-block"/></div>

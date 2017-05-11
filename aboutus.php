@@ -86,41 +86,18 @@
                     </div>
                   </div>
                 </div>
-              </div>
 
+              </div>
               <div class="card">
                 <div class="card-header" role="tab" id="headingFour">
                   <h5 class="mb-0">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-                      FOOD TRIVIA
-                    </a>
-                  </h5>
-                </div>
-
-                <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour">
-                  <div class="row">
-                    <div class="col-xs-3">
-                      <a href="#" target="_blank"><img src="images/affiliates/foodtrivia.png" class="img-responsive center-block"/></a>
-                    </div>
-                    <div class="col-xs-9">
-                      <div class="card-block">
-                        Educational webapp Quiz targeting young students about food waste and strategies to reduce those. Health stuff included.
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="card">
-                <div class="card-header" role="tab" id="headingFive">
-                  <h5 class="mb-0">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="true" aria-controls="collapseFive">
                       FUBER
                     </a>
                   </h5>
                 </div>
 
-                <div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingFive">
+                <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour">
                   <div class="row">
                     <div class="col-xs-3">
                       <a href="#" target="_blank"><img src="images/affiliates/fuber.png" class="img-responsive center-block"/></a>

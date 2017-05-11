@@ -5,12 +5,12 @@ html, body, .fill {
   height: 100%;
 }
 
-.container {
+/*.container {
   background-image: url("./../images/universe.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
+}*/
 
 .container .fill {
   margin: 0 auto;
@@ -124,11 +124,15 @@ div .row #planets {
   height: 20%;
 }
 
+div #avatar_page .row  {
+  height: 10%;
+}
+
 /* ABOUT US PAGE, SCROLLING CONTENT */
 .row .subbody {
   width: 90%;
   margin: 0 auto;
-  height:80%;
+  height: 88%;
   overflow: auto;
 }
 
@@ -252,4 +256,9 @@ span.psw {
   .cancelbtn {
    width: 100%;
   }
+}
+
+
+#pickavatar {
+  height: 70%;
 }
