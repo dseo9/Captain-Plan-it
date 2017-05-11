@@ -114,44 +114,10 @@
   height: 75%;
   color: white;
   background-color: pink;
-=======
-body {
-  background-image: url("./Images/Cow.png");
-  background-repeat: no-repeat;
-  background-size: 320px 480px;
-  background-position: center;
-}
-
-div .row .col-xs-6 .questionbox {
-  width: 75%;
-  border: solid black 5px;
-  margin: auto;
-  margin-top: 20%;
-  text-align: center;
-  padding-top: 5%;
-  padding-bottom: 5%;
-  background-color: color;
-}
-
-#q1, #q2, #q3, #q4 {
-  width: 40%;
-  float: left;
-  margin-left: 6%;
-  margin-top: 10%;
-  border: none;
-}
-
-div .col-xs-4 .btn-group {
-  width: 100%;
-  border: none;
-  color: white;
-  background-color: black;
->>>>>>> develop
   font-weight: bold;
   cursor: pointer;
   padding-top: 2%;
   padding-bottom: 2%;
-<<<<<<< HEAD
   text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
   box-shadow: 0 9px red;
 }
@@ -192,8 +158,6 @@ div .col-xs-4 .btn-group {
   background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
-=======
->>>>>>> develop
 }
 
 /* END OF question PAGE */
