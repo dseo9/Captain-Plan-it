@@ -1,0 +1,63 @@
+<?php include 'header.php';?>
+
+<div class="row mainbody">
+	<div class="title_header"><h5>Meat Mansion - Level 1</h5></div>
+	<br/><br/>
+		<div class="row" id="planets">
+			<div class="col-xs-3"></div>
+			<div class="col-xs-6">
+<<<<<<< HEAD
+				<div class="questionbox" id="q_meat">
+=======
+				<div class="questionbox" id="q_fruit">
+>>>>>>> develop
+					Q: Food category question goes here.
+				</div>
+			</div>
+			<div class="col-xs-3"></div>
+		</div>
+
+		<div class="row" id="planets">
+			<div class="col-xs-1"></div>
+			<div class="col-xs-4"></div>
+			<div class="col-xs-1"></div>
+			<div class="col-xs-1"></div>
+			<div class="col-xs-4"></div>
+			<div class="col-xs-1 planets"></div>
+		</div>
+
+		<div class="row" id="planets">
+			<div class="col-xs-1"></div>
+<<<<<<< HEAD
+			<div class="col-xs-4"><input type="button" value="Answer 1" class="btn-group" id="a_meat"></div>
+			<div class="col-xs-1"></div>
+			<div class="col-xs-1"></div>
+			<div class="col-xs-4"><input type="button" value="Answer 2" class="btn-group" id="a_meat"></div>
+=======
+			<div class="col-xs-4"><input type="button" value="Answer 1" class="btn-group" id="a_fruit"></div>
+			<div class="col-xs-1"></div>
+			<div class="col-xs-1"></div>
+			<div class="col-xs-4"><input type="button" value="Answer 2" class="btn-group" id="a_fruit"></div>
+>>>>>>> develop
+			<div class="col-xs-1 planets"></div>
+		</div>
+
+		<div class="row" id="planets">
+			<div class="col-xs-1"></div>
+<<<<<<< HEAD
+			<div class="col-xs-4"><input type="button" value="Answer 3" class="btn-group" id="a_meat"></div>
+			<div class="col-xs-1"></div>
+			<div class="col-xs-1"></div>
+			<div class="col-xs-4"><input type="button" value="Answer 4" class="btn-group" id="a_meat"></div>
+=======
+			<div class="col-xs-4"><input type="button" value="Answer 3" class="btn-group" id="a_fruit"></div>
+			<div class="col-xs-1"></div>
+			<div class="col-xs-1"></div>
+			<div class="col-xs-4"><input type="button" value="Answer 4" class="btn-group" id="a_fruit"></div>
+>>>>>>> develop
+			<div class="col-xs-1 planets"></div>
+		</div>
+
+	</div>
+
+<?php include 'footer.php';?>
