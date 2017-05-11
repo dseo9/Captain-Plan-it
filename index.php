@@ -1,4 +1,5 @@
-<!-- loading screen page (1.) center logo, 2.) four corners are the planets, 3.) loading bar (after loading, direct to login screen))-->
+<!-- loading screen page (1.) center logo, 2.) four corners are the planets, 3.) loading bar (after loading, show login button then use modal to popout login page))-->
+
 <?php include'head.php'; ?>
 
 <body onload="myFunction()" style="margin:0;">

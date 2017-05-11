@@ -120,26 +120,6 @@ html, body, .fill {
 div .row #planets {
   height: 20%;
 }
-/*
-div .row #splashscreen1 {
-  height: 25%;
-}
-
-div .row #splashscreen2 {
-  height: 50%;
-}*/
-
-
-/* Dairy Dome page */
-/*
-.table-responsive{
-  width: 60%;
-  position: relative;
-  display: block;
-  margin-top: 5%;
-  margin-left: auto;
-  margin-right: auto;
-}*/
 
 .levels_body table{
   overflow-x:auto;
@@ -180,39 +160,8 @@ div .row #splashscreen2 {
 }
 
 /* TEST CODES START HERE */
-<<<<<<< HEAD
-/*body {margin:0;}
-
-.icon-bar {
-    width: 100%;
-    background-color: #555;
-    overflow: auto;
-    height:100%;
-}
-
-.icon-bar a {
-    float: left;
-    width: 20%;
-    text-align: center;
-    padding: 12px 0;
-    transition: all 0.3s ease;
-    color: white;
-    font-size: 36px;
-    height:100%;
-}
-
-.icon-bar a:hover {
-    background-color: #000;
-    height:100%;
-}
-
-.active {
-    background-color: #4CAF50 !important;
-    height:100%;
-}*/
-=======
 ================================================================================
->>>>>>> mark-feature
+
 
 .glyphicon .glyphicon-calendar .floatingcalendar {
   float: right;
@@ -348,12 +297,6 @@ button:hover {
 }
 
 /* Center the image and position the close button */
-
-img.avatar {
-    width: 40%;
-    border-radius: 50%;
-}
-
 span.psw {
     float: right;
     padding-top: 16px;
