@@ -21,6 +21,7 @@ html, body, .fill {
 .header {
   height: 8%;
   border-bottom: solid 2px black;
+  border-radius: ;
 }
 
 .mainbody {
