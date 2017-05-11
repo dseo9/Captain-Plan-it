@@ -4,7 +4,7 @@
     <div class="container fill">
       <div class="row header">
         <div class="col-xs-3" id="back_navigation">
-          <a onclick="history.go(-1);"><img src="images/back_navigation.png" class="img-responsive" alt="Back"></a>
+          <a onclick="history.go(-1);"><img src="images/back_navigation.png" class="img-responsive center-block" alt="Back"></a>
         </div>
 
         <div class="col-xs-6" id="logo_navigation">

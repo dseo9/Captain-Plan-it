@@ -6,10 +6,10 @@ html, body, .fill {
 }
 
 .container {
-  background-image: url("./../images/universe.png");
+  /*background-image: url("./../images/universe.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: cover;*/
 }
 
 .container .fill {
@@ -132,6 +132,15 @@ div .row #splashscreen2 {
 
 /* Dairy Dome page */
 
+.dairy_page{
+  background-image: url("./../images/cow_page/new_cow.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
 .levels{
   width: 50%;
 }
@@ -213,13 +222,6 @@ div .row #splashscreen2 {
   float: right;
   color: green;
   font-size: 400%
-}
-
-#dairy_stage {
-  background-image: url("./../images/cow.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
 }
 
 #contactuspage {
