@@ -41,7 +41,7 @@
     </div>
     <div class="col-xs-2 col-md-2">
       <a href="#" class="thumbnail">
-        <img src="./images/stampboard.png" alt="daily stamp">
+        <img src="./images/stampboard_key.png" alt="daily stamp">
         <br>
         <p>KEY DAY!</p>
       </a>
