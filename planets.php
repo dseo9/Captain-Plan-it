@@ -1,6 +1,5 @@
 <?php include 'header.php';?>
 
-
   <!-- make images responsive and link them to other pages-->
   <div class="row mainbody">
     <div class="title_header"><h5>Foodiverse</h5></div>
@@ -39,25 +38,6 @@
         </div>
         <div class="col-xs-1 planets"></div>
       </div>
-
-<!-- <div class="row">
-    <div class="col-xs-4 planets"></div>
-    <div class="col-xs-4 planets"></div>
-    <div class="col-xs-4 planets"></div>
-</div>
-
-<div class="row">
-    <div class="col-xs-4 planets"></div>
-    <div class="col-xs-4 planets"></div>
-    <div class="col-xs-4 planets"></div>
-  </div> -->
-
-    <!-- <div class="row subbody">
-      <img src="images\fruit_fortress.PNG" alt="Fruit_Fortress" id="fruit_fortress" />
-      <img src="images\pastry_palace.PNG" alt="Pastry_Palace" id="pastry_palace"/>
-      <img src="images\dairy_dome.png" alt="Dairy_Dome" id="dairy_dome"/>
-      <img src="images\meat_mansion.PNG" alt="Meat_Mansion" id="meat_mansion"/>
-    </div> -->
 
   </div>
 

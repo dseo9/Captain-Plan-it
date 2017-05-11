@@ -31,11 +31,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css">
 
     <!-- Custom styles for this template -->
-<<<<<<< HEAD
     <link href="css/main.css" rel="stylesheet" media="screen">
-=======
-    <<link href="css/main.css" rel="stylesheet" media="screen">
->>>>>>> develop
     <link href="css/main2.css" rel="stylesheet" media="screen">
     <link href="css/main3.css" rel="stylesheet" media="screen">
 

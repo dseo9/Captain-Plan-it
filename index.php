@@ -57,24 +57,23 @@
         <div class="col-xs-6"></div>
         <div class="col-xs-3"><img src="images\meat_mansion.PNG" alt="Pastry_Palace" class="img-responsive center-block"/></div>
       </div>
+    </div>
+
+  <script>
+  // Get the modal
+  var modal = document.getElementById('id01');
+
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+  </script>
+
+
+
+
+
 
 </div>
-
-
-
-
-<script>
-// Get the modal
-var modal = document.getElementById('id01');
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
-</script>
-
-
-    </div>
-  </div>
