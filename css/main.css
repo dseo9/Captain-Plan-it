@@ -45,8 +45,8 @@ html, body, .fill {
 }
 
 .img-responsive {
-  max-width: 100%;
   max-height: 100%;
+  min-height: 100%;
   padding: 0;
 }
 
@@ -237,6 +237,10 @@ span.psw {
   height: 70%;
 }
 
+#accesory {
+  white-space: normal;
+}
+
 
 /*STAR BACKGROUND ANIMATION*/
 @keyframes move-twink-back {
@@ -259,8 +263,7 @@ span.psw {
   background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
   z-index:0;
 }
-
-.mainbody {
+.row {
   background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
   z-index:1;
   -moz-animation:move-twink-back 200s linear infinite;
