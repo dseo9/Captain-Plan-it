@@ -5,8 +5,8 @@
     <div class="title_header"><h5>Customize your Avatar</h5></div>
     <br /><br />
 
-    <div class="row subbody">
-      
+    <div class="row subbody container-fluid">
+
       <div class="col-xs-8 col-xs-offset-2" style="height: 70%;";>
         <a href="avatar.php">
           <div class="col-xs-4 col-xs-offset-2" style="border: 1px solid black;">

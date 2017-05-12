@@ -20,8 +20,6 @@ html, body, .fill {
 /* PAGE DIVISION CSS */
 .header {
   height: 8%;
-  border-bottom: solid 2px black;
-  border-radius: ;
 }
 
 .mainbody {
@@ -49,11 +47,27 @@ html, body, .fill {
 .img-responsive {
   max-height: 100%;
   min-height: 100%;
+  padding: 0;
 }
 
 /* HEADER NAVIGATION CSS */
-#back_navigation, #logo_navigation, #logout_navigation {
+#back_navigation {
   background-color: #45828D;
+  border-radius: 0 0 0 20px;
+  border-bottom: 2px black solid;
+  border-left: 2px black solid;
+}
+
+#logo_navigation{
+  background-color: #45828D;
+  border-bottom: 2px black solid;
+}
+
+#logout_navigation {
+  background-color: #45828D;
+  border-radius: 0 0 20px 0;
+  border-bottom: 2px black solid;
+  border-right: 2px black solid;
 }
 
 /* FOOTER NAVIGATION CSS */
@@ -102,9 +116,9 @@ html, body, .fill {
 
 /* ABOUT US PAGE, SCROLLING CONTENT */
 .row .subbody {
-  width: 95%;
+  width: 90%;
   margin: 0 auto;
-  height: 83%;
+  height: 82%;
   overflow: auto;
 }
 
@@ -115,14 +129,6 @@ html, body, .fill {
   color: green;
   font-size: 400%
 }
-
-#dairy_stage {
-  background-image: url("./../images/cow.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
 
 /*MODAL LOGIN PAGE*/
 /* Full-width input fields */
@@ -230,4 +236,8 @@ span.psw {
 
 #pickavatar {
   height: 70%;
+}
+
+#accesory {
+  white-space: normal;
 }
