@@ -59,3 +59,37 @@ margin-top: 15%;
 .brdiv{
     margin-bottom: 3%;
 }
+
+#red_input{
+  background-color: #DC143C;
+  color: #FFF;
+}
+
+#blue_input{
+  background-color: #000080;
+  color: #FFF;
+}
+
+#purple_input{
+  background-color: #C71585;
+  color:#FFF;
+}
+
+#green_input{
+  background-color: #2E8B57;
+  color: #FFF;
+}
+
+/* Contact Us page*/
+#pink_border{
+  border: 2px solid #FF1493;
+  border-radius: 4px;
+}
+#blue_border{
+  border: 2px solid #4169E1;
+  border-radius: 4px;
+}
+#yellow_border{
+  border: 2px solid #FFFF00;
+  border-radius: 4px;
+}

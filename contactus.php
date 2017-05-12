@@ -14,12 +14,12 @@
   		<input type="hidden" name="subject" class="form-control" id="subject" value="Message from Captain-Plan_it webapp">
   		<input type="hidden" name="thanks_url" class="form-control" id="redirection" value="./thanks.php">
 
-      <input type="email" class="form-control" name="Email" placeholder="Email"><span id='email_error'></span>
+      <input type="email" class="form-control" id="pink_border" name="Email" placeholder="Email"><span id='email_error'></span>
       <br>
-      <input type="text" class="form-control" name="subject" placeholder="What is your topic?">
+      <input type="text" class="form-control" id="blue_border" name="subject" placeholder="What is your topic?">
       <br>
-      <textarea class="form-control" name="text_area" rows="8" cols="80">Type your message here!</textarea><span id='message_error'></span>
-      
+      <textarea class="form-control" id="yellow_border" name="text_area" rows="8" cols="80">Type your message here!</textarea><span id='message_error'></span>
+
       <button type="submit" class="btn btn-success btn-lg" onsubmit='return validateContactForm()'>Submit</button>
 
     </form>
