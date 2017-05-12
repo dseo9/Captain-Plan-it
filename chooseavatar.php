@@ -7,26 +7,36 @@
     <div class="row subbody" id="pickavatar">
       <div class="col-xs-2"></div>
 
-      <div class="col-xs-4" style="border: 1px solid black;">
-        <img src="images/boy_avatar.png" class="img-responsive center-block"/>
-      </div>
+      <a href="avatar.php">
+        <div class="col-xs-4" style="border: 1px solid black;">
+          <img src="images/boy_avatar.png" class="img-responsive center-block"/>
+        </div>
+      </a>
 
-      <div class="col-xs-4" style="border: 1px solid black;">
-        <img src="images/girl_avatar.png" class="img-responsive center-block"/>
-      </div>
+      <a href="avatar.php">
+        <div class="col-xs-4" style="border: 1px solid black;">
+          <img src="images/girl_avatar.png" class="img-responsive center-block"/>
+        </div>
+      </a>
+
 
       <div class="col-xs-2"></div>
     </div>
+
     <div class="row">
       <div class="col-xs-2"></div>
 
-      <div class="col-xs-4" style="border: 1px solid black;">
-        BOY
-      </div>
+      <a href="avatar.php">
+        <div class="col-xs-4" style="border: 1px solid black;">
+          BOY
+        </div>
+      </a>
 
-      <div class="col-xs-4" style="border: 1px solid black;">
-        GIRL
-      </div>
+      <a href="avatar.php">
+        <div class="col-xs-4" style="border: 1px solid black;">
+          GIRL
+        </div>
+      </a>
 
       <div class="col-xs-2"></div>
     </div>
