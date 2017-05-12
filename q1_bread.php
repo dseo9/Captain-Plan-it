@@ -1,8 +1,13 @@
 <?php include 'header.php';?>
 
 <div class="row mainbody">
+
+	<!-- TITLE OF THE LEVEL AT THE TOP -->
 	<div class="title_header"><h5>Pastry Palace - Level 1</h5></div>
+	<!-- END OF TITLE -->
 	<br/><br/>
+
+		<!-- QUESTIONS AREA FOR THE LEVEL -->
 		<div class="row" id="planets">
 			<div class="col-xs-3"></div>
 			<div class="col-xs-6">
@@ -12,16 +17,9 @@
 			</div>
 			<div class="col-xs-3"></div>
 		</div>
+		<!-- END OF QUESTIONS AREA -->
 
-		<div class="row" id="planets">
-			<div class="col-xs-1"></div>
-			<div class="col-xs-4"></div>
-			<div class="col-xs-1"></div>
-			<div class="col-xs-1"></div>
-			<div class="col-xs-4"></div>
-			<div class="col-xs-1 planets"></div>
-		</div>
-
+		<!-- ANSWER BUTTONS -->
 		<div class="row" id="planets">
 			<div class="col-xs-1"></div>
 			<div class="col-xs-4"><input type="button" value="Answer 1" class="btn-group" id="a_bread"></div>
@@ -39,6 +37,7 @@
 			<div class="col-xs-4"><input type="button" value="Answer 4" class="btn-group" id="a_bread"></div>
 			<div class="col-xs-1 planets"></div>
 		</div>
+		<!-- END OF ANSWER BUTTONS -->
 
 	</div>
 
