@@ -9,17 +9,20 @@
 		<input type="hidden" name="thanks_url" class="form-control" id="redirection" value="./thanks.php">
 
     <div class="row">
-      <div class="col-xs-4 img-responsive user_icon">
-        <img src="images/user_icon.png" alt="User Icon">
+      <div class="col-xs-2 img-responsive" id="user_icon">
+        <img src="images/avatar_footer.png" alt="User Icon">
       </div>
       <div class="col-xs-8 has-error">
         <input type="text" class="form-control" placeholder="Enter Username" name="uname" required><span id='uname_error'></span>
       </div>
+      <div class="col-xs-2">
+
+      </div>
     </div>
 
     <div class="row">
-      <div class="col-xs-4 email_icon">
-        <img src="images/email_icon.png" alt="Email Icon">
+      <div class="col-xs-4">
+        <img src="images/email_icon.png" class=" email_icon" alt="Email Icon">
       </div>
       <div class="col-xs-8 has-error">
         <input type="email" class="form-control" placeholder="Enter Email" name="email" required=><span id='email_error'></span>

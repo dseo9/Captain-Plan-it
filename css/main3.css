@@ -24,3 +24,11 @@ button:hover {
   display: block;
   margin-top: 10%;
 }
+
+/* Register page */
+#user_icon{
+  width: 20%;
+}
+.email_icon{
+  width: 40%;
+}
