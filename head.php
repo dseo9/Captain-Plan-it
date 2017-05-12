@@ -31,7 +31,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css">
 
 
-  <script src="js/script.js"></script>
+    <script src="js/script.js"></script>
 
     <!-- Custom styles for this template -->
     <link href="css/main.css" rel="stylesheet" media="screen">

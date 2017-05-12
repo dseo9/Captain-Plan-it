@@ -1,6 +1,5 @@
 <?php include 'header.php'; ?>
 
-  <!-- make two columns for avatar and customize fields-->
   <div class="row mainbody container-fluid">
     <div class="title_header"><h5>Customize your Avatar</h5></div>
     <br /><br />
@@ -55,8 +54,8 @@
           </div>
         </div>
 
-      </div> <!--col-xs-9 END -->
-    </div> <!-- row END -->
+      </div> <!-- COL XS 9 END -->
+    </div> <!-- ROW END -->
   </div> <!-- ROW MAINBODY END -->
 
 <?php include 'footer.php'; ?>

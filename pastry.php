@@ -1,7 +1,5 @@
 <?php include 'header.php';?>
 
-
-  <!-- make images responsive and link them to other pages-->
   <div class="row mainbody">
     <div class="title_header"><h5>Pastry Palace</h5></div>
     <br/><br/>
@@ -34,7 +32,7 @@
         </div>
       </div>
 
-    </div>
-  </div>
+    </div><!--ROW SUBBODY END-->
+  </div><!--ROW MAINBODY END-->
 
 <?php include 'footer.php' ;?>

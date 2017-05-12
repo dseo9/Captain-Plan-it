@@ -23,6 +23,7 @@
           <a href="meat.php"><img src="images\meat_mansion.png" alt="Pastry_Palace" class="img-responsive center-block"/></a>
         </div>
       </div>
+
     </div><!-- ROW SUBBODY END-->
   </div><!-- ROW MAINBODY END-->
 

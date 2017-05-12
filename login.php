@@ -4,7 +4,7 @@
   <div class="title_header"><h5>Welcome Hero!</h5></div>
 
   <div class="row subbody">
-<br>
+    <br>
     <form action="avatar.php" method="post" class="">
       <div class="form-group">
         <input type="text" placeholder="Enter Username" name="uname" required>
@@ -27,8 +27,8 @@
       </div>
     </form>
 
-  </div>
+  </div><!--ROW SUBBODY END-->
+</div><!--ROW MAINBODY END-->
 
-</div>
 
 <?php include 'footer.php' ;?>
