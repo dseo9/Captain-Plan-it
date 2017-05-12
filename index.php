@@ -9,7 +9,7 @@
       <div class="row" id="splashscreen1" style="height:20%">
         <div class="col-xs-3"><img src="images\fruit_fortress.png" alt="FruitFortress" class="img-responsive center-block"/></div>
         <div class="col-xs-6"></div>
-        <div class="col-xs-3"><img src="images\pastry_palace.PNG" alt="Pastry Palace" class="img-responsive center-block"/></div>
+        <div class="col-xs-3"><img src="images\pastry_palace.png" alt="Pastry Palace" class="img-responsive center-block"/></div>
       </div>
 
       <div class="row" id="splashscreen2" style="height:50%">
