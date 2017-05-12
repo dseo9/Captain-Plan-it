@@ -8,39 +8,39 @@
   		<input type="hidden" name="subject" class="form-control" id="subject" value="Message from Captain-Plan_it webapp">
   		<input type="hidden" name="thanks_url" class="form-control" id="redirection" value="./thanks.php">
 
-      <div class="row">
+      <div class="form-group row">
         <div class="col-xs-4 col-md-4 img-responsive">
           <img src="images/avatar_footer.png"  id="user_icon" alt="User Icon">
         </div>
         <div class="col-xs-8 col-md-8 has-error input_box">
-          <input type="text" class="form-control" placeholder="Enter Username" name="uname" required><span id='uname_error'></span>
+          <input type="text" class="form-control" id="red_input" placeholder="Enter Username" name="uname" required><span id='uname_error'></span>
         </div>
       </div>
 
-      <div class="row">
+      <div class="form-group row">
         <div class="col-xs-4 col-md-4 img-responsive">
           <img src="images/register_icons/email_icon.png" id="email_icon" alt="Email Icon">
         </div>
         <div class="col-xs-8 col-md-8 has-error input_box">
-          <input type="email" class="form-control" placeholder="Enter Email" name="email" required=><span id='email_error'></span>
+          <input type="email" class="form-control" id="green_input" placeholder="Enter Email" name="email" required=><span id='email_error'></span>
         </div>
       </div>
 
-      <div class="row">
+      <div class="form-group row">
         <div class="col-xs-4 col-md-4 img-responsive">
           <img src="images/register_icons/password.png" id="password_icon" alt="Password Icon">
         </div>
         <div class="col-xs-8 col-md-8 has-error input_box">
-          <input type="password" class="form-control" placeholder="Enter Password" name="psw" required><span id='pword_error'></span>
+          <input type="password" class="form-control" id="purple_input" placeholder="Enter Password" name="psw" required><span id='pword_error'></span>
         </div>
       </div>
 
-      <div class="row">
+      <div class="form-group row">
         <div class="col-xs-4 col-md-4 img-responsive">
           <img src="images/register_icons/password.png" id="password_icon" alt="Password Icon">
         </div>
         <div class="col-xs-8 col-md-8 has-error  input_box">
-          <input type="password" class="form-control" placeholder="Confirm Password" name="psw" required><span id='cpword_error'></span></br>
+          <input type="password" class="form-control" id="blue_input" placeholder="Confirm Password" name="psw" required><span id='cpword_error'></span></br>
         </div>
       </div>
       <button type="submit" class="btn btn-success btn-lg button_register" value="Register" onsubmit='return validateRegisterForm()'>Register</button><span id='submit-error'></span>
