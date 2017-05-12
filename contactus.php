@@ -19,12 +19,14 @@
       <input type="text" class="form-control" name="subject" placeholder="What is your topic?">
       <br>
       <textarea class="form-control" name="text_area" rows="8" cols="80">Type your message here!</textarea><span id='message_error'></span>
-      <br>
-      <button type="submit" class="btn btn-default btn btn-success" onsubmit='return validateContactForm()'>Submit</button>
+      
+      <button type="submit" class="btn btn-success btn-lg" onsubmit='return validateContactForm()'>Submit</button>
+
     </form>
 
     <div class="col-sm-2"></div>
   </div>
+
 </div>
 
 <?php include 'footer.php';?>
