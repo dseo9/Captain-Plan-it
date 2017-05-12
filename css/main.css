@@ -136,13 +136,8 @@ div #avatar_page .row  {
   overflow: auto;
 }
 
-/* Register page */
-/*.icons {
-  width: 4%;
-}*/
 
-/* TEST CODES START HERE */
-
+/*FLOATING ABOUTUS ICON*/
 .glyphicon .glyphicon-calendar .floatingcalendar {
   float: right;
   color: green;
@@ -156,6 +151,8 @@ div #avatar_page .row  {
   background-size: cover;
 }
 
+
+/*MODAL LOGIN PAGE*/
 /* Full-width input fields */
 input[type=text], input[type=password] {
     width: 100%;
@@ -167,7 +164,7 @@ input[type=text], input[type=password] {
 }
 
 /* Set a style for all buttons */
-button {
+/*button {
     background-color: #4CAF50;
     color: white;
     padding: 14px 20px;
@@ -175,7 +172,7 @@ button {
     border: none;
     cursor: pointer;
     width: 100%;
-}
+}*/
 
 button:hover {
     opacity: 0.8;
