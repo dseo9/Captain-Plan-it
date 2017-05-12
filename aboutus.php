@@ -1,6 +1,5 @@
 <?php include 'header.php';?>
 
-  <!-- make three row divs for 1.) information about ourgroup, 2.) affiliated apps for kids, 3.) affiliated apps for adults/parents   -->
   <div class="row mainbody">
     <div class="title_header"><h5>About Us</h5></div>
     <br /><br />
@@ -31,16 +30,16 @@
                 <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
                   <div class="row">
                     <div class="col-xs-3">
-                      <a href="http://students.bcitdev.com/A01006039/ffz/" target="_blank"><img src="images/affiliates/foodfactoryzero.png" class="img-responsive center-block"/></a>
+                      <a href="https://foodfactoryzero.firebaseapp.com/" target="_blank"><img src="images/affiliates/foodfactoryzero.png" class="img-responsive center-block"/></a>
                     </div>
                     <div class="col-xs-9">
                       <div class="card-block">
                         A time-based drag and drop game. Users need to pick and match the ingredients with recipes.
                       </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+                    </div> <!-- COLXS ROW COLLAPSEFIVE ONE -->
+                  </div> <!-- ROW COLLAPSEONE END -->
+                </div> <!-- COLLAPSEONE END -->
+              </div> <!-- CARD 1 END-->
 
               <div class="card">
                 <div class="card-header" role="tab" id="headingTwo">
@@ -83,11 +82,11 @@
                       <div class="card-block">
                         Web app that tracks what food you have on hand and reminds you when it's about to go bad
                       </div>
-                    </div>
-                  </div>
-                </div>
+                    </div> <!-- COLXS ROW COLLAPSETHREE END -->
+                  </div> <!-- ROW COLLAPSETHREE END -->
+                </div> <!-- COLLAPSETHREE END -->
+              </div> <!-- CARD 3 END-->
 
-              </div>
               <div class="card">
                 <div class="card-header" role="tab" id="headingFour">
                   <h5 class="mb-0">
@@ -100,7 +99,7 @@
                 <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour">
                   <div class="row">
                     <div class="col-xs-3">
-                      <a href="#" target="_blank"><img src="images/affiliates/fuber.png" class="img-responsive center-block"/></a>
+                      <a href="162.221.205.237" target="_blank"><img src="images/affiliates/fuber.png" class="img-responsive center-block"/></a>
                     </div>
                     <div class="col-xs-9">
                       <div class="card-block">
@@ -112,9 +111,12 @@
               </div> <!-- CARD 5 END-->
 
             </div> <!-- ACCORDION END -->
+
           </div> <!-- PANEL BODY END -->
         </div>  <!-- PANEL INFO GROUP END-->
+
       </div> <!-- PANEL AFFILIATES END -->
+      
     </div> <!-- ROW SUBBODY END -->
   </div> <!-- ROW MAINBODY END -->
 
