@@ -31,7 +31,7 @@
                 <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
                   <div class="row">
                     <div class="col-xs-3">
-                      <a href="http://students.bcitdev.com/A01006039/ffz/" target="_blank"><img src="images/affiliates/foodfactoryzero.png" class="img-responsive center-block"/></a>
+                      <a href="https://foodfactoryzero.firebaseapp.com/" target="_blank"><img src="images/affiliates/foodfactoryzero.png" class="img-responsive center-block"/></a>
                     </div>
                     <div class="col-xs-9">
                       <div class="card-block">
@@ -100,7 +100,7 @@
                 <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour">
                   <div class="row">
                     <div class="col-xs-3">
-                      <a href="#" target="_blank"><img src="images/affiliates/fuber.png" class="img-responsive center-block"/></a>
+                      <a href="162.221.205.237" target="_blank"><img src="images/affiliates/fuber.png" class="img-responsive center-block"/></a>
                     </div>
                     <div class="col-xs-9">
                       <div class="card-block">
