@@ -4,7 +4,7 @@
   <div class="row mainbody">
     <div class="title_header"><h5>About Us</h5></div>
     <br /><br />
-    <div class="row subbody">
+    <div class="row subbody container-fluid">
       <div class="panel-group">
         <div class="panel panel-info">
           <div class="panel-heading">Group 16</div>

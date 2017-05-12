@@ -5,7 +5,7 @@
 <div class="row mainbody">
   <div class="title_header"><h5>Contact Us</h5></div>
   <br /><br />
-  <div class="row subbody">
+  <div class="row subbody container-fluid">
     <form class="form-group" action="index.php" method="post">
 
       <input type="hidden" name="recipients" class="form-control" id="recipient" value="corinne.kakiuchi@gmail.com">
