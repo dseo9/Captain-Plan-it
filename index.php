@@ -3,8 +3,8 @@
 <?php include'head.php'; ?>
 
 <body onload="myFunction()" style="margin:0;">
-  <div class="container fill">
-    <div class="row mainbody ">
+  <div class="container fill" >
+    <div class="row mainbody" style="margin: auto auto; max-height: 100%;">
 
       <div class="row" id="splashscreen1" style="height:20%">
         <div class="col-xs-3"><img src="images\fruit_fortress.png" alt="FruitFortress" class="img-responsive center-block"/></div>
@@ -22,8 +22,7 @@
         <div class="col-xs-3"></div>
         <div class="col-xs-2"></div>
         <div class="col-xs-2">
-
-          <input type="image" src="images/login.png" onclick="document.getElementById('id01').style.display='block'" style="width:80%;"></button>
+          <input type="image" src="images/login_navigation.png" onclick="document.getElementById('id01').style.display='block'" style="width:80%;"></button>
         </div>
         <div class="col-xs-2"></div>
         <div class="col-xs-3"></div>
@@ -54,6 +53,7 @@
 
         <div class="container-fluid" style="background-color:#f1f1f1">
           <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+          <a href="register.php" class="btn btn-info" role="button">Register</a>
           <span class="psw">Forgot <a href="#">password?</a></span>
         </div>
       </form>
