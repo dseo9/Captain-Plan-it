@@ -52,8 +52,8 @@
         </div>
 
         <div class="container-fluid" style="background-color:#f1f1f1">
-          <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-          <a href="register.php" class="btn btn-info" role="button">Register</a>
+          <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn btn btn-warning">Cancel</button>
+          <button type="button" onclick="location.href='register.php';" class="cancelbtn btn btn-info">Register</button>
           <span class="psw">Forgot <a href="#">password?</a></span>
         </div>
       </form>

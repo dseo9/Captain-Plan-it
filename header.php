@@ -22,5 +22,5 @@
       <!-- FLOATING ABOUT US BUTTON -->
 
     <a href="aboutus.php">
-      <span class="glyphicon glyphicon-info-sign floatingcalendar" style="float: right; color: pink; font-size: 400%; right: 3%"></span>
+      <img src="images/about_us.png" style="float: right; color: pink; width: 5%; right: 3%"/>
     </a>

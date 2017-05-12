@@ -24,12 +24,12 @@
         <div class="col-xs-8 col-xs-offset-2">
           <a href="avatar.php">
             <div class="col-xs-4 col-xs-offset-2" style="border: 1px solid black;">
-              BOY
+              <button class="btn btn-info btn-lg">BOY</button>
             </div>
           </a>
           <a href="avatar.php">
             <div class="col-xs-4" style="border: 1px solid black;">
-              GIRL
+              <button class="btn btn-warning btn-lg">GIRL</button>
             </div>
           </a>
         </div>

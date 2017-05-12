@@ -7,10 +7,10 @@
     <div class="row subbody container-fluid">
       <div class="row" id="planets">
         <div class="col-xs-4 col-xs-offset-1">
-          <a href="#"><img src="images\fruit_fortress.png" alt="Fruit_Fortress" class="img-responsive center-block"/></a>
+          <a href="fruit.php"><img src="images\fruit_fortress.png" alt="Fruit_Fortress" class="img-responsive center-block"/></a>
         </div>
         <div class="col-xs-4 col-xs-offset-2">
-          <a href="#"><img src="images\pastry_palace.png" alt="Pastry_Palace" class="img-responsive center-block"/></a>
+          <a href="pastry.php"><img src="images\pastry_palace.png" alt="Pastry_Palace" class="img-responsive center-block"/></a>
         </div>
       </div>
 
@@ -21,7 +21,7 @@
           <a href="dairy.php"><img src="images\dairy_dome.png" alt="Fruit_Fortress" class="img-responsive center-block"/></a>
         </div>
         <div class="col-xs-4 col-xs-offset-2">
-          <a href="#"><img src="images\meat_mansion.png" alt="Pastry_Palace" class="img-responsive center-block"/></a>
+          <a href="meat.php"><img src="images\meat_mansion.png" alt="Pastry_Palace" class="img-responsive center-block"/></a>
         </div>
       </div>
     </div><!-- ROW SUBBODY END-->
