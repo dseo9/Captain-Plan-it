@@ -5,13 +5,6 @@ html, body, .fill {
   height: 100%;
 }
 
-/*.container {
-  background-image: url("./../images/universe.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}*/
-
 .container .fill {
   margin: 0 auto;
   width: 100%;
@@ -23,7 +16,6 @@ html, body, .fill {
 }
 
 .mainbody {
-  /*margin: 0 auto;*/
   margin: 0 auto;
   width: 100%;
   height:80%;
@@ -33,17 +25,13 @@ html, body, .fill {
   height: 12%;
 }
 
-
+/* GRID ATTRIBUTE MODIFICATIONS */
 .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-6, .col-xs-8, .col-xs-1, .col-xs-10 {
   height: 100%;
   text-align: center;
 }
 
-.glyphicon {
-  font-size: 2.5vw;
-  color: black;
-}
-
+/* CUSTOM IMAGE RESPONSIVE ATTRIBUTES */
 .img-responsive {
   max-height: 100%;
   min-height: 100%;
@@ -57,18 +45,17 @@ html, body, .fill {
   border-bottom: 2px black solid;
   border-left: 2px black solid;
 }
-
 #logo_navigation{
   background-color: #45828D;
   border-bottom: 2px black solid;
 }
-
 #logout_navigation {
   background-color: #45828D;
   border-radius: 0 0 20px 0;
   border-bottom: 2px black solid;
   border-right: 2px black solid;
 }
+/* END HEADER NAVIGATION CSS */
 
 /* FOOTER NAVIGATION CSS */
 #avatar_footer, #planet_footer, #faq_footer, #stampboard_footer {
@@ -76,22 +63,19 @@ html, body, .fill {
   border: solid 2px black;
   overflow: hidden;
 }
-
 #avatar_footer {
   background-color: #d9534f;
 }
-
 #planet_footer {
   background-color: #428bca;
 }
-
 #stampboard_footer {
   background-color: #f0ad4e;
 }
-
 #faq_footer {
   background-color: pink;
 }
+/* END FOOTER NAVIGATION CSS*/
 
 /* PAGE HEADER */
 .title_header {
@@ -106,10 +90,12 @@ html, body, .fill {
   border: 2px solid black;
 }
 
+/* PLANET DIV ROW HEIGHT */
 .row #planets {
   height: 28%;
 }
 
+/* AVATAR PAGE DIV ROW HEIGHT*/
 .row #avatar_page  {
   height: 15%;
 }
@@ -122,7 +108,6 @@ html, body, .fill {
   overflow: auto;
 }
 
-
 /*FLOATING ABOUTUS ICON*/
 .glyphicon .glyphicon-calendar .floatingcalendar {
   float: right;
@@ -131,7 +116,7 @@ html, body, .fill {
 }
 
 /*MODAL LOGIN PAGE*/
-/* Full-width input fields */
+/* FULL WIDTH INPUT FIELDS */
 input[type=text], input[type=password] {
     width: 100%;
     padding: 12px 20px;
@@ -141,7 +126,7 @@ input[type=text], input[type=password] {
     box-sizing: border-box;
 }
 
-/* Set a style for all buttons */
+/* BUTTON STYLE */
 button {
     background-color: #4CAF50;
     color: white;
@@ -151,25 +136,24 @@ button {
     cursor: pointer;
     width: 100%;
 }
-
 button:hover {
     opacity: 0.8;
 }
 
-/* Extra styles for the cancel button */
+/* EXTRA STYLES FOR THE CANCEL BUTTON */
 .cancelbtn {
     width: auto;
     padding: 10px 18px;
     background-color: #f44336;
 }
 
-/* Center the image and position the close button */
+/* CENTER THE IMAGE AND POSITION THE CLOSE BUTTON */
 span.psw {
     float: right;
     padding-top: 16px;
 }
 
-/* The Modal (background) */
+/* MODAL BACKGROUND */
 .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
@@ -184,14 +168,14 @@ span.psw {
   padding-top: 5%;
 }
 
-/* Modal Content/Box */
+/* MODAL CONTENT BOX */
 .modal-content {
   background-color: #fefefe;
   margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
   width: 100%; /* Could be more or less, depending on screen size */
 }
 
-/* The Close Button (x) */
+/* CLOSE BUTTON (X) */
 .close {
   position: absolute;
   right: 25px;
@@ -200,29 +184,27 @@ span.psw {
   font-size: 35px;
   font-weight: bold;
 }
-
 .close:hover, .close:focus {
   color: red;
   cursor: pointer;
 }
 
-/* Add Zoom Animation */
+/* ZOOM ANIMATION FOR LOGIN SCREEN */
 .animate {
   -webkit-animation: animatezoom 0.6s;
   animation: animatezoom 0.6s
 }
-
 @-webkit-keyframes animatezoom {
   from {-webkit-transform: scale(0)}
   to {-webkit-transform: scale(1)}
 }
-
 @keyframes animatezoom {
   from {transform: scale(0)}
   to {transform: scale(1)}
 }
+/* END OF ANIMATION */
 
-/* Change styles for span and cancel button on extra small screens */
+/* CHANGE STYLES FOR SPAN AND CANCEL BUTTON ON XS SCREENS*/
 @media screen and (max-width: 300px) {
   span.psw {
    display: block;
@@ -237,12 +219,7 @@ span.psw {
   height: 70%;
 }
 
-#accesory {
-  white-space: normal;
-}
-
-
-/*STAR BACKGROUND ANIMATION*/
+/*TWINKLE BACKGROUND ANIMATION*/
 @keyframes move-twink-back {
     from {background-position:0 0;}
     to {background-position:-10000px 5000px;}
@@ -259,10 +236,14 @@ span.psw {
     from {background-position:0 0;}
     to {background-position:-10000px 5000px;}
 }
+
+/* STAR BACKGROUND IMAGE */
 .container {
   background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
   z-index:0;
 }
+
+/* TWINKLING BACKGROUND IMAGE */
 /*.row {
   background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
   z-index:1;
