@@ -36,7 +36,7 @@ html, body, .fill {
 }
 
 
-.col-xs-2, .col-xs-3, .col-xs-4, .col-xs-6, .col-xs-8 {
+.col-xs-2, .col-xs-3, .col-xs-4, .col-xs-6, .col-xs-8, .col-xs-1, .col-xs-10 {
   height: 100%;
   text-align: center;
 }
@@ -49,23 +49,12 @@ html, body, .fill {
 .img-responsive {
   max-height: 100%;
   min-height: 100%;
-  padding: 0;
 }
 
 /* HEADER NAVIGATION CSS */
-#back_navigation {
+#back_navigation, #logo_navigation, #logout_navigation {
   background-color: #45828D;
 }
-
-#logo_navigation {
-  background-color: #45828D;
-}
-
-#logout_navigation {
-  background-color: #45828D;
-}
-
-
 
 /* FOOTER NAVIGATION CSS */
 #avatar_footer, #planet_footer, #faq_footer, #stampboard_footer {
@@ -103,36 +92,19 @@ html, body, .fill {
   border: 2px solid black;
 }
 
-/* PLANETS PAGE */
-#fruit_fortress, #dairy_dome {
-  position: relative;
-  display: block;
-  left: 30%;
-  top: 2.5%;
-  width: 10%;
+.row #planets {
+  height: 28%;
 }
 
-#pastry_palace, #meat_mansion {
-  position: relative;
-  display: block;
-  left: 60%;
-  top: 2.5%;
-  width: 10%;
-}
-
-div .row #planets {
-  height: 20%;
-}
-
-div #avatar_page .row  {
-  height: 10%;
+.row #avatar_page  {
+  height: 15%;
 }
 
 /* ABOUT US PAGE, SCROLLING CONTENT */
 .row .subbody {
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
-  height: 88%;
+  height: 83%;
   overflow: auto;
 }
 
