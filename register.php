@@ -1,6 +1,6 @@
 <?php include 'header.php'; ?>
 
-<div class="row mainbody" id="register_body">
+<div class="row mainbody auto_body">
   <div class="title_header"><h5>Who are you Hero?</h5></div>
 
     <form action="avatar.php" method="post" class="">
@@ -44,6 +44,7 @@
         </div>
       </div>
       <button type="submit" class="btn btn-success btn-lg button_register" value="Register" onsubmit='return validateRegisterForm()'>Register</button><span id='submit-error'></span>
+      <br>
       <button type="button" class="btn btn-danger btn-lg button_register">Cancel</button>
       <div class="brdiv">
 

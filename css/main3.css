@@ -19,10 +19,12 @@ button:hover {
 }
 
 /* Stampboard page */
-#stampboard_box{
+.stampboard_box{
   position: relative;
   display: block;
   margin-top: 10%;
+  background-color:#90EE90;
+  padding: 5%;
 }
 
 /* Register page */
@@ -46,7 +48,7 @@ margin-top: 15%;
 .form_body{
   margin-bottom: 20%;
 }
-#register_body{
+.auto_body{
   height: auto;
 }
 .button_register{
@@ -61,23 +63,23 @@ margin-top: 15%;
 }
 
 #red_input{
-  background-color: #DC143C;
-  color: #FFF;
+  border: 2px solid #DC143C;
+  border-radius: 4px;
 }
 
 #blue_input{
-  background-color: #000080;
-  color: #FFF;
+  border: 2px solid #000080;
+  border-radius: 4px;
 }
 
 #purple_input{
-  background-color: #C71585;
-  color:#FFF;
+  border: 2px solid #C71585;
+  border-radius: 4px;
 }
 
 #green_input{
-  background-color: #2E8B57;
-  color: #FFF;
+  border: 2px solid #2E8B57;
+  border-radius: 4px;
 }
 
 /* Contact Us page*/
