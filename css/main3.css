@@ -1,4 +1,5 @@
 /* Dairy Dome page */
+/* planning to use */
 .dairy_page{
   background-image: url("./../images/cow_page/new_cow.png");
   background-repeat: no-repeat;
@@ -13,11 +14,6 @@
   width: 50%;
 }
 
-/* Full-width input fields */
-button:hover {
-    opacity: 0.8;
-}
-
 /* Stampboard page */
 .stampboard_box{
   position: relative;
@@ -28,6 +24,7 @@ button:hover {
 }
 
 /* Register page */
+/* resizing icons */
 #user_icon{
   width: 40%;
   margin-top: 20%;
@@ -41,16 +38,23 @@ width: 30%;
 margin-top: 15%;
  }
 
+/* distance between input boxes */
 .input_box{
   margin-top: 5%;
 }
 
+/* adjusting body */
 .form_body{
   margin-bottom: 20%;
 }
 .auto_body{
   height: auto;
 }
+.brdiv{
+    margin-bottom: 3%;
+}
+
+/* formating button */
 .button_register{
   width: 50%;
   position: relative;
@@ -58,10 +62,8 @@ margin-top: 15%;
   margin-left: auto;
   margin-right: auto;
 }
-.brdiv{
-    margin-bottom: 3%;
-}
 
+/* Formating input's borders */
 #red_input{
   border: 2px solid #DC143C;
   border-radius: 4px;
@@ -82,7 +84,8 @@ margin-top: 15%;
   border-radius: 4px;
 }
 
-/* Contact Us page*/
+/* CONTACT US page*/
+/* Formating input's borders */
 #pink_border{
   border: 2px solid #FF1493;
   border-radius: 4px;
