@@ -261,3 +261,25 @@ span.psw {
   background-repeat: no-repeat;
   background-position: center;
 }
+
+/*DAIRY PLANET BACKGROUND*/
+#pastryheader {
+  background-image: url('../images/pastry_page/level_bg.png');
+  background-color: yellow;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/*DAIRY PLANET BACKGROUND*/
+#fruitheader {
+  background-image: url('../images/fruit_page/level_bg.png');
+  background-color: lightgreen;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/*DAIRY PLANET BACKGROUND*/
+#meatheader {
+  background-image: url('../images/meat_page/level_bg.png');
+  background-color: brown;
+  background-repeat: no-repeat;
+  background-position: center;
+}

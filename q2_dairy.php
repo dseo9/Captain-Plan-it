@@ -1,4 +1,4 @@
-<?php include 'header.php';?>
+<?php include 'statics/dairyheader.php';?>
 
 <div class="row mainbody">
 
@@ -41,4 +41,4 @@
 
 	</div>
 
-<?php include 'footer.php';?>
+<?php include 'statics/footer.php';?>

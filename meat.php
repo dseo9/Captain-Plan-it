@@ -1,4 +1,4 @@
-<?php include 'header.php';?>
+<?php include 'statics/meatheader.php';?>
 
 
   <!-- make images responsive and link them to other pages-->
@@ -37,4 +37,4 @@
     </div> <!-- ROW SUBBODY END -->
   </div> <!-- ROW MAINBODY END -->
 
-<?php include 'footer.php' ;?>
+<?php include 'statics/footer.php' ;?>

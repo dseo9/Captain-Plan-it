@@ -1,4 +1,4 @@
-<?php include 'header.php'; ?>
+<?php include 'statics/header.php'; ?>
 
   <div class="row mainbody container-fluid">
     <div class="title_header"><h5>Customize your Avatar</h5></div>
@@ -58,4 +58,4 @@
     </div> <!-- ROW END -->
   </div> <!-- ROW MAINBODY END -->
 
-<?php include 'footer.php'; ?>
+<?php include 'statics/footer.php'; ?>
