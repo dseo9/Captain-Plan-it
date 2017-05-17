@@ -5,14 +5,14 @@
     <br /><br />
     <div class="row subbody container-fluid">
       <div class="panel-group">
-        <div class="panel panel-info">
-          <div class="panel-heading">Group 16</div>
-          <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+        <div class="panel panel-danger">
+          <div class="panel-heading">Captain Plan-It</div>
+          <div class="panel-body">Captain Plan-It is an educational quiz game where users answer questions related to food groups. Answer correctly to earn keys which can unlock accessories for your own personal hero!</div>
         </div>  <!-- PANEL INFO -->
       </div> <!-- PANEL GROUP END-->
 
       <div class="panel-group">
-        <div class="panel panel-info">
+        <div class="panel panel-success">
           <div class="panel-heading">Affiliates</div>
           <div class="panel-body">
 
@@ -21,7 +21,7 @@
               <div class="card">
                 <div class="card-header" role="tab" id="headingOne">
                   <h5 class="mb-0">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <a class="aff_link" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                       FOOD FACTORY ZERO
                     </a>
                   </h5>
@@ -44,7 +44,7 @@
               <div class="card">
                 <div class="card-header" role="tab" id="headingTwo">
                   <h5 class="mb-0">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                    <a class="aff_link" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
                       RACE TO ZERO
                     </a>
                   </h5>
@@ -53,7 +53,7 @@
                 <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
                   <div class="row">
                     <div class="col-xs-3">
-                      <a href="#" target="_blank"><img src="images/affiliates/racetozero.png" class="img-responsive center-block"/></a>
+                      <a href="#" target="_blank"><img src="images/affiliates/race.png" class="img-responsive center-block"/></a>
                     </div>
                     <div class="col-xs-9">
                       <div class="card-block">
@@ -67,7 +67,7 @@
               <div class="card">
                 <div class="card-header" role="tab" id="headingThree">
                   <h5 class="mb-0">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                    <a class="aff_link" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
                       FUBER
                     </a>
                   </h5>

@@ -34,7 +34,7 @@
 #password_icon{
 width: 25%;
  }
- 
+
 /* distance between input boxes */
 
 
@@ -81,4 +81,16 @@ width: 25%;
 #yellow_border{
   border: 2px solid #FFFF00;
   border-radius: 4px;
+}
+
+/* ABOUT US page */
+
+.panel-body {
+  background-color: #000;
+  color: #FFF;
+}
+
+.aff_link {
+  text-decoration: none;
+  color: #00FFFF;
 }

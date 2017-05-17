@@ -12,7 +12,7 @@
 
         <div class="row">
           <div class="col-sm-6 col-md-2 img-responsive">
-            <img src="images/avatar_footer.png"  id="user_icon" alt="User Icon">
+            <img src="images/footer_icons/avatar_footer.png"  id="user_icon" alt="User Icon">
           </div>
           <div class="col-sm-12 col-md-10 has-error input_box">
             <input type="text" class="form-control" id="red_input" placeholder="Username" name="uname"><span id='uname_error'></span>
