@@ -44,7 +44,7 @@
               <div class="card">
                 <div class="card-header" role="tab" id="headingTwo">
                   <h5 class="mb-0">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseOne">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
                       RACE TO ZERO
                     </a>
                   </h5>
@@ -68,35 +68,12 @@
                 <div class="card-header" role="tab" id="headingThree">
                   <h5 class="mb-0">
                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
-                      WASTED
-                    </a>
-                  </h5>
-                </div>
-
-                <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
-                  <div class="row">
-                    <div class="col-xs-3">
-                      <a href="http://students.bcitdev.com/A00989687/forAffiliates/WASTED.html#" target="_blank"><img src="images/affiliates/wasted.png" class="img-responsive center-block"/></a>
-                    </div>
-                    <div class="col-xs-9">
-                      <div class="card-block">
-                        Web app that tracks what food you have on hand and reminds you when it's about to go bad
-                      </div>
-                    </div> <!-- COLXS ROW COLLAPSETHREE END -->
-                  </div> <!-- ROW COLLAPSETHREE END -->
-                </div> <!-- COLLAPSETHREE END -->
-              </div> <!-- CARD 3 END-->
-
-              <div class="card">
-                <div class="card-header" role="tab" id="headingFour">
-                  <h5 class="mb-0">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="true" aria-controls="collapseFive">
                       FUBER
                     </a>
                   </h5>
                 </div>
 
-                <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour">
+                <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
                   <div class="row">
                     <div class="col-xs-3">
                       <a href="162.221.205.237" target="_blank"><img src="images/affiliates/fuber.png" class="img-responsive center-block"/></a>
@@ -105,10 +82,10 @@
                       <div class="card-block">
                         Fuber is a kitchen management tool that provides a list of groceries that you have bought at the store. Using a QR Scanner on a receipt to store the ingredients, our app suggests recipes on how to use them!
                       </div>
-                    </div> <!-- COLXS ROW COLLAPSEFIVE END -->
-                  </div> <!-- ROW COLLAPSEFIVE END -->
-                </div> <!-- COLLAPSEFIVE END -->
-              </div> <!-- CARD 5 END-->
+                    </div> <!-- COLXS ROW COLLAPSETHREE END -->
+                  </div> <!-- ROW COLLAPSETHREE END -->
+                </div> <!-- COLLAPSETHREE END -->
+              </div> <!-- CARD 3 END-->
 
             </div> <!-- ACCORDION END -->
 
@@ -116,7 +93,7 @@
         </div>  <!-- PANEL INFO GROUP END-->
 
       </div> <!-- PANEL AFFILIATES END -->
-      
+
     </div> <!-- ROW SUBBODY END -->
   </div> <!-- ROW MAINBODY END -->
 

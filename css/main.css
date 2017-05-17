@@ -253,3 +253,11 @@ span.psw {
   -webkit-animation:move-twink-back 200s linear infinite;
   animation:move-twink-back 200s linear infinite;
 }*/
+
+/*DAIRY PLANET BACKGROUND*/
+#dairyheader {
+  background-image: url('../images/dairy_page/level_bg.png');
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+}

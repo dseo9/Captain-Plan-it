@@ -1,4 +1,4 @@
-<?php include 'header.php';?>
+<?php include 'dairyheader.php';?>
 
 
   <!-- make images responsive and link them to other pages-->
