@@ -7,9 +7,9 @@
       <div class="panel-group">
         <div class="panel panel-danger">
           <div class="panel-heading">Captain Plan-It</div>
-          <div class="panel-body">Captain Plan-It is an educational quiz game where users answer questions related to food groups. Answer correctly to earn keys which can unlock accessories for your own personal hero!
+          <div class="panel-body"><p>Captain Plan-It is an educational quiz game where users answer questions related to food groups. Answer correctly to earn keys which can unlock accessories for your own personal hero!</p>
           <br>
-          We wanna be the very best, that no one ever was... toduduuut... to catch them (foodwasters) is our real quest, to train them (foodwasters and kids) is our cause.... we will travel across many land, searching far and wide... toduduuut... each food to understand, the nutrition that's inside... .
+          <p>We wanna be the very best, that no one ever was... toduduuut... to catch them (foodwasters) is our real quest, to train them (foodwasters and kids) is our cause.... we will travel across many land, searching far and wide... toduduuut... each food to understand, the nutrition that's inside... .</p>
           </div>
         </div>  <!-- PANEL INFO -->
       </div> <!-- PANEL GROUP END-->
@@ -37,7 +37,7 @@
                     </div>
                     <div class="col-xs-9">
                       <div class="card-block">
-                        A time-based drag and drop game. Users need to pick and match the ingredients with recipes.
+                        <p>A time-based drag and drop game. Users need to pick and match the ingredients with recipes.</p>
                       </div>
                     </div> <!-- COLXS ROW COLLAPSEFIVE ONE -->
                   </div> <!-- ROW COLLAPSEONE END -->
@@ -60,7 +60,7 @@
                     </div>
                     <div class="col-xs-9">
                       <div class="card-block">
-                        Race to Zero is a fun platforming game where you must get a food item into the right pocket. Answer the quiz questions and bounce to the exit in the fastest time possible!
+                        <p>Race to Zero is a fun platforming game where you must get a food item into the right pocket. Answer the quiz questions and bounce to the exit in the fastest time possible!</p>
                       </div>
                     </div> <!-- COLXS ROW COLLAPSETWO END -->
                   </div> <!-- ROW COLLAPSETWO END -->
@@ -83,7 +83,7 @@
                     </div>
                     <div class="col-xs-9">
                       <div class="card-block">
-                        Fuber is a kitchen management tool that provides a list of groceries that you have bought at the store. Using a QR Scanner on a receipt to store the ingredients, our app suggests recipes on how to use them!
+                        <p>Fuber is a kitchen management tool that provides a list of groceries that you have bought at the store. Using a QR Scanner on a receipt to store the ingredients, our app suggests recipes on how to use them!</p>
                       </div>
                     </div> <!-- COLXS ROW COLLAPSETHREE END -->
                   </div> <!-- ROW COLLAPSETHREE END -->

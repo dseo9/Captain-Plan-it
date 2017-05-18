@@ -2,9 +2,10 @@
 
   <div class="row mainbody container-fluid">
     <div class="title_header"><h5>Customize your Avatar</h5></div>
-    <br /><br />
+    <br>
     <div class="row subbody container-fluid">
-      <div class="col-xs-3 col-md-offset-1">
+
+      <div class="col-xs-12">
         <img src="images/girl.png" class="img-responsive center-block"/>
       </div>
 
@@ -14,7 +15,7 @@
             <img src="images/avatar_skin/skin1.png" class="img-responsive center-block">
           </div>
           <div class="col-xs-4 col-xs-offset-1">
-            <button type="button" class="btn btn-primary btn-lg btn-block" id="accessory">SKIN</button>
+            <button type="button" class="btn btn-primary btn-lg btn-block" id="accessory"><p>SKIN</p></button>
           </div>
         </div>
 
@@ -23,7 +24,7 @@
             <img src="images/avatar_skin/skin2.png" class="img-responsive center-block">
           </div>
           <div class="col-xs-4 col-xs-offset-1">
-            <button type="button" class="btn btn-primary btn-lg btn-block" id="accessory">HAIR</button>
+            <button type="button" class="btn btn-primary btn-lg btn-block" id="accessory"><p>HAIR</p></button>
           </div>
         </div>
 
@@ -32,7 +33,7 @@
             <img src="images/avatar_skin/skin3.png" class="img-responsive center-block">
           </div>
           <div class="col-xs-4 col-xs-offset-1">
-            <button type="button" class="btn btn-primary btn-lg btn-block" id="accessory">TOP</button>
+            <button type="button" class="btn btn-primary btn-lg btn-block" id="accessory"><p>TOP</p></button>
           </div>
         </div>
 
@@ -41,7 +42,7 @@
             <img src="images/avatar_skin/skin4.png" class="img-responsive center-block">
           </div>
           <div class="col-xs-4 col-xs-offset-1">
-            <button type="button" class="btn btn-primary btn-lg btn-block" id="accessory">BOTTOM</button>
+            <button type="button" class="btn btn-primary btn-lg btn-block" id="accessory"><p>BOTTOM</p></button>
           </div>
         </div>
 
@@ -50,7 +51,7 @@
             <img src="images/avatar_skin/skin5.png" class="img-responsive center-block">
           </div>
           <div class="col-xs-4 col-xs-offset-1">
-            <button type="button" class="btn btn-primary btn-lg btn-block" id="accessory">ACCESORY</button>
+            <button type="button" class="btn btn-primary btn-lg btn-block" id="accessory"><p>ACCESSORY</p></button>
           </div>
         </div>
 

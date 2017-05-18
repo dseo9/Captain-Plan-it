@@ -42,7 +42,7 @@
             <img src="images/register_icons/password.png" id="password_icon" alt="Password Icon">
           </div>
           <div class="col-sm-12 col-md-10 has-error  input_box">
-            <input type="password" class="form-control" id="blue_input" placeholder="Password" name="psw">
+            <input type="password" class="form-control" id="blue_input" placeholder="Verify Password" name="psw">
             <span id='cpword_error'></span></br>
           </div>
         </div>
