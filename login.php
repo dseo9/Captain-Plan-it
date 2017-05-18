@@ -1,8 +1,12 @@
 <?php include 'statics/header.php'; ?>
+<?php include_once('libs/login_users.php'); ?>
 
 <div class="row mainbody">
   <div class="title_header"><h5>Welcome Hero!</h5></div>
 
+  <div class="content">
+    <?php if(isset($error)) {echo '<div class="alert alert-danger" role="alert">'.$error.'</div>';} ?>
+  </div>
   <div class="row subbody">
     <br>
     <form action="avatar.php" method="post" class="">
