@@ -14,14 +14,14 @@
 
         <div class="row" id="splashscreen2" style="height:49%">
 
-          <div class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
-            <img src="images\cp.png" alt="Captain Plan-It" class="img-responsive center-block"/>
+          <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
+            <img src="images\cp.gif" alt="Captain Plan-It" class="img-responsive center-block"/>
           </div>
 
         </div>
 
         <div class="row" id="splashscreen2" style="height:14%">
-          <div class="col-xs-4 col-xs-offset-4 col-sm-4 col-sm-offset-4 col-md-2 col-md-offset-5 col-lg-2 col-lg-offset-5">
+          <div class="col-xs-4 col-xs-offset-4 col-sm-2 col-sm-offset-5 col-md-2 col-md-offset-5 col-lg-2 col-lg-offset-5">
             <input type="image" src="images/login_navigation.png" onclick="document.getElementById('id01').style.display='block'" style="width:80%;"></button>
           </div>
         </div>
