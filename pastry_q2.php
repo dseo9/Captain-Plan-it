@@ -1,4 +1,6 @@
-<?php include 'statics/pastryheader.php';?>
+<?php include 'statics/pastryheader.php';
+$level = 2;
+?>
 
 	<div class="row mainbody">
 

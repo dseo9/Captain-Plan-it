@@ -1,4 +1,6 @@
-<?php include 'statics/meatheader.php';?>
+<?php include 'statics/meatheader.php';
+$level = 2;
+?>
 
 	<div class="row mainbody">
 

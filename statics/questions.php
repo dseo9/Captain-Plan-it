@@ -3,7 +3,13 @@
   <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
       <div class="well well-md">
-        <p>Q: Dairy category question goes here to test if the div is expanding denpending on how long the question is.</p>
+        <p>
+
+          <?php
+            include 'db/getquestions.php';
+          ?>
+
+        </p>
       </div>
     </div><!-- END OF COL DIV -->
   </div><!-- END OF QUESTIONS AREA -->

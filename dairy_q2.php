@@ -1,5 +1,6 @@
-<?php include 'statics/dairyheader.php';?>
-
+<?php include 'statics/dairyheader.php';
+$level = 2;
+?>
 	<div class="row mainbody">
 
 	<!-- TITLE OF THE LEVEL AT THE TOP -->
@@ -10,7 +11,7 @@
 
 		<!-- QUESTIONS AREA FOR THE LEVEL -->
 		<?php include 'statics/questions.php'; ?>
-		
+
 	</div>
 
 <?php include 'statics/footer.php';?>
