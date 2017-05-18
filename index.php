@@ -1,35 +1,41 @@
 <?php include'head.php'; ?>
 
   <body onload="myFunction()" style="margin:0;">
-    <div class="container fill" >
-      <div class="row mainbody" style="margin: auto auto; max-height: 100%;">
+    <div class="container fill" style="margin: auto; max-height: 100%;">
+      <div class="row mainbody" >
 
-        <div class="row" id="splashscreen1" style="height:20%">
-          <div class="col-xs-3"><img src="images\fruit_fortress.png" alt="FruitFortress" class="img-responsive center-block"/></div>
-          <div class="col-xs-6"></div>
-          <div class="col-xs-3"><img src="images\pastry_palace.png" alt="Pastry Palace" class="img-responsive center-block"/></div>
+<br/>
+        <div class="row" id="splashscreen1" style="height:18%">
+          <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3">
+            <img src="images\fruit_fortress.png" alt="FruitFortress" class="img-responsive center-block"/>
+          </div>
+          <div class="col-xs-4 col-xs-offset-4 col-sm-3 col-sm-offset-6 col-md-3 col-md-offset-6 col-lg-3 col-lg-offset-6"><img src="images\pastry_palace.png" alt="Pastry Palace" class="img-responsive center-block"/></div>
         </div>
 
-        <div class="row" id="splashscreen2" style="height:50%">
-          <div class="col-xs-3"></div>
-          <div class="col-xs-6"><img src="images\cp.png" alt="Captain Plan-It" class="img-responsive center-block"/></div>
-          <div class="col-xs-3"></div>
+        <div class="row" id="splashscreen2" style="height:49%">
+
+          <div class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
+            <img src="images\cp.png" alt="Captain Plan-It" class="img-responsive center-block"/>
+          </div>
+
         </div>
 
-        <div class="row" id="splashscreen2" style="height:25%">
-          <div class="col-xs-3"></div>
-          <div class="col-xs-2"></div>
-          <div class="col-xs-2">
+        <div class="row" id="splashscreen2" style="height:14%">
+          <div class="col-xs-4 col-xs-offset-4 col-sm-4 col-sm-offset-4 col-md-2 col-md-offset-5 col-lg-2 col-lg-offset-5">
             <input type="image" src="images/login_navigation.png" onclick="document.getElementById('id01').style.display='block'" style="width:80%;"></button>
           </div>
-          <div class="col-xs-2"></div>
-          <div class="col-xs-3"></div>
         </div>
 
-        <div class="row" id="splashscreen1" style="height:20%">
-          <div class="col-xs-3"><img src="images\dairy_dome.png" alt="Dairy Dome" class="img-responsive center-block"/></div>
-          <div class="col-xs-6"></div>
-          <div class="col-xs-3"><img src="images\meat_mansion.png" alt="Meat Mansion" class="img-responsive center-block"/></div>
+        <div class="clearfix"></div>
+        <br/><br/>
+
+        <div class="row" id="splashscreen1" style="height:18%">
+          <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3">
+            <img src="images\dairy_dome.png" alt="Dairy Dome" class="img-responsive center-block"/>
+          </div>
+          <div class="col-xs-4 col-xs-offset-4 col-sm-3 col-sm-offset-6 col-md-3 col-md-offset-6 col-lg-3 col-lg-offset-6">
+            <img src="images\meat_mansion.png" alt="Meat Mansion" class="img-responsive center-block"/>
+          </div>
         </div>
       </div> <!-- END OF MAIN BODY CONTENT -->
 
