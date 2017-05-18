@@ -1,4 +1,4 @@
-<?php include 'header.php';?>
+<?php include 'statics/header.php';?>
 
 <div class="row mainbody">
     <div class="title_header"><h5>Stampboard</h5></div>
@@ -43,4 +43,4 @@
   </div><!-- ROW PANEL END-->
 </div><!-- ROW MAINBODY END-->
 
-<?php include 'footer.php';?>
+<?php include 'statics/footer.php';?>

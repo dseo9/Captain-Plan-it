@@ -1,4 +1,4 @@
-<?php include 'header.php';?>
+<?php include 'statics/header.php';?>
 
   <div class="row mainbody">
     <div class="title_header"><h5>About Us</h5></div>
@@ -7,7 +7,10 @@
       <div class="panel-group">
         <div class="panel panel-danger">
           <div class="panel-heading">Captain Plan-It</div>
-          <div class="panel-body">Captain Plan-It is an educational quiz game where users answer questions related to food groups. Answer correctly to earn keys which can unlock accessories for your own personal hero!</div>
+          <div class="panel-body">Captain Plan-It is an educational quiz game where users answer questions related to food groups. Answer correctly to earn keys which can unlock accessories for your own personal hero!
+          <br>
+          We wanna be the very best, that no one ever was... toduduuut... to catch them (foodwasters) is our real quest, to train them (foodwasters and kids) is our cause.... we will travel across many land, searching far and wide... toduduuut... each food to understand, the nutrition that's inside... .
+          </div>
         </div>  <!-- PANEL INFO -->
       </div> <!-- PANEL GROUP END-->
 
@@ -97,4 +100,4 @@
     </div> <!-- ROW SUBBODY END -->
   </div> <!-- ROW MAINBODY END -->
 
-<?php include 'footer.php';?>
+<?php include 'statics/footer.php';?>
