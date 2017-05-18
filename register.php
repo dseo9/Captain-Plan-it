@@ -12,7 +12,7 @@
 
         <div class="row">
           <div class="col-sm-6 col-md-2 img-responsive">
-            <img src="images/footer_icons/avatar_footer.png"  id="user_icon" alt="User Icon">
+            <label for="red_input"><img src="images/footer_icons/avatar_footer.png"  id="user_icon" alt="User Icon"></label>
           </div>
           <div class="col-sm-12 col-md-10 has-error input_box">
             <input type="text" class="form-control" id="red_input" placeholder="Username" name="uname"><span id='uname_error'></span>
@@ -21,7 +21,7 @@
 
         <div class="row">
           <div class="col-sm-6 col-md-2 img-responsive">
-            <img src="images/register_icons/email_icon.png" id="email_icon" alt="Email Icon">
+            <label for="green_input"><img src="images/register_icons/email_icon.png" id="email_icon" alt="Email Icon"></label>
           </div>
           <div class="col-sm-12 col-md-10 has-error input_box">
             <input type="email" class="form-control" id="green_input" placeholder="Email" name="email"><span id='email_error'></span>
@@ -30,7 +30,7 @@
 
         <div class="row">
           <div class="col-sm-6 col-md-2 img-responsive">
-            <img src="images/register_icons/password.png" id="password_icon" alt="Password Icon">
+            <label for="purple_input"><img src="images/register_icons/password.png" id="password_icon" alt="Password Icon"></label>
           </div>
           <div class="col-sm-12 col-md-10 has-error input_box">
             <input type="password" class="form-control" id="purple_input" placeholder="Password" name="psw"><span id='pword_error'></span>
@@ -39,7 +39,7 @@
 
         <div class="row">
           <div class="col-sm-6 col-md-2 img-responsive">
-            <img src="images/register_icons/password.png" id="password_icon" alt="Password Icon">
+            <label for="blue_input"><img src="images/register_icons/password.png" id="password_icon" alt="Password Icon"></label>
           </div>
           <div class="col-sm-12 col-md-10 has-error  input_box">
             <input type="password" class="form-control" id="blue_input" placeholder="Verify Password" name="psw">

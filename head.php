@@ -1,6 +1,9 @@
+<<<<<<< HEAD
 <?php require_once 'db/connect.php'?>
 <!-- Planet IDs 1 dairy dome 2 meat mansion 3 fruit fortress 4 pastry palace -->
 
+=======
+>>>>>>> 2a3f79155826cda6578a92ecb6f207b6167027de
 <!DOCTYPE html>
 <html lang="en">
   <head>
