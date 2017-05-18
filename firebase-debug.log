@@ -1,0 +1,27 @@
+[debug] ----------------------------------------------------------------------
+[debug] Command:      C:\Program Files\nodejs\node.exe C:\Users\sec\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] CLI Version:  3.8.0
+[debug] Platform:     win32
+[debug] Node Version: v6.10.3
+[debug] Time:         Wed May 17 2017 12:11:22 GMT-0700 (Pacific Daylight Time)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/captain-plan-it-89d0b  
+ Wed May 17 2017 12:11:22 GMT-0700 (Pacific Daylight Time)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/captain-plan-it-89d0b/tokens  
+ Wed May 17 2017 12:11:22 GMT-0700 (Pacific Daylight Time)
+[debug] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\sec\ShareFile\Personal Folders\201710\COMP1111\CptP\Captain-Plan-It'...
+[info] 
+[debug] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/captain-plan-it-89d0b  
+ Wed May 17 2017 12:11:23 GMT-0700 (Pacific Daylight Time)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1045762209447/clients/_:getWebAppConfig  
+ Wed May 17 2017 12:11:23 GMT-0700 (Pacific Daylight Time)
+[debug] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
