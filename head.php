@@ -1,4 +1,5 @@
 <?php
+
   $servername = "localhost";
   $username = "root";
   $password = "";
@@ -11,7 +12,14 @@
       die("Connection failed: " . mysqli_connect_error());
   }
 
-  SELECT 2 FROM multiplechoice 
+  // Performing SQL query
+  // $query = 'SELECT * FROM multiplechoice';
+  // $result = mysql_query($query) or die('Query failed: ' . mysql_error());
+
+  $result = mysqli_query(" SELECT 'question' FROM 'multiplechoice' WHERE 'wrong2' = 'no' ");
+  $row = mysqli_fetch_array($result);
+  echo $result[question];
+
  ?>
 
 
