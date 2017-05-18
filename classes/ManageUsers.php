@@ -1,5 +1,5 @@
 <?php
-  include_once('class.database.php');
+  include_once('database.php');
 
   class ManageUsers {
     public $link;
