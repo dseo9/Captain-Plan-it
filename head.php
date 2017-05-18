@@ -1,27 +1,4 @@
-<?php
-
-  $servername = "localhost";
-  $username = "root";
-  $password = "";
-
-  // Create connection
-  $conn = mysqli_connect($servername, $username, $password);
-
-  // Check connection
-  if (!$conn) {
-      die("Connection failed: " . mysqli_connect_error());
-  }
-
-  // Performing SQL query
-  // $query = 'SELECT * FROM multiplechoice';
-  // $result = mysql_query($query) or die('Query failed: ' . mysql_error());
-
-  $result = mysqli_query(" SELECT 'question' FROM 'multiplechoice' WHERE 'wrong2' = 'no' ");
-  $row = mysqli_fetch_array($result);
-  echo $result[question];
-
- ?>
-
+<?php require_once 'db/connect.php'?>
 
 <!DOCTYPE html>
 <html lang="en">

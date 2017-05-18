@@ -3,4 +3,7 @@
   <body>
     <div class="container fill" id="fruitheader">
 
-      <?php include 'topnav.php'?>
+      <?php
+      $planetid = 3;
+      include 'topnav.php'
+      ?>

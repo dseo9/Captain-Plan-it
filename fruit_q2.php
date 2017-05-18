@@ -1,4 +1,6 @@
-<?php include 'statics/fruitheader.php';?>
+<?php include 'statics/fruitheader.php';
+$level = 2;
+?>
 
 	<div class="row mainbody">
 

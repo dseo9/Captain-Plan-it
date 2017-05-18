@@ -3,4 +3,7 @@
   <body>
     <div class="container fill" id="meatheader">
 
-      <?php include 'topnav.php'?>
+      <?php
+      $planetid = 2;
+      include 'topnav.php'
+      ?>

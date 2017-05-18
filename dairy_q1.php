@@ -1,4 +1,6 @@
-<?php include 'statics/dairyheader.php';?>
+<?php include 'statics/dairyheader.php';
+$level = 1;
+?>
 
 	<div class="row mainbody">
 
