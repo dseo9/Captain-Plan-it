@@ -33,19 +33,19 @@
 }
 #password_icon{
 width: 25%;
+margin-top: 3%;
  }
 
-/* distance between input boxes */
-
-
 /* formating button */
+
 .button_register{
   width: 50%;
   position: relative;
   display: block;
   margin-left: auto;
-  margin-right: auto;
+  text-align: center;
 }
+
 
 /* Formating input's borders */
 #red_input{
