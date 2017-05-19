@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!-- <link rel="icon" href="images/favicon.ico"> -->
+
+    <title>Captain Plan-It</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+    <!-- Google stylesheet for background star image -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+
+    <!-- cloudflare core CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- CSS library for validation -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css">
+
+
+    <script src="js/script.js"></script>
+	<script src="js/app.js"></script>
+
+    <!-- Custom styles for this template -->
+    <link href="css/main.css" rel="stylesheet" media="screen">
+    <link href="css/main2.css" rel="stylesheet" media="screen">
+    <link href="css/main3.css" rel="stylesheet" media="screen">
+
+  </head>
+
+  <body onload="myFunction()" style="margin:0;">
+    <div class="container fill" >
+      <div class="row mainbody" style="margin: auto auto; max-height: 100%;">
+
+        <div class="row" id="splashscreen1" style="height:20%">
+          <div class="col-xs-3"><img src="images\fruit_fortress.png" alt="FruitFortress" class="img-responsive center-block"/></div>
+          <div class="col-xs-6"></div>
+          <div class="col-xs-3"><img src="images\pastry_palace.png" alt="Pastry Palace" class="img-responsive center-block"/></div>
+        </div>
+
+        <div class="row" id="splashscreen2" style="height:50%">
+          <div class="col-xs-3"></div>
+          <div class="col-xs-6"><img src="images\cp.png" alt="Captain Plan-It" class="img-responsive center-block"/></div>
+          <div class="col-xs-3"></div>
+        </div>
+
+        <div class="row" id="splashscreen2" style="height:25%">
+          <div class="col-xs-3"></div>
+          <div class="col-xs-2"></div>
+          <div class="col-xs-2">
+            <input type="image" src="images/login_navigation.png" onclick="document.getElementById('id01').style.display='block'" style="width:80%;"></button>
+          </div>
+          <div class="col-xs-2"></div>
+          <div class="col-xs-3"></div>
+        </div>
+
+        <div class="row" id="splashscreen1" style="height:20%">
+          <div class="col-xs-3"><img src="images\dairy_dome.png" alt="Dairy Dome" class="img-responsive center-block"/></div>
+          <div class="col-xs-6"></div>
+          <div class="col-xs-3"><img src="images\meat_mansion.png" alt="Meat Mansion" class="img-responsive center-block"/></div>
+        </div>
+      </div> <!-- END OF MAIN BODY CONTENT -->
+
+      <!-- MODAL LOGIN PAGE -->
+      <div id="id01" class="modal" style="width:100%; margin: auto;">
+        <form class="modal-content animate" action="avatar.html" style="width:80%;">
+          <div class="container-fluid">
+
+            <label><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" id="txtUname" required>
+
+            <label><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="pass" id="txtPassword" required>
+
+            <button type="submit">Login</button>
+
+            <input type="checkbox" checked="checked"> Remember me
+          </div>
+
+          <div class="container-fluid" style="background-color:#f1f1f1">
+            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn btn btn-warning">Cancel</button>
+            <button type="button" onclick="location.href='register.html';" class="cancelbtn btn btn-info">Register</button>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+          </div>
+        </form>
+      </div><!--MODAL LOGIN PAGE END-->
+
+	  <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
+	  <script>
+	  	// Initialize Firebase
+		var config = {
+			apiKey: "AIzaSyD_3ErWcStUSxeYZ1f0hZishFxfefxgcso",
+			authDomain: "captain-plan-it-89d0b.firebaseapp.com",
+			databaseURL: "https://captain-plan-it-89d0b.firebaseio.com",
+			projectId: "captain-plan-it-89d0b",
+			storageBucket: "captain-plan-it-89d0b.appspot.com",
+			messagingSenderId: "1045762209447"
+		};
+		firebase.initializeApp(config);
+	  </script>
+	  
+      <script>
+      // GET THE MODAL
+      var modal = document.getElementById('id01');
+
+      // WHEN THE USER CLICKS ANYWHERE OUTSIDE OF THE MODAL, CLOSE IT
+      window.onclick = function(event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      }
+      </script>
+    </div> <!-- END OF CONTAINER FILL -->
