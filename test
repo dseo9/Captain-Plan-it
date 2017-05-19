@@ -107,3 +107,23 @@
       </div>
     </form>
   </div> -->
+
+
+
+  <div class="col-xs-4 col-md-4 img-responsive">
+    <img src="images/avatar_footer.png"  id="user_icon" alt="User Icon">
+  </div>
+
+  <div class="col-xs-4 col-md-4 img-responsive">
+    <img src="images/register_icons/email_icon.png" id="email_icon" alt="Email Icon">
+  </div>
+
+  <div class="col-xs-4 col-md-4 img-responsive">
+    <img src="images/register_icons/password.png" id="password_icon" alt="Password Icon">
+  </div>
+
+  <div class="col-xs-4 col-md-4 img-responsive">
+    <img src="images/register_icons/password.png" id="password_icon" alt="Password Icon">
+  </div>
+
+  

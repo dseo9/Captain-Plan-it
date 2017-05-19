@@ -27,32 +27,16 @@
 /* resizing icons */
 #user_icon{
   width: 40%;
-  margin-top: 20%;
 }
 #email_icon{
   width: 30%;
-  margin-top: 8%;
 }
 #password_icon{
-width: 30%;
-margin-top: 15%;
+width: 25%;
  }
 
 /* distance between input boxes */
-.input_box{
-  margin-top: 5%;
-}
 
-/* adjusting body */
-.form_body{
-  margin-bottom: 20%;
-}
-.auto_body{
-  height: auto;
-}
-.brdiv{
-    margin-bottom: 3%;
-}
 
 /* formating button */
 .button_register{
@@ -97,4 +81,16 @@ margin-top: 15%;
 #yellow_border{
   border: 2px solid #FFFF00;
   border-radius: 4px;
+}
+
+/* ABOUT US page */
+
+.panel-body {
+  background-color: #000;
+  color: #FFF;
+}
+
+.aff_link {
+  text-decoration: none;
+  color: #00FFFF;
 }
