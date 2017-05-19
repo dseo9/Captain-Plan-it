@@ -54,7 +54,7 @@
             $_SESSION['player_name'] = $userSessions['username'];
             if(isset($_SESSION['player_name']))
             {
-              header("location: ../avatar.php");
+              header("location: ./chooseavatar.php");
             }
           }
           print_r($make_session);
