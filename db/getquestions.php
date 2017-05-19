@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 
 $sql = "SELECT * FROM questions WHERE planetid = $planetid AND level = $level";
 $result = $conn->query($sql);
@@ -12,4 +12,4 @@ if ($result->num_rows > 0) {
   echo "No Question available in the Database";
 }
 
-?>
+?> -->
