@@ -1,4 +1,6 @@
-<?php include'head.php'; ?>
+<?php include_once('head.php'); ?>
+<?php include_once('libs/login_users.php'); ?>
+<?php session_start(); ?>
 
   <body onload="myFunction()" style="margin:0;">
     <div class="container fill" style="margin: auto; max-height: 100%;">
@@ -22,7 +24,14 @@
 
         <div class="row" id="splashscreen2" style="height:14%">
           <div class="col-xs-4 col-xs-offset-4 col-sm-2 col-sm-offset-5 col-md-2 col-md-offset-5 col-lg-2 col-lg-offset-5">
+
+          <?php if(isset($_SESSION['player_name'])) {?>
+              <a href="planets.php">You are already logged in!</a>
+          <?php } else {?>
             <input type="image" src="images/login_navigation.png" onclick="document.getElementById('id01').style.display='block'" style="width:80%;"></button>
+          <?php } ?>
+
+
           </div>
         </div>
 
@@ -39,9 +48,9 @@
         </div>
       </div> <!-- END OF MAIN BODY CONTENT -->
 
-      <!-- MODAL LOGIN PAGE -->
-      <div id="id01" class="modal" style="width:100%; margin: auto;">
-        <form class="modal-content animate" action="avatar.php" style="width:80%;">
+      <!--MODAL LOGIN PAGE -->
+     <div id="id01" class="modal" style="width:100%; margin: auto;">
+        <form class="modal-content animate" action="index.php" method="POST" style="width:80%;">
           <div class="container-fluid">
 
             <label><b>Username</b></label>
@@ -50,7 +59,7 @@
             <label><b>Password</b></label>
             <input type="password" placeholder="Enter Password" name="psw" required>
 
-            <button type="submit">Login</button>
+            <button type="submit" name="login">Login</button>
 
             <input type="checkbox" checked="checked"> Remember me
           </div>
@@ -61,7 +70,7 @@
             <span class="psw">Forgot <a href="#">password?</a></span>
           </div>
         </form>
-      </div><!--MODAL LOGIN PAGE END-->
+      </div><!--MODAL LOGIN PAGE END -->
 
       <script>
       // GET THE MODAL

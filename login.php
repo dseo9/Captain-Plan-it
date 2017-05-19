@@ -1,4 +1,4 @@
-<?php include 'statics/header.php'; ?>
+<?php include_once ('statics/header.php'); ?>
 <?php include_once('libs/login_users.php'); ?>
 
 <div class="row mainbody">
@@ -9,7 +9,7 @@
   </div>
   <div class="row subbody">
     <br>
-    <form action="avatar.php" method="post" class="">
+    <form action="login.php" method="post" class="">
       <div class="form-group">
         <input type="text" placeholder="Enter Username" name="uname" required>
       </div>
@@ -20,14 +20,14 @@
         <label><input type="checkbox" checked="checked"> Remember me </label>
       </div>
 
-      <button type="submit" class="btn btn-default">Login</button>
-      <button type="button" class="btn btn-default">Cancel</button>
+      <button type="submit" name="login">Login</button>
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn btn btn-warning">Cancel</button>
 
       <div class="checkbox">
         <span class="psw">Forgot <a href="#">password?</a></span>
       </div>
       <div class="">
-        <button type="button" class="btn btn-default">I don't have an account yet!</button>
+        <button type="button" onclick="location.href='register.php';" class="cancelbtn btn btn-info">I don't have an account yet!</button>
       </div>
     </form>
 

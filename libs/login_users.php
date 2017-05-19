@@ -10,19 +10,22 @@
   }
   //End Debug Error functions
 
-  include_once('classes/class.ManageUsers.php');
+  include_once('classes/ManageUsers.php');
+  // register = name of the button in register page
   if(isset($_POST['register']))
   {
     session_start();
     $users = new ManageUsers();
 
-    $username = $_POST['username'];
-    $password = $_POST['password'];
-    $repassword = $_POST['repassword'];
+    $username = $_POST['uname'];
+    $password = $_POST['psw'];
+    $repassword = $_POST['psw2'];
     $email = $_POST['email'];
-    $ip_address = $_SERVER['REMOTE_ADDR'];
-    $time = date("Y-m-d");
-    $date = date("H:i:s");
+    $numKeys = 0;
+    $stamps = 0;
+    $date = date("Y-m-d");
+    $time = date("H:i:s");
+    $lastLogin = $date ." ". $time;
 
     if(empty($username) || empty($email) || empty($password) || empty($repassword))
     {
@@ -42,16 +45,16 @@
       if($check_availability == 0)
       {
         $password = password_hash($password, PASSWORD_DEFAULT);
-        $register_user = $users->registerUsers($username, $password, $email, $ip_address, $time, $date);
+        $register_user = $users->registerUsers($username, $password, $email, $numKeys, $stamps, $lastLogin);
         if($register_user == 1)
         {
           $make_session = $users->getUserInfo($username);
           foreach ($make_session as $userSessions)
           {
-            $_SESSION['todo_name'] = $userSessions['username'];
-            if(isset($_SESSION['todo_name']))
+            $_SESSION['player_name'] = $userSessions['username'];
+            if(isset($_SESSION['player_name']))
             {
-              header("location: index.php");
+              header("location: ../avatar.php");
             }
           }
           print_r($make_session);
@@ -63,12 +66,12 @@
       }
     }
   }
-
+// login = name of the button in login page
   if(isset($_POST['login']))
   {
     session_start();
-    $username = $_POST['login_username'];
-    $password = $_POST['login_password'];
+    $username = $_POST['uname'];
+    $password = $_POST['psw'];
 
     if(empty($username) || empty($password))
     {
@@ -85,10 +88,10 @@
 
           foreach ($make_session as $userSessions)
           {
-            $_SESSION['todo_name'] = $userSessions['username'];
-            if(isset($_SESSION['todo_name']))
+            $_SESSION['player_name'] = $userSessions['username'];
+            if(isset($_SESSION['player_name']))
             {
-              header("location: index.php");
+              header("location: planets.php");
             }
           }
           print_r($make_session);

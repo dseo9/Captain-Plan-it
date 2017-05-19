@@ -1,4 +1,5 @@
 <?php include 'statics/header.php'; ?>
+<?php include_once('libs/session.php'); ?>
 
   <div class="row mainbody container-fluid">
     <div class="title_header"><h5>Customize your Avatar</h5></div>
