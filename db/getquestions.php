@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 
 $sql = "SELECT * FROM questions WHERE planetid = $planetid AND level = $level";
 $result = $conn->query($sql);
@@ -16,4 +16,4 @@ if ($result->num_rows > 0) {
   echo "This level is currently in progress";
 }
 
-?>
+?> -->
