@@ -10,16 +10,16 @@
       return $this->link;
     }
 
-    function registerUsers($username, $email, $password, $password, $password,) {
-      $query = $this->link->prepare("INSERT INTO players (username, email, password, password) VALUES (?,?,?,?)");
-      $values = array($username, $email, $password, $password);
+    function registerUsers($username, $password, $email, $numKeys, $stamps, $lastLogin) {
+      $query = $this->link->prepare("INSERT INTO players (username, player_pwd, email, num_keys, stamps, lastLogin) VALUES (?,?,?,?,?,?)");
+      $values = array($username, $password, $email, $numKeys, $stamps, $lastLogin);
       $query->execute($values);
       $counts = $query->rowcount();
       return $counts;
     }
 
     function loginUsers($username, $password) {
-      $db_password = $this->link->query("SELECT password FROM players WHERE username = '$username'")->fetchAll()[0]['password'];
+      $db_password = $this->link->query("SELECT player_pwd FROM players WHERE username = '$username'")->fetchAll()[0]['player_pwd'];
       if (password_verify($password, $db_password))
       {
         $query = $this->link->query("SELECT * FROM players WHERE username = '$username'");

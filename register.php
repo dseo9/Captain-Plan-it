@@ -1,11 +1,12 @@
 <?php include 'statics/header.php'; ?>
+<?php include_once('libs/login_users.php'); ?>
 
   <div class="row mainbody">
     <div class="title_header"><h5>Who are you Hero?</h5></div>
 
     <div class="row subbody container-fluid">
       <div class="col-xs-10 col-xs-offset-1">
-      <form action="chooseavatar.php" method="POST" class="">
+      <form action="register.php" method="POST" class="">
         <!-- <input type="hidden" name="recipients" class="form-control" id="recipient" value="corinne.kakiuchi@gmail.com">
     		<input type="hidden" name="subject" class="form-control" id="subject" value="Message from Captain-Plan_it webapp">
     		<input type="hidden" name="thanks_url" class="form-control" id="redirection" value="./thanks.php"> -->
@@ -42,12 +43,12 @@
             <label for="blue_input"><img src="images/register_icons/password.png" id="password_icon" alt="Password Icon"></label>
           </div>
           <div class="col-sm-12 col-md-10 has-error  input_box">
-            <input type="password" class="form-control" id="blue_input" placeholder="Verify Password" name="psw">
+            <input type="password" class="form-control" id="blue_input" placeholder="Verify Password" name="psw2">
             <span id='cpword_error'></span></br>
           </div>
         </div>
 
-        <button type="submit" class="btn btn-success btn-lg button_register" value="Register">Register</button>
+        <button type="submit" class="btn btn-success btn-lg button_register" value="Register" name="register">Register</button>
 
         <!-- <button type="submit" class="btn btn-success btn-lg button_register" value="Register" onsubmit='return validateRegisterForm()'>Register</button><span id='submit-error'></span>
         <button type="button" class="btn btn-danger btn-lg button_register">Cancel</button>
@@ -58,5 +59,3 @@
       </form>
     </div><!-- ROW SUBBODY END-->
   </div><!-- ROW MAINBODY END-->
-
-<?php include 'statics/footer.php'; ?>
