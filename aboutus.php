@@ -97,6 +97,25 @@
 
       </div> <!-- PANEL AFFILIATES END -->
 
+
+      <!-- Constellations -->
+      <div class="constellations">
+        <div class="col-xs-3" id="constellation1">
+        <img src="./public/images/constellation1.png"  style="height:90%;width:90%;"class="img-responsive center-block" alt="Help">
+        </div>
+        <div class="col-xs-3" id="constellation2">
+        <img src="./public/images/constellation2.png" style="height:90%;width:90%;" class="img-responsive center-block" alt="Help">
+        </div>
+        <div class="col-xs-3" id="constellation3">
+        <img src="./public/images/constellation3.png" style="height:90%;width:90%;" class="img-responsive center-block" alt="Help">
+        </div>
+      <a href="supersecretvideo.php" id="constellation_cp">
+        <div class="col-xs-3" style="cursor:default;">
+        <img src="./public/images/constellation_CP.png" style="height:85%;width:85%;cursor:default;" class="img-responsive center-block" alt="Help">
+        </div>
+      </a>
+      </div> <!-- CONSTELLATIONS END -->
+
     </div> <!-- ROW SUBBODY END -->
   </div> <!-- ROW MAINBODY END -->
 
