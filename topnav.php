@@ -6,7 +6,7 @@
   <div class="col-xs-6" id="logo_navigation">
     <div class="col-xs-2"></div>
     <div class="col-xs-8">
-      <img src="images/cp.png" class="img-responsive center-block" alt="Logo">
+      <a href="index.php"><img src="images/cp.png" class="img-responsive center-block" alt="Logo"></a>
     </div>
     <div class="col-xs-2"></div>
   </div>

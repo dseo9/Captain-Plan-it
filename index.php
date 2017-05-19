@@ -17,7 +17,7 @@
         <div class="row" id="splashscreen2" style="height:49%">
 
           <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
-            <img src="images\cp.gif" alt="Captain Plan-It" class="img-responsive center-block"/>
+            <img src="images\gifs\final_logo.gif" alt="Captain Plan-It" class="img-responsive center-block"/>
           </div>
 
         </div>
