@@ -70,7 +70,13 @@
     <br /><br />
     <div class="row subbody container-fluid">
       <div class="col-xs-3 col-md-offset-1">
-        <img src="images/girl.png" class="img-responsive center-block"/>
+    <div id="canvasDiv"></div>
+    <script type="text/javascript" src="js/female_avatar.js"></script>
+    <script type="text/javascript">
+    	prepareCanvas(document.getElementById("canvasDiv"), 800, 800);
+		document.getElementById("canvasDiv").onmouseover = function() { 
+			wink(); }
+    </script>
       </div>
 
       <div class="col-xs-7">
