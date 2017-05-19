@@ -86,44 +86,5 @@
       }
       return $result;
     }
-
-    function countTodo($username, $label)
-    {
-      $query = $this->link->query("SELECT count(*) AS TOTAL_TODO FROM todo WHERE username = '$username' AND label = '$label'");
-      $query->setFetchMode(PDO::FETCH_OBJ);
-      $counts = $query->fetchAll();
-      return $counts;
-    }
-
-    function editTodo($username, $id, $title, $desc, $progress, $due_date, $label)
-    {
-          $query = $this->link->query("UPDATE todo SET title = '$title', description = '$desc', progress = '$progress', due_date = '$due_date', label = '$label' WHERE username = '$username' AND id = '$id'");
-          $counts = $query->rowCount();
-          return $counts;
-    }
-
-    function deleteTodo($username, $id)
-    {
-      $query = $this->link->query("DELETE FROM todo WHERE username = '$username' AND id='$id'");
-      $counts = $query->rowCount();
-      return $counts;
-    }
-
-    function listIndTodo($param, $username)
-    {
-      foreach ($param as $key => $value) {
-          $query = $this->link->query("SELECT * FROM todo WHERE $key = '$value' AND username = '$username'");
-      }
-      $counts = $query->rowCount();
-      if ($counts == 1)
-      {
-        $result = $query->fetchall();
-      }
-      else
-      {
-          $result = $counts;
-      }
-      return $result;
-    }
   }
 ?>

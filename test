@@ -1,3 +1,15 @@
+//Show errors
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
+function console_log( $data ){
+  echo '<script>';
+  echo 'console.log('. json_encode( $data ) .')';
+  echo '</script>';
+}
+//End Debug Error functions
+
+
 <?php include 'header.php';?>
 
 <div class="row mainbody">
@@ -125,5 +137,3 @@
   <div class="col-xs-4 col-md-4 img-responsive">
     <img src="images/register_icons/password.png" id="password_icon" alt="Password Icon">
   </div>
-
-  

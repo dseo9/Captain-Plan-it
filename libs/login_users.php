@@ -1,14 +1,4 @@
 <?php
-  //Show errors
-  error_reporting(E_ALL);
-  ini_set('display_errors', 1);
-
-  function console_log( $data ){
-    echo '<script>';
-    echo 'console.log('. json_encode( $data ) .')';
-    echo '</script>';
-  }
-  //End Debug Error functions
 
   include_once('classes/ManageUsers.php');
   // register = name of the button in register page

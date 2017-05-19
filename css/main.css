@@ -264,7 +264,7 @@ span.psw {
 
 /*DAIRY PLANET BACKGROUND*/
 #pastryheader {
-  background-image: url('../images/pastry_page/level_bg.png');
+  background-image: url('../images/pastry_page/bread.gif');
   background-color: yellow;
   background-repeat: no-repeat;
   background-position: center;
@@ -278,7 +278,7 @@ span.psw {
 }
 /*DAIRY PLANET BACKGROUND*/
 #meatheader {
-  background-image: url('../images/meat_page/level_bg.png');
+  background-image: url('../images/meat_page/chicken_bite.gif');
   background-color: brown;
   background-repeat: no-repeat;
   background-position: center;
