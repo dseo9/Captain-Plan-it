@@ -23,23 +23,28 @@
   <br><br>
   <!-- ANSWER BUTTONS -->
   <div class="row" id="planets">
-    <div class="col-xs-5 col-xs-offset-1 col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-1 col-lg-5 col-lg-offset-1">
-      <input type="button" value="<?php echo $answers_data[0]['answer']?>" class="btn-group" id="a_dairy">
-    </div>
-    <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
-			<!-- <a href="outrapagina.php?p_answer=<?php echo $answers_data[1]['idAnswer']?>"><?php echo $answers_data[1]['answer']?></a> -->
-      <input type="button" value="<?php echo $answers_data[1]['answer']?>" class="btn-group" id="a_dairy">
-    </div>
-  </div>
+		<form class="" action="index.html" method="post">
 
-  <div class="row" id="planets">
-    <div class="col-xs-5 col-xs-offset-1 col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-1 col-lg-5 col-lg-offset-1">
-      <input type="button" value="<?php echo $answers_data[2]['answer']?>" class="btn-group" id="a_dairy">
-    </div>
-    <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
-      <input type="button" value="<?php echo $answers_data[3]['answer']?>" class="btn-group" id="a_dairy">
-    </div>
-  </div><!-- END OF ANSWER BUTTONS -->
+			<div class="col-xs-5 col-xs-offset-1 col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-1 col-lg-5 col-lg-offset-1">
+				<input type="button" value="<?php echo $answers_data[0]['answer']?>" class="btn-group <?php echo $_GET['btn']; ?>" id="">
+			</div>
+			<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+				<!-- <a href="outrapagina.php?p_answer=<?php echo $answers_data[1]['idAnswer']?>"><?php echo $answers_data[1]['answer']?></a> -->
+				<input type="button" value="<?php echo $answers_data[1]['answer']?>" class="btn-group <?php echo $_GET['btn']; ?>" id="">
+			</div>
+			</div>
+
+			<div class="row" id="planets">
+			<div class="col-xs-5 col-xs-offset-1 col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-1 col-lg-5 col-lg-offset-1">
+				<input type="button" value="<?php echo $answers_data[2]['answer']?>" class="btn-group <?php echo $_GET['btn']; ?>" id="">
+			</div>
+			<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+				<input type="button" value="<?php echo $answers_data[3]['answer']?>" class="btn-group <?php echo $_GET['btn']; ?>" id="">
+			</div>
+			</div><!-- END OF ANSWER BUTTONS -->
+
+		</form>
+
 </div><!-- END OF SUBBODY -->
 
 
