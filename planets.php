@@ -1,4 +1,5 @@
 <?php include 'statics/header.php';?>
+<?php include_once('libs/session.php'); ?>
 <?php  ?>
   <div class="row mainbody ">
     <div class="title_header"><h5>Foodiverse</h5></div>

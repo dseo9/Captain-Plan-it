@@ -1,4 +1,5 @@
 <?php include 'statics/dairyheader.php';?>
+<?php include_once('libs/list_questions.php'); ?>
 
   <!-- make images responsive and link them to other pages-->
   <div class="row mainbody">

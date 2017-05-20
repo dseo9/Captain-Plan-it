@@ -1,5 +1,5 @@
 <?php include 'statics/header.php'; ?>
-<!-- <?php include_once('libs/session.php'); ?> -->
+<?php include_once('libs/session.php'); ?>
 
   <div class="row mainbody">
     <div class="title_header"><h5>Select what hero you are?</h5></div>
