@@ -1,0 +1,155 @@
+/* QUESTIONS PAGE */
+
+/* DAIRY DOME - Q/A*/
+#q_dairy {
+  background-color: white;
+  width: 100%;
+  font-size: 24px;
+  font-weight: bold;
+  border: solid black 5px;
+  margin: auto;
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  border-radius: 30px;
+}
+
+.a_dairy {
+  width: 100%;
+  height: 75%;
+  border: none;
+  color: white;
+  background-color: black;
+  font-weight: bold;
+  cursor: pointer;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  box-shadow: 0 9px white;
+}
+
+/* PASTRY PALACE - Q/A*/
+#q_bread {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+  background-color: gold;
+  width: 100%;
+  border: solid orange 5px;
+  margin: auto;
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  border-radius: 30px;
+}
+
+.a_bread {
+  width: 100%;
+  height: 75%;
+  color: white;
+  background-color: orange;
+  font-weight: bold;
+  cursor: pointer;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+  box-shadow: 0 9px gold;
+}
+
+/* FRUIT FORTRESS - Q/A */
+#q_fruit {
+  color: lightgreen;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+  background-color: red;
+  width: 100%;
+  border: solid green 5px;
+  margin: auto;
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  border-radius: 30px;
+}
+
+.a_fruit {
+  width: 100%;
+  height: 75%;
+  color: lightgreen;
+  background-color: red;
+  font-weight: bold;
+  cursor: pointer;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+  box-shadow: 0 9px green;
+}
+
+/* MEAT MANSION - Q/A */
+#q_meat {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+  background-color: pink;
+  width: 100%;
+  border: solid red 5px;
+  margin: auto;
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  border-radius: 30px;
+}
+
+.a_meat {
+  width: 100%;
+  height: 75%;
+  color: white;
+  background-color: pink;
+  font-weight: bold;
+  cursor: pointer;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+  box-shadow: 0 9px red;
+}
+
+/* BUTTON STYLES FOR QUESTIONS PAGES */
+.btn-group {
+  display: inline-block;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+}
+
+.btn-group:hover {background-color: #3e8e41}
+
+.a_dairy:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#a_bread:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#a_fruit:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#a_meat:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/* END OF QUESTIONS PAGE */
