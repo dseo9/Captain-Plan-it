@@ -2,8 +2,8 @@
   class dbConnection {
     protected $db_conn;
     public $db_name = 'db_captain';
-    public $db_user = 'admin';
-    public $db_pass = 'pass';
+    public $db_user = 'root';
+    public $db_pass = 'root';
     public $db_host = 'localhost';
 
     // protected $db_conn;
