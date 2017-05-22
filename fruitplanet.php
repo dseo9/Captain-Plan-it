@@ -1,4 +1,4 @@
-<?php include 'statics/meatheader.php';?>
+<?php include_once("statics/".$_GET['bg']); ?>
 <?php include_once('libs/list_questions.php'); ?>
 
   <!-- make images responsive and link them to other pages-->

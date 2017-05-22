@@ -12,9 +12,18 @@
 		<br/>
 
 		<!-- INSTRUCTIONS -->
+		return
 		<div id="instructions">
-      <p>There are 3 wrong answers and 1 right one! Choose the right answer!</p>
+      <?php
+				if ($result_ans == "Right answer") {
+					echo $result_ans;
+					header("refresh:2; url=fruitplanet.php?p_name=".$_GET['planet']."&bg=".$_GET['bg'], true, 303);
+				} else {
+					echo $result_ans;
+				}
+			?>
     </div>
+		<br/>
 	<!-- END OF INSTRUCTIONS -->
 
 <!-- QUESTIONS AREA FOR THE LEVEL -->
@@ -53,7 +62,6 @@
 		</form>
 
 </div><!-- END OF SUBBODY -->
-
 
 </div>
 <?php include 'statics/footer.php';?>

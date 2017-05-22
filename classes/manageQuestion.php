@@ -4,11 +4,13 @@
   class ManageQuestion {
     public $link;
 
+
     function __construct() {
       $db_connection = new dbConnection();
       $this->link = $db_connection->connect();
       return $this->link;
     }
+
 
     function createQuestion($username, $level, $planet, $game)
     {
@@ -18,6 +20,7 @@
       $counts = $query->rowCount();
       return $counts;
     }
+
 
     function getPlanetID($planet_name)
     {
@@ -35,6 +38,7 @@
       return $result;
     }
 
+
     function getAnswers($question_id)
     {
       $query = $this->link->query("SELECT * FROM answers WHERE idQuestion='$question_id'");
@@ -51,7 +55,7 @@
       return $result;
     }
 
-    // to check if the answer is write
+    // to check if the answer is right
     function checkAnswer($answer, $id_question)
     {
         $query = $this->link->query("SELECT correct FROM Answers WHERE answer='$answer' AND idQuestion='$id_question'");
@@ -68,7 +72,7 @@
         return $result;
     }
 
-    
+
 
     function showQuestion($idPlanet)
     {
