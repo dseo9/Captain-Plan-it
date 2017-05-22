@@ -9,28 +9,28 @@
     <div class="row subbody container-fluid">
       <div class="row">
         <div class="col-xs-4 col-sm-3 col-md-2 col-md-offset-1 col-lg-2 col-lg-offset-1 ">
-          <a href="questions.php?id_question=<?php echo $level[0]['idQuestion']; ?>&planet=<?php echo $_GET['p_name']; ?>&bg=fruitheader.php&btn=a_fruit"><img src="images\fruit_page\level_1.png" alt="level 1" class="img-responsive center-block"/></a>
+          <a href="questions.php?id_question=<?php echo $level[0]['idQuestion']; ?>&planet=<?php echo $_GET['p_name']; ?>&bg=fruitheader.php&btn=a_fruit&lv=1"><img src="images\fruit_page\level_1.png" alt="level 1" class="img-responsive center-block"/></a>
         </div>
         <div class="col-xs-4 col-xs-offset-4 col-sm-3 col-sm-offset-6 col-md-2 col-md-offset-6 col-lg-2 col-lg-offset-6">
-          <a href="questions.php?id_question=<?php echo $level[5]['idQuestion']; ?>&planet=<?php echo $_GET['p_name']; ?>&bg=fruitheader.php&btn=a_fruit"><img src="images\fruit_page\level_4.png" alt="level 4" class="img-responsive center-block"/></a>
+          <a href="questions.php?id_question=<?php echo $level[5]['idQuestion']; ?>&planet=<?php echo $_GET['p_name']; ?>&bg=fruitheader.php&btn=a_fruit&lv=4"><img src="images\fruit_page\level_4.png" alt="level 4" class="img-responsive center-block"/></a>
         </div>
       </div>
 
       <div class="row">
         <div class="col-xs-4 col-sm-3 col-md-2 col-lg-2">
-          <a href="questions.php?id_question=<?php echo $level[1]['idQuestion']; ?>&planet=<?php echo $_GET['p_name']; ?>&bg=fruitheader.php&btn=a_fruit"><img src="images\fruit_page\level_2.png" alt="level 2" class="img-responsive center-block"/></a>
+          <a href="questions.php?id_question=<?php echo $level[1]['idQuestion']; ?>&planet=<?php echo $_GET['p_name']; ?>&bg=fruitheader.php&btn=a_fruit&lv=2"><img src="images\fruit_page\level_2.png" alt="level 2" class="img-responsive center-block"/></a>
         </div>
         <div class="col-xs-4 col-xs-offset-4 col-sm-3 col-sm-offset-6 col-md-2 col-md-offset-8 col-lg-2 col-lg-offset-8">
-          <a href="questions.php?id_question=<?php echo $level[6]['idQuestion']; ?>&planet=<?php echo $_GET['p_name']; ?>&bg=fruitheader.php&btn=a_fruit"><img src="images\fruit_page\level_5.png" alt="level 5" class="img-responsive center-block"/></a>
+          <a href="questions.php?id_question=<?php echo $level[6]['idQuestion']; ?>&planet=<?php echo $_GET['p_name']; ?>&bg=fruitheader.php&btn=a_fruit&lv=5"><img src="images\fruit_page\level_5.png" alt="level 5" class="img-responsive center-block"/></a>
         </div>
       </div>
 
       <div class="row">
         <div class="col-xs-4 col-sm-3 col-md-2 col-md-offset-1 col-lg-2 col-lg-offset-1 ">
-          <a href="questions.php?id_question=<?php echo $level[2]['idQuestion']; ?>&planet=<?php echo $_GET['p_name']; ?>&bg=fruitheader.php&btn=a_fruit"><img src="images\fruit_page\level_3.png" alt="level 3" class="img-responsive center-block"/></a>
+          <a href="questions.php?id_question=<?php echo $level[2]['idQuestion']; ?>&planet=<?php echo $_GET['p_name']; ?>&bg=fruitheader.php&btn=a_fruit&lv=3"><img src="images\fruit_page\level_3.png" alt="level 3" class="img-responsive center-block"/></a>
         </div>
         <div class="col-xs-4 col-xs-offset-4 col-sm-3 col-sm-offset-6 col-md-2 col-md-offset-6 col-lg-2 col-lg-offset-6">
-          <a href="questions.php?id_question=<?php echo $level[7]['idQuestion']; ?>&planet=<?php echo $_GET['p_name']; ?>&bg=fruitheader.php&btn=a_fruit"><img src="images\fruit_page\level_key.png" alt="key level" class="img-responsive center-block"/></a>
+          <a href="questions.php?id_question=<?php echo $level[7]['idQuestion']; ?>&planet=<?php echo $_GET['p_name']; ?>&bg=fruitheader.php&btn=a_fruit&lv=key"><img src="images\fruit_page\level_key.png" alt="key level" class="img-responsive center-block"/></a>
         </div>
       </div>
 

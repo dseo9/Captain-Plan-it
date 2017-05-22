@@ -69,6 +69,7 @@
       return $result;
     }
 
+    // to check if the answer is write
     function checkAnswer($answer, $id_question)
     {
         $query = $this->link->query("SELECT correct FROM Answers WHERE answer='$answer' AND idQuestion='$id_question'");

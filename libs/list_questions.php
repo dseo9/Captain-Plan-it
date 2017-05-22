@@ -26,15 +26,16 @@
     $answers_data = $init->getAnswers($_GET['id_question']);
   }
 
+
   // verify the correct answer
   if(isset($_POST['submit_btn']))
   {
     $response = $init->checkAnswer($_POST['submit_btn'], $_GET['id_question']);
     // print_r($response);
     if($response[0]['correct'] == 1){
-        // echo "Voce acertou FDPTA";
+         echo "You are write!";
     } else {
-        // echo "Ta errado seu jumento";
+         echo "Wrong answer";
     }
 
   }

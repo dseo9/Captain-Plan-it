@@ -5,7 +5,7 @@
 
 	<!-- TITLE OF THE LEVEL AT THE TOP -->
 
-		<div class="title_header"><h5><?php echo $_GET['planet']; ?></h5></div>
+		<div class="title_header"><h5><?php echo $_GET['planet']." "."Level ". $_GET['lv']; ?></h5></div>
 		<!-- END OF TITLE -->
 		<?php   // print_r($answers_data); ?>
 		<br/><br>
