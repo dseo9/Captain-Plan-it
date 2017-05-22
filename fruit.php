@@ -1,5 +1,4 @@
 <?php include 'statics/fruitheader.php';?>
-<?php include_once('libs/list_questions.php'); ?>
 
   <!-- make images responsive and link them to other pages-->
   <div class="row mainbody">

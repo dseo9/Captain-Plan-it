@@ -137,3 +137,20 @@ function console_log( $data ){
   <div class="col-xs-4 col-md-4 img-responsive">
     <img src="images/register_icons/password.png" id="password_icon" alt="Password Icon">
   </div>
+
+
+
+
+  index.php
+  <?php include_once('libs/login_users.php'); ?>
+  <?php session_start(); ?>
+
+  stampboard<?php include_once('libs/session.php'); ?>
+
+  avatar.php
+  <?php include_once('libs/session.php'); ?>
+
+chooseavatar.php
+<?php include_once('libs/session.php'); ?>
+
+fruit.php
