@@ -1,5 +1,7 @@
 <?php
 
+  $result_ans = "<p>There are 3 wrong answers and 1 right one! Choose the right answer!</p>";
+
   include_once('classes/ManageQuestion.php');
   include_once('session.php');
   $init = new ManageQuestion();
@@ -24,6 +26,7 @@
   if(isset($_GET['id_question']))
   {
     $answers_data = $init->getAnswers($_GET['id_question']);
+    shuffle($answers_data);
   }
 
 
@@ -33,11 +36,12 @@
     $response = $init->checkAnswer($_POST['submit_btn'], $_GET['id_question']);
     // print_r($response);
     if($response[0]['correct'] == 1){
-         echo "You are write!";
+        $result_ans = "Right answer";
     } else {
-         echo "Wrong answer";
+        $result_ans = "Wrong answer";
     }
 
   }
+
 
  ?>
