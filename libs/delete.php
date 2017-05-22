@@ -12,7 +12,7 @@
     }
     else
     {
-        $error = 'Sorry there was an error';
+      $error = 'Sorry there was an error';
     }
   }
  ?>

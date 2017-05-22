@@ -42,26 +42,28 @@
   <div class="row" id="planets">
 		<form method="post">
 
+			<!-- assign buttons with random array value from database -->
+			<!-- button 1 -->
 			<div class="col-xs-5 col-xs-offset-1 col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-1 col-lg-5 col-lg-offset-1">
 				<input type="submit" name="submit_btn" value="<?php echo $answers_data[0]['answer']?>" class="btn-group <?php echo $_GET['btn']; ?>" id="">
 			</div>
+			<!-- button 2 -->
 			<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
-				<!-- <a href="outrapagina.php?p_answer=<?php echo $answers_data[1]['idAnswer']?>"><?php echo $answers_data[1]['answer']?></a> -->
 				<input type="submit" name="submit_btn" value="<?php echo $answers_data[1]['answer']?>" class="btn-group <?php echo $_GET['btn']; ?>" id="">
 			</div>
-			</div>
-
-			<div class="row" id="planets">
+	</div>
+	<div class="row" id="planets">
+			<!-- button 3 -->
 			<div class="col-xs-5 col-xs-offset-1 col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-1 col-lg-5 col-lg-offset-1">
 				<input type="submit" name="submit_btn" value="<?php echo $answers_data[2]['answer']?>" class="btn-group <?php echo $_GET['btn']; ?>" id="">
 			</div>
+			<!-- button 4 -->
 			<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
 				<input type="submit" name="submit_btn" value="<?php echo $answers_data[3]['answer']?>" class="btn-group <?php echo $_GET['btn']; ?>" id="">
 			</div>
 			</div><!-- END OF ANSWER BUTTONS -->
 
 		</form>
-
 </div><!-- END OF SUBBODY -->
 
 </div>

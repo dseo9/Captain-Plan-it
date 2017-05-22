@@ -1,5 +1,4 @@
 <?php include_once 'classes/database.php';?>
-<?php include_once 'db/connect.php';?>
 <!-- Planet IDs 1 dairy dome 2 meat mansion 3 fruit fortress 4 pastry palace -->
 
 <!DOCTYPE html>

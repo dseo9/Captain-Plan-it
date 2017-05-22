@@ -4,7 +4,8 @@
   <!-- make images responsive and link them to other pages-->
   <div class="row mainbody">
     <div class="title_header"><h5>Meat Mansion</h5></div>
-    <br/>
+    <br/><br/>
+
 
     <div class="row subbody container-fluid">
       <div class="row">
@@ -35,13 +36,6 @@
       </div>
 
     </div> <!-- ROW SUBBODY END -->
-
-    <!-- JOKE FLAVOUR TEXT -->
-    <div id="meat_joke">
-    <p>Nice to meat you!</p>
-    </div>
-    <!-- END OF FLAVOUR TEXT -->
-
   </div> <!-- ROW MAINBODY END -->
 
 <?php include 'statics/footer.php' ;?>
