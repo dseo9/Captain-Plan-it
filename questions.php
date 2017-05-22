@@ -15,7 +15,7 @@
 		<div id="instructions">
       <p>There are 3 wrong answers and 1 right one! Choose the right answer!</p>
     </div>
-	<!-- END OF INSTRUCTIONS -->
+		<!-- END OF INSTRUCTIONS -->
 
 <!-- QUESTIONS AREA FOR THE LEVEL -->
 <div class="row subbody container-fluid">
@@ -53,7 +53,6 @@
 		</form>
 
 </div><!-- END OF SUBBODY -->
-
 
 </div>
 <?php include 'statics/footer.php';?>

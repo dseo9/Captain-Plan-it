@@ -4,7 +4,7 @@
   <!-- make images responsive and link them to other pages-->
   <div class="row mainbody">
     <div class="title_header"><h5>Dairy Dome</h5></div>
-    <br/><br/>
+    <br/>
 
     <div class="row subbody container-fluid">
       <div class="row">
@@ -35,6 +35,13 @@
       </div>
 
     </div> <!-- ROW SUBBODY END -->
+
+    <!-- JOKE FLAVOUR TEXT -->
+		<div id="dairy_joke">
+		<p>Have an a-moo-zing time!</p>
+		</div>
+		<!-- END OF FLAVOUR TEXT -->
+
   </div> <!-- ROW MAINBODY END -->
 
 <?php include 'statics/footer.php' ;?>
