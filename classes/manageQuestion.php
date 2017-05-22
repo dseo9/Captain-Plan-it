@@ -51,6 +51,25 @@
       return $result;
     }
 
+    // to check if the answer is write
+    function checkAnswer($answer, $id_question)
+    {
+        $query = $this->link->query("SELECT correct FROM Answers WHERE answer='$answer' AND idQuestion='$id_question'");
+        $counts = $query->rowCount();
+
+        if($counts >= 1)
+        {
+          $result = $query->fetchAll();
+        }
+        else
+        {
+          $result = $counts;
+        }
+        return $result;
+    }
+
+    
+
     function showQuestion($idPlanet)
     {
         // $query = $this->link->query("SELECT Question FROM level l, planets p, questions q WHERE p.idPlanet=l.idPlanet AND l.idQuestion=q.idQuestion AND p.idPlanet = '$id_planet'");
@@ -69,22 +88,7 @@
       return $result;
     }
 
-    // to check if the answer is write
-    function checkAnswer($answer, $id_question)
-    {
-        $query = $this->link->query("SELECT correct FROM Answers WHERE answer='$answer' AND idQuestion='$id_question'");
-        $counts = $query->rowCount();
 
-        if($counts >= 1)
-        {
-          $result = $query->fetchAll();
-        }
-        else
-        {
-          $result = $counts;
-        }
-        return $result;
-    }
 
     function getQuestion($id_question)
     {
