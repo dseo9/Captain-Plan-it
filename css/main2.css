@@ -1,5 +1,12 @@
 /* QUESTIONS PAGE */
 
+/* INSTRUCTIONS */
+#instructions {
+  text-align: center;
+  color: white;
+  background-color: green;
+}
+
 /* DAIRY DOME - Q/A*/
 #q_dairy {
   background-color: white;

@@ -8,7 +8,14 @@
 		<div class="title_header"><h5><?php echo $_GET['planet']." "."Level ". $_GET['lv']; ?></h5></div>
 		<!-- END OF TITLE -->
 		<?php   // print_r($answers_data); ?>
-		<br/><br>
+
+		<br/>
+
+		<!-- INSTRUCTIONS -->
+		<div id="instructions">
+      <p>There are 3 wrong answers and 1 right one! Choose the right answer!</p>
+    </div>
+	<!-- END OF INSTRUCTIONS -->
 
 <!-- QUESTIONS AREA FOR THE LEVEL -->
 <div class="row subbody container-fluid">
