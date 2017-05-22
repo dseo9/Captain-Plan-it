@@ -6,6 +6,30 @@
   color: white;
   background-color: green;
 }
+/* FLAVOUR TEXT */
+#dairy_joke {
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+#fruit_joke {
+  text-align: center;
+  color: white;
+  background-color: darkred;
+}
+
+#meat_joke {
+  text-align: center;
+  color: black;
+  background-color: #ffff80;
+}
+
+#pastry_joke {
+  text-align: center;
+  color: black;
+  background-color: #F4A460;
+}
 
 /* DAIRY DOME - Q/A*/
 #q_dairy {
