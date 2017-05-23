@@ -7,9 +7,6 @@
     <div class="row subbody container-fluid">
       <div class="col-xs-10 col-xs-offset-1">
       <form action="register.php" method="POST" class="">
-        <!-- <input type="hidden" name="recipients" class="form-control" id="recipient" value="corinne.kakiuchi@gmail.com">
-    		<input type="hidden" name="subject" class="form-control" id="subject" value="Message from Captain-Plan_it webapp">
-    		<input type="hidden" name="thanks_url" class="form-control" id="redirection" value="./thanks.php"> -->
 
         <div class="row">
           <div class="col-sm-6 col-md-2 img-responsive">
