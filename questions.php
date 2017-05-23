@@ -1,70 +1,69 @@
 <?php include_once("statics/".$_GET['bg']); ?>
+<?php include_once('topnav.php'); ?>
 <?php include_once('libs/list_questions.php'); ?>
 
 	<div class="row mainbody">
 
-	<!-- TITLE OF THE LEVEL AT THE TOP -->
-
-		<div class="title_header"><h5><?php echo $_GET['planet']." "."Level ". $_GET['lv']; ?></h5></div>
-		<!-- END OF TITLE -->
-		<?php   // print_r($answers_data); ?>
+		<!-- TITLE OF THE LEVEL AT THE TOP -->
+		<div class="title_header">
+			<h5><?php echo $_GET['p_name']." "."Level ". $_GET['lv']; ?></h5>
+		</div>
 
 		<br/>
-
+		<div class="row subbody container-fluid">
 		<!-- INSTRUCTIONS -->
-
 		<div id="instructions">
       <?php
 				if ($result_ans == "Right answer") {
-					echo $result_ans;
-					header("refresh:2; url=fruitplanet.php?p_name=".$_GET['planet']."&bg=".$_GET['bg'], true, 303);
+					echo "<p>".$result_ans."</p>";
+					header("refresh:2; url=fruitplanet.php?p_name=".$_GET['p_name']."&bg=".$_GET['bg']."&page=".$_GET['page'], true, 303);
 				} else {
-					echo $result_ans;
+					echo "<p>".$result_ans."</p>";
 				}
 			?>
-    </div>
+    </div><!-- END OF INSTRUCTIONS -->
 
-		<!-- END OF INSTRUCTIONS -->
 		<br/>
 
-<!-- QUESTIONS AREA FOR THE LEVEL -->
-<div class="row subbody container-fluid">
-  <div class="row">
-    <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
-      <div class="well well-md">
-        <p style="text-align:center;"><?php echo $question ?></p>
-      </div>
-    </div><!-- END OF COL DIV -->
-  </div><!-- END OF QUESTIONS AREA -->
+			<!-- QUESTIONS AREA FOR THE LEVEL -->
+		  <div class="row">
+		    <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+		      <div class="well well-md">
+		        <p style="text-align:center;"><?php echo $question; ?></p>
+		      </div>
+		    </div><!-- END OF COL DIV -->
+		  </div><!-- END OF QUESTIONS AREA -->
 
-  <br><br>
-  <!-- ANSWER BUTTONS -->
-  <div class="row" id="planets">
-		<form method="post">
+		  <br><br>
+		  <!-- ANSWER BUTTONS -->
+		  <div class="row" id="planets">
+				<form method="post">
 
-			<!-- assign buttons with random array value from database -->
-			<!-- button 1 -->
-			<div class="col-xs-5 col-xs-offset-1 col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-1 col-lg-5 col-lg-offset-1">
-				<input type="submit" name="submit_btn" value="<?php echo $answers_data[0]['answer']?>" class="btn-group <?php echo $_GET['btn']; ?>" id="">
+					<!-- assign buttons with random array value from database -->
+					<!-- button 1 -->
+					<div class="col-xs-5 col-xs-offset-1 col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-1 col-lg-5 col-lg-offset-1">
+						<input type="submit" name="submit_btn" value="<?php echo $answers_data[0]['answer']?>" class="btn-group <?php echo $_GET['btn']; ?>" id="">
+					</div>
+					<!-- button 2 -->
+					<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+						<input type="submit" name="submit_btn" value="<?php echo $answers_data[1]['answer']?>" class="btn-group <?php echo $_GET['btn']; ?>" id="">
+					</div>
 			</div>
-			<!-- button 2 -->
-			<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
-				<input type="submit" name="submit_btn" value="<?php echo $answers_data[1]['answer']?>" class="btn-group <?php echo $_GET['btn']; ?>" id="">
-			</div>
-	</div>
-	<div class="row" id="planets">
-			<!-- button 3 -->
-			<div class="col-xs-5 col-xs-offset-1 col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-1 col-lg-5 col-lg-offset-1">
-				<input type="submit" name="submit_btn" value="<?php echo $answers_data[2]['answer']?>" class="btn-group <?php echo $_GET['btn']; ?>" id="">
-			</div>
-			<!-- button 4 -->
-			<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
-				<input type="submit" name="submit_btn" value="<?php echo $answers_data[3]['answer']?>" class="btn-group <?php echo $_GET['btn']; ?>" id="">
-			</div>
+			<div class="row" id="planets">
+					<!-- button 3 -->
+					<div class="col-xs-5 col-xs-offset-1 col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-1 col-lg-5 col-lg-offset-1">
+						<input type="submit" name="submit_btn" value="<?php echo $answers_data[2]['answer']?>" class="btn-group <?php echo $_GET['btn']; ?>" id="">
+					</div>
+					<!-- button 4 -->
+					<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+						<input type="submit" name="submit_btn" value="<?php echo $answers_data[3]['answer']?>" class="btn-group <?php echo $_GET['btn']; ?>" id="">
+					</div>
 			</div><!-- END OF ANSWER BUTTONS -->
 
-		</form>
-</div><!-- END OF SUBBODY -->
+				</form>
+		</div><!-- END OF SUBBODY -->
+	</div><!-- END OF MAINBODY -->
 
-</div>
-<?php include 'statics/footer.php';?>
+
+
+<?php include_once('statics/footer.php'); ?>
