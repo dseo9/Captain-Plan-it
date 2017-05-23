@@ -29,19 +29,17 @@
     shuffle($answers_data);
   }
 
-
   // verify the correct answer
-  if(isset($_POST['submit_btn']))
-  {
+  if(isset($_POST['submit_btn'])) {
     $response = $init->checkAnswer($_POST['submit_btn'], $_GET['id_question']);
     // print_r($response);
     if($response[0]['correct'] == 1){
-        $result_ans = "Right answer";
+      $result_ans = "Right answer";
     } else {
-        $result_ans = "Wrong answer";
+      $result_ans = "Wrong answer";
     }
-
   }
+
 
 
  ?>

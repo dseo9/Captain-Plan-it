@@ -38,4 +38,4 @@
     </div> <!-- ROW SUBBODY END -->
   </div> <!-- ROW MAINBODY END -->
 
-<?php include 'statics/footer.php' ;?>
+<?php include_once ('statics/footer.php') ;?>
