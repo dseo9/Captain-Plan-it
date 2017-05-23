@@ -2,5 +2,4 @@
 
   <body>
     <div class="container fill">
-
-      <?php include 'topnav.php'?>
+      <?php include_once('topnav.php'); ?>
