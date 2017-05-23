@@ -133,7 +133,9 @@
   border-radius: 15px;
 }
 
-.btn-group:hover {background-color: #3e8e41}
+.btn-group:hover {
+  background-color: #3e8e41
+}
 
 #a_dairy:active {
   background-color: #3e8e41;
@@ -167,3 +169,23 @@
 }
 
 /* END OF QUESTIONS PAGE */
+
+/* AVATAR PAGE */
+.key_icon {
+  background-color: lightblue;	
+}
+
+.key_quantity {
+  background-color: white;
+}
+
+.btn-success {
+  background-color: green;
+  text-decoration: none;
+  text-outline: none;
+  text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+}
+
+.btn-success:active {
+  background-color: darkgreen;
+}
