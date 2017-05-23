@@ -33,6 +33,7 @@
 
     <script src="js/script.js"></script>
 
+	
     <!-- Custom styles for this template -->
     <link href="css/main.css" rel="stylesheet" media="screen">
     <link href="css/main2.css" rel="stylesheet" media="screen">
@@ -80,8 +81,14 @@
           </div>
         </a>
         <a href="avatar.html">
-          <div class="col-xs-4" style="border: 1px solid black;">
-            <img src="images/girl.png" class="img-responsive center-block"/>
+          <div class="col-xs-4 col-xs-offset-2" style="border: 1px solid black; width:50%; height:50%;">
+          <div id="canvasDiv"></div>
+    <script type="text/javascript" src="js/female_avatar.js"></script>
+    <script type="text/javascript">
+    	prepareCanvas(document.getElementById("canvasDiv"), 400, 400);
+		document.getElementById("canvasDiv").onmouseover = function() { 
+			wink(); }
+    </script>
           </div>
         </a>
       </div>

@@ -11,7 +11,7 @@
     }
 
     function registerUsers($username, $password, $email, $numKeys, $stamps, $lastLogin) {
-      $query = $this->link->prepare("INSERT INTO players (username, player_pwd, email, num_keys, stamps, lastLogin) VALUES (?,?,?,?,?,?)");
+      $query = $this->link->prepare("INSERT INTO Players (username, player_pwd, email, num_keys, stamps, lastLogin) VALUES (?,?,?,?,?,?)");
       $values = array($username, $password, $email, $numKeys, $stamps, $lastLogin);
       $query->execute($values);
       $counts = $query->rowcount();
@@ -19,10 +19,10 @@
     }
 
     function loginUsers($username, $password) {
-      $db_password = $this->link->query("SELECT player_pwd FROM players WHERE username = '$username'")->fetchAll()[0]['player_pwd'];
+      $db_password = $this->link->query("SELECT player_pwd FROM Players WHERE username = '$username'")->fetchAll()[0]['player_pwd'];
       if (password_verify($password, $db_password))
       {
-        $query = $this->link->query("SELECT * FROM players WHERE username = '$username'");
+        $query = $this->link->query("SELECT * FROM Players WHERE username = '$username'");
         $rowcount = $query->rowCount();
         return $rowcount;
       }
@@ -30,7 +30,7 @@
     }
 
     function getUserInfo($username) {
-      $query = $this->link->query("SELECT * FROM players WHERE username = '$username'");
+      $query = $this->link->query("SELECT * FROM Players WHERE username = '$username'");
       $rowcount = $query->rowCount();
       if($rowcount == 1) {
         $result = $query->fetchAll();

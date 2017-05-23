@@ -1,3 +1,15 @@
+//Show errors
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
+function console_log( $data ){
+  echo '<script>';
+  echo 'console.log('. json_encode( $data ) .')';
+  echo '</script>';
+}
+//End Debug Error functions
+
+
 <?php include 'header.php';?>
 
 <div class="row mainbody">
@@ -126,4 +138,19 @@
     <img src="images/register_icons/password.png" id="password_icon" alt="Password Icon">
   </div>
 
-  
+
+
+
+  index.php
+  <?php include_once('libs/login_users.php'); ?>
+  <?php session_start(); ?>
+
+  stampboard<?php include_once('libs/session.php'); ?>
+
+  avatar.php
+  <?php include_once('libs/session.php'); ?>
+
+chooseavatar.php
+<?php include_once('libs/session.php'); ?>
+
+fruit.php

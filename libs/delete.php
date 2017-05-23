@@ -1,9 +1,6 @@
 <?php
 
-  // include_once('classes/class.ManageTodo.php');
   include_once('libs/session.php');
-
-  // $init = new ManageTodo();
 
   if(isset($_GET['delete']))
   {
@@ -15,7 +12,7 @@
     }
     else
     {
-        $error = 'Sorry there was an error';
+      $error = 'Sorry there was an error';
     }
   }
  ?>

@@ -1,37 +1,12 @@
 <?php
-  //Show errors
-  error_reporting(E_ALL);
-  ini_set('display_errors', 1);
 
-  function console_log( $data ){
-    echo '<script>';
-    echo 'console.log('. json_encode( $data ) .')';
-    echo '</script>';
-  }
-  //End Debug Error functions
+  $result_ans = "<p>There are 3 wrong answers and 1 right one! Choose the right answer!</p>";
 
   include_once('classes/ManageQuestion.php');
   include_once('session.php');
   $init = new ManageQuestion();
 
-  // if(isset($_GET['id']))
-  // {
-  //   $id = $_GET['id'];
-  //   $list_todo = $init->listIndTodo(array('id'=>$id), $session_name);
-  // }
-  // else
-  // {
-  //   if(isset($_GET['label']))
-  //   {
-  //     $label = $_GET['label'];
-  //     $list_todo = $init->listTodo($session_name, $label);
-  //   }
-  //   else
-  //   {
-  //     $list_todo = $init->listTodo($session_name);
-  //   }
-  // }
-
+  // get the planet name and planet id
   if(isset($_GET['p_name']))
   {
     $id_planet = $init->getPlanetID($_GET['p_name'])[0]['idPlanet'];
@@ -39,19 +14,32 @@
     // print_r($level[0]['idQuestion']);
   }
 
+  // show the question
   if(isset($_GET['id_question']))
   {
     $question = $init->getQuestion($_GET['id_question'])[0]['Question'];
     // $level = $init->showQuestion($id_planet);
     // print_r($level[0]['idQuestion']);
   }
+
+  // show the answers for each question
   if(isset($_GET['id_question']))
   {
     $answers_data = $init->getAnswers($_GET['id_question']);
+    shuffle($answers_data);
   }
 
-  // if(isset($_GET['']))
-  // {
-  //
-  // }
+  // verify the correct answer
+  if(isset($_POST['submit_btn'])) {
+    $response = $init->checkAnswer($_POST['submit_btn'], $_GET['id_question']);
+    // print_r($response);
+    if($response[0]['correct'] == 1){
+      $result_ans = "Right answer";
+    } else {
+      $result_ans = "Wrong answer";
+    }
+  }
+
+
+
  ?>

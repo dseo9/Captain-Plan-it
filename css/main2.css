@@ -1,5 +1,36 @@
 /* QUESTIONS PAGE */
 
+/* INSTRUCTIONS */
+#instructions {
+  text-align: center;
+  color: white;
+  background-color: green;
+}
+/* FLAVOUR TEXT */
+#dairy_joke {
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+#fruit_joke {
+  text-align: center;
+  color: white;
+  background-color: darkred;
+}
+
+#meat_joke {
+  text-align: center;
+  color: black;
+  background-color: #ffff80;
+}
+
+#pastry_joke {
+  text-align: center;
+  color: black;
+  background-color: #F4A460;
+}
+
 /* DAIRY DOME - Q/A*/
 #q_dairy {
   background-color: white;
@@ -14,7 +45,7 @@
   border-radius: 30px;
 }
 
-#a_dairy {
+.a_dairy {
   width: 100%;
   height: 75%;
   border: none;
@@ -43,7 +74,7 @@
   border-radius: 30px;
 }
 
-#a_bread {
+.a_bread {
   width: 100%;
   height: 75%;
   color: white;
@@ -72,7 +103,7 @@
   border-radius: 30px;
 }
 
-#a_fruit {
+.a_fruit {
   width: 100%;
   height: 75%;
   color: lightgreen;
@@ -101,7 +132,7 @@
   border-radius: 30px;
 }
 
-#a_meat {
+.a_meat {
   width: 100%;
   height: 75%;
   color: white;
@@ -128,7 +159,7 @@
 
 .btn-group:hover {background-color: #3e8e41}
 
-#a_dairy:active {
+.a_dairy:active {
   background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
