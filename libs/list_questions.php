@@ -6,6 +6,7 @@
   include_once('session.php');
   $init = new ManageQuestion();
 
+
   // get the planet name and planet id
   if(isset($_GET['p_name']))
   {
