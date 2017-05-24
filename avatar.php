@@ -55,6 +55,16 @@
             <button type="button" class="btn btn-primary btn-lg btn-block" id="accessory"><p>ACCESSORY</p></button>
           </div>
         </div>
+		
+		<div class="form-group row">
+		  <div class="col-xs-2 col-md-1 col-xs-offset-2">
+          </div>
+		  <div class="col-xs-2 col-md-1">
+          </div>
+          <div class="col-xs-4 col-xs-offset-1">
+            <button type="button" class="btn btn-success btn-lg btn-block" id="accessory">SAVE</button>
+          </div>
+        </div>
 
       </div> <!-- COL XS 9 END -->
     </div> <!-- ROW END -->
