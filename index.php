@@ -48,6 +48,7 @@
       </div> <!-- END OF MAIN BODY CONTENT -->
 
       <!--MODAL LOGIN PAGE -->
+      <script type="text/javascript" src="./facebook/fb.js"></script>
      <div id="id01" class="modal" style="width:100%; margin: auto;">
         <form class="modal-content animate" action="index.php" method="POST" style="width:80%;">
           <div class="container-fluid">
@@ -60,13 +61,12 @@
 
             <button type="submit" name="login">Login</button>
 
-            <input type="checkbox" checked="checked"> Remember me
           </div>
 
           <div class="container-fluid" style="background-color:#f1f1f1">
             <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn btn btn-warning">Cancel</button>
             <button type="button" onclick="location.href='register.php';" class="cancelbtn btn btn-info">Register</button>
-            <span class="psw">Forgot <a href="#">password?</a></span>
+            <!-- <span class="psw">Forgot <a href="#">password?</a></span> -->
           </div>
         </form>
       </div><!--MODAL LOGIN PAGE END -->
