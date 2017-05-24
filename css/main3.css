@@ -94,3 +94,10 @@ margin-top: 3%;
   text-decoration: none;
   color: #00FFFF;
 }
+
+
+/* AVATAR page */
+
+.avatar_div {
+  max-height: 50%;
+}

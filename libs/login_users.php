@@ -41,8 +41,8 @@
           $make_session = $users->getUserInfo($username);
           foreach ($make_session as $userSessions)
           {
-            $_SESSION['player_name'] = $userSessions['username'];
-            if(isset($_SESSION['player_name']))
+            $_SESSION['player_id'] = $userSessions['idPlayer'];
+            if(isset($_SESSION['player_id']))
             {
               header("location: ./chooseavatar.php");
             }
@@ -78,8 +78,8 @@
 
           foreach ($make_session as $userSessions)
           {
-            $_SESSION['player_name'] = $userSessions['username'];
-            if(isset($_SESSION['player_name']))
+            $_SESSION['player_id'] = $userSessions['idPlayer'];
+            if(isset($_SESSION['player_id']))
             {
               header("location: planets.php");
             }

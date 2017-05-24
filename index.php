@@ -23,8 +23,8 @@
 
         <div class="row" id="splashscreen2" style="height:14%">
           <div class="col-xs-4 col-xs-offset-4 col-sm-2 col-sm-offset-5 col-md-2 col-md-offset-5 col-lg-2 col-lg-offset-5">
-
-          <?php if(isset($_SESSION['player_name'])) {?>
+            <?php if(isset($error)){ echo $error; } ?>
+          <?php if(isset($_SESSION['player_id'])) {?>
               <a href="planets.php">You are already logged in!</a>
           <?php } else {?>
             <input type="image" src="images/login_navigation.png" onclick="document.getElementById('id01').style.display='block'" style="width:80%;"></button>
