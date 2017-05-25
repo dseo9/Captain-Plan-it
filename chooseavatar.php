@@ -2,7 +2,7 @@
 <?php include_once('libs/session.php'); ?>
 
   <div class="row mainbody">
-    <div class="title_header"><h5>Select what hero you are?</h5></div>
+    <div class="title_header"><h5>Select what hero you are</h5></div>
     <br /><br />
 
     <div class="row subbody container-fluid">
