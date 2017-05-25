@@ -135,8 +135,8 @@ ini_set('display_errors', 1);
         return $result;
     }
 
-    function setAttempt($value, $id_details) {
-      $query = $this->link->query("UPDATE Details SET attempts = '$value' WHERE idDetails = '$id_details'");
+    function setDetails($value, $field, $id_details) {
+      $query = $this->link->query("UPDATE Details SET $field = '$value' WHERE idDetails = '$id_details'");
           $counts = $query->rowCount();
           return $counts;
     }

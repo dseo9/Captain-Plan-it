@@ -20,7 +20,7 @@
       // start a new game
       $recorded_game = $init->startGame($_SESSION['player_id'], $id_planet);
     } else {
-      echo "You are still playing this planet";
+      // echo "You are still playing this planet";
     }
 
     $level = $init->showQuestion($id_planet);
@@ -48,26 +48,29 @@
     $response = $init->checkAnswer($_POST['submit_btn'], $_GET['id_question']);
 
     //Preparing data for the database
-    $db_id_game = $init->getGameInfo($_SESSION['player_id'])[0]['idGame'];
-    $db_level = $_GET['lv'];
-    $db_attempts =  0;
-    $db_id_level = $_GET['lv_id'];
-    $db_id_question = $_GET['id_question'];
-
+    $db_id_game = (int)$init->getGameInfo($_SESSION['player_id'])[0]['idGame'];
+    $db_level = (int)$_GET['lv'];
+    $db_attempts =  (int)1;
+    $db_id_level = (int)$_GET['lv_id'];
+    $db_id_question = (int)$_GET['id_question'];
+    echo "ID LEVEL: ".$init->getDetails($db_id_level)[0]['idQuestion'];
     if($init->getDetails($db_id_level)[0]['idQuestion'] != $_GET['id_question']) {
+      // echo "RECORDING NEW DATA". $db_id_game, $db_level, $db_attempts, $db_id_level, $db_id_question;
       $recorded = $init->addDetails($db_id_game, $db_level, $db_attempts, $db_id_level, $db_id_question);
-      echo "WHAT IS RECORDED IS ". $recorded;
+      // echo "WHAT IS RECORDED IS ". $recorded;
+      echo " RESULT OF NEW DATA: ". $recorded;
     } else {
-      echo "Nothing to Store here";
+      // echo "Nothing to Store here";
+      $recorded_attempt = $init->getDetails($db_id_level);
+      // echo "SCORE: ". ((int)$recorded_attempt[0]['attempts'])+1;
+      $updateAttempt = $init->setDetails((int)$recorded_attempt[0]['attempts']+1, "attempts",  (int)$recorded_attempt[0]['idDetails']);
     }
-    if ($recorded == 0){
-        $recorded_attempt = $init->getDetails($db_id_level);
-        $updateAttempt = $init->setAttempt($recorded_attempt[0]['attempts'], $recorded_attempt[0]['idDetails']);
-    }
+    // if ($recorded == 0){
+    // }
     // print_r($response);
     if($response[0]['correct'] == 1){
       $result_ans = "Right answer";
-
+      $updateDetails = $init->setDetails("yes", "Done",  (int)$init->getDetails($db_id_level)[0]['idDetails']);
     } else {
       $result_ans = "Wrong answer";
 

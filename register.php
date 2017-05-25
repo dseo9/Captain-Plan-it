@@ -3,6 +3,7 @@
 
   <div class="row mainbody">
     <div class="title_header"><h5>Who are you Hero?</h5></div>
+    <?php if(isset($error)){ echo "<div class='alert alert-danger' role='alert'>".$error."</div>";} ?>
 
     <div class="row subbody container-fluid">
       <div class="col-xs-10 col-xs-offset-1">
