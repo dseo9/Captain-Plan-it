@@ -114,10 +114,9 @@ function drawScene() { // main drawScene function
 // -------------------------------------------------------------
 
 // initialization
-$(function(){
 
-  if (canvas = document.getElementById('scene'))
-  {
+$(function(){
+  if (canvas = document.getElementById('scene')){
     ctx = canvas.getContext('2d');
 
     // initialization of dragon
@@ -251,14 +250,21 @@ $(function(){
                 // draw Bottom
                 temp_ctx.drawImage(oBottom.image, oBottom.iSpr*oBottom.w, oBottom.y2, oBottom.w, oBottom.h, oBottom.x, oBottom.y, oBottom.w, oBottom.h);
 
-        // draw accessories
+                // draw accessories
                 temp_ctx.drawImage(oAccessories.image, oAccessories.iSpr*oAccessories.w, oAccessories.y2, oAccessories.w, oAccessories.h, oAccessories.x, oAccessories.y, oAccessories.w, oAccessories.h);
 
                 var vData = temp_canvas.toDataURL();
                 $('#face_result').attr('src', vData);
                 break;
-        } else {
-          ctx = canvas.getContext('2d');
+              }
+            });
+            setInterval(drawScene, 40); // loop drawScene
+
+  } 
+
+  if (canvas = document.getElementById('scene2')){
+
+    ctx = canvas.getContext('2d');
 
           // initialization of dragon
           var oSkinImage = new Image();
@@ -391,20 +397,15 @@ $(function(){
                       // draw Bottom
                       temp_ctx.drawImage(oBottom.image, oBottom.iSpr*oBottom.w, oBottom.y2, oBottom.w, oBottom.h, oBottom.x, oBottom.y, oBottom.w, oBottom.h);
 
-              // draw accessories
+                      // draw accessories
                       temp_ctx.drawImage(oAccessories.image, oAccessories.iSpr*oAccessories.w, oAccessories.y2, oAccessories.w, oAccessories.h, oAccessories.x, oAccessories.y, oAccessories.w, oAccessories.h);
 
                       var vData = temp_canvas.toDataURL();
                       $('#face_result').attr('src', vData);
                       break;
-              }
-        }
-
-
-  }
-
-
+            }
     });
 
-    setInterval(drawScene, 40); // loop drawScene
+  }
+  setInterval(drawScene, 40); // loop drawScene
 });
