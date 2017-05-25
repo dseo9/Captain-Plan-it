@@ -53,12 +53,12 @@
     $db_attempts =  (int)1;
     $db_id_level = (int)$_GET['lv_id'];
     $db_id_question = (int)$_GET['id_question'];
-    echo "ID LEVEL: ".$init->getDetails($db_id_level)[0]['idQuestion'];
+    // echo "ID LEVEL: ".$init->getDetails($db_id_level)[0]['idQuestion'];
     if($init->getDetails($db_id_level)[0]['idQuestion'] != $_GET['id_question']) {
       // echo "RECORDING NEW DATA". $db_id_game, $db_level, $db_attempts, $db_id_level, $db_id_question;
       $recorded = $init->addDetails($db_id_game, $db_level, $db_attempts, $db_id_level, $db_id_question);
       // echo "WHAT IS RECORDED IS ". $recorded;
-      echo " RESULT OF NEW DATA: ". $recorded;
+      // echo " RESULT OF NEW DATA: ". $recorded;
     } else {
       // echo "Nothing to Store here";
       $recorded_attempt = $init->getDetails($db_id_level);
@@ -76,6 +76,8 @@
 
     }
   }
+
+  $gameInfo = $init->getGameInfo($_SESSION['player_id']);
 
 
 
