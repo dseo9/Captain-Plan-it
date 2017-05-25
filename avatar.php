@@ -4,59 +4,72 @@
   <div class="row mainbody container-fluid">
     <div class="title_header"><h5>Customize your Avatar</h5></div>
     <br>
-    <div class="welcome">
-      <h4>Hello</h4>
-    </div>
     <div class="row subbody container-fluid">
 
-      <div class="col-xs-6 avatar_div">
-        <button class="btn btn-warning btn-lg" type="button">Keys <span class="badge">3</span>
-        </button>
-
-        <!-- If is girl or boy, change the picture -->
-        <img src=
-          <?php if ($_GET['avatar_genre']=='boy') {
-            echo "images/boy.png";
-          } else {
-            echo "images/girl.png";
-          }; ?> class="img-responsive center-block avatar_img"
-        />
-        <button type="button" class="btn btn-success btn-lg" name="save">SAVE</button>
+      <div class="col-xs-12">
+        <img src="images/girl.png" class="img-responsive center-block"/>
       </div>
 
-      <div class="col-xs-6">
+      <div class="col-xs-7">
         <div class="form-group row">
-
-          <a href=""><img src="images/avatar_labels/skin.png" class="img-responsive center-block" alt="skin"></a>
-
+          <div class="col-xs-4 col-md-2 col-xs-offset-2">
+            <img src="images/avatar_skin/skin1.png" class="img-responsive center-block">
+          </div>
+          <div class="col-xs-4 col-xs-offset-1">
+            <button type="button" class="btn btn-primary btn-lg btn-block" id="accessory"><p>SKIN</p></button>
+          </div>
         </div>
 
         <div class="form-group row">
-
-          <a href=""><img src="images/avatar_labels/hair.png" class="img-responsive center-block" alt="skin"></a>
-
+          <div class="col-xs-4 col-md-2 col-xs-offset-2">
+            <img src="images/avatar_skin/skin2.png" class="img-responsive center-block">
+          </div>
+          <div class="col-xs-4 col-xs-offset-1">
+            <button type="button" class="btn btn-primary btn-lg btn-block" id="accessory"><p>HAIR</p></button>
+          </div>
         </div>
 
         <div class="form-group row">
-
-          <a href=""><img src="images/avatar_labels/top.png" class="img-responsive center-block" alt="skin"></a>
-
+          <div class="col-xs-4 col-md-2 col-xs-offset-2">
+            <img src="images/avatar_skin/skin3.png" class="img-responsive center-block">
+          </div>
+          <div class="col-xs-4 col-xs-offset-1">
+            <button type="button" class="btn btn-primary btn-lg btn-block" id="accessory"><p>TOP</p></button>
+          </div>
         </div>
 
         <div class="form-group row">
-
-          <a href=""><img src="images/avatar_labels/buttom.png" class="img-responsive center-block" alt="skin"></a>
-
+          <div class="col-xs-4 col-md-2 col-xs-offset-2">
+            <img src="images/avatar_skin/skin4.png" class="img-responsive center-block">
+          </div>
+          <div class="col-xs-4 col-xs-offset-1">
+            <button type="button" class="btn btn-primary btn-lg btn-block" id="accessory"><p>BOTTOM</p></button>
+          </div>
         </div>
 
         <div class="form-group row">
-
-          <a href=""><img src="images/avatar_labels/access.png" class="img-responsive center-block" alt="skin"></a>
-
+          <div class="col-xs-4 col-md-2 col-xs-offset-2">
+            <img src="images/avatar_skin/skin5.png" class="img-responsive center-block">
+          </div>
+          <div class="col-xs-4 col-xs-offset-1">
+            <button type="button" class="btn btn-primary btn-lg btn-block" id="accessory"><p>ACCESSORY</p></button>
+          </div>
+        </div>
+		
+		<div class="form-group row">
+		  <div class="col-xs-2 col-md-2 col-xs-offset-2">
+			<img style="width:60px;height:60px;" src="images/fruit_page/level_key.png" class="img-responsive center-block">
+          </div>
+		  <div style="background-color:white;" class="col-xs-2 col-md-1">
+			<p># Keys</p>
+          </div>
+          <div class="col-xs-4 col-xs-offset">
+            <button type="button" class="btn btn-success btn-lg btn-block" id="accessory">SAVE</button>
+          </div>
         </div>
 
-      </div> <!-- COL XS 6 END -->
-    </div> <!-- ROW SUBBODY END -->
+      </div> <!-- COL XS 9 END -->
+    </div> <!-- ROW END -->
   </div> <!-- ROW MAINBODY END -->
 
 <?php include 'statics/footer.php'; ?>
