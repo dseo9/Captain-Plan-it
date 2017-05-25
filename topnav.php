@@ -1,17 +1,15 @@
 <div class="row header">
-  <div class="col-xs-3" id="back_navigation">
+  <div class="col-xs-4 col-sm-4 col-md-3 col-lg-3" id="back_navigation">
     <a onclick="history.go(-1);"><img src="images/back_navigation.png" class="img-responsive center-block" alt="Back"></a>
   </div>
 
-  <div class="col-xs-6" id="logo_navigation">
-    <div class="col-xs-2"></div>
-    <div class="col-xs-8">
+  <div class="col-xs-4 col-sm-4 col-md-6 col-lg-6" id="logo_navigation">
+    <div class="col-xs-10 col-xs-offset-1">
       <a href="index.php"><img src="images/cp.png" class="img-responsive center-block" alt="Logo"></a>
     </div>
-    <div class="col-xs-2"></div>
   </div>
-  <div class="col-xs-3" id="logout_navigation">
-    <a href="logout.php"><img src="images/logout_navigation.png" class="img-responsive center-block" alt="Back"></a>
+  <div class="col-xs-4 col-sm-4 col-md-3 col-lg-3" id="logout_navigation">
+      <a href="logout.php"><img src="images/logout_navigation.png" class="img-responsive center-block" alt="Back"></a>
   </div>
 </div>
 
