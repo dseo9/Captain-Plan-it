@@ -141,7 +141,7 @@ INSERT INTO Levels (idPlanet, idQuestion) VALUES (1, 2);
 # Question 3
 INSERT INTO Questions (Question) VALUES ("How many liters of water do we use to produce one kilogram of eggs?");
 
-INSERT INTO Answers (idQuestion, answer, correct) VALUES (3, "300000", 0);
+INSERT INTO Answers (idQuestion, answer, correct) VALUES (3, "30,000", 0);
 INSERT INTO Answers (idQuestion, answer, correct) VALUES (3, "3,265", 1);
 INSERT INTO Answers (idQuestion, answer, correct) VALUES (3, "300", 0);
 INSERT INTO Answers (idQuestion, answer, correct) VALUES (3, "3000", 0);
@@ -153,7 +153,7 @@ INSERT INTO Questions (Question) VALUES ("How many eggs are thrown away every da
 
 INSERT INTO Answers (idQuestion, answer, correct) VALUES (4, "123", 0);
 INSERT INTO Answers (idQuestion, answer, correct) VALUES (4, "30,000", 1);
-INSERT INTO Answers (idQuestion, answer, correct) VALUES (4, "2340", 0);
+INSERT INTO Answers (idQuestion, answer, correct) VALUES (4, "2,340", 0);
 INSERT INTO Answers (idQuestion, answer, correct) VALUES (4, "789", 0);
 
 INSERT INTO Levels (idPlanet, idQuestion) VALUES (1, 4);
@@ -172,7 +172,7 @@ INSERT INTO Levels (idPlanet, idQuestion) VALUES (1, 5);
 INSERT INTO Questions (Question) VALUES ("What should you look at before buying milk?");
 
 INSERT INTO Answers (idQuestion, answer, correct) VALUES (6, "'Use By' date", 1);
-INSERT INTO Answers (idQuestion, answer, correct) VALUES (6, "What's milk?", 0);
+INSERT INTO Answers (idQuestion, answer, correct) VALUES (6, "PETA", 0);
 INSERT INTO Answers (idQuestion, answer, correct) VALUES (6, "Moo?", 0);
 INSERT INTO Answers (idQuestion, answer, correct) VALUES (6, "The cow", 0);
 
@@ -181,7 +181,7 @@ INSERT INTO Levels (idPlanet, idQuestion) VALUES (1, 6);
 # Question 7
 INSERT INTO Questions (Question) VALUES ("Where does milk belong?");
 
-INSERT INTO Answers (idQuestion, answer, correct) VALUES (7, "In fridges", 1);
+INSERT INTO Answers (idQuestion, answer, correct) VALUES (7, "Fridges", 1);
 INSERT INTO Answers (idQuestion, answer, correct) VALUES (7, "Out", 0);
 INSERT INTO Answers (idQuestion, answer, correct) VALUES (7, "Moo?", 0);
 INSERT INTO Answers (idQuestion, answer, correct) VALUES (7, "In the cow?", 0);
@@ -212,8 +212,8 @@ INSERT INTO Levels (idPlanet, idQuestion) VALUES (1, 9);
 INSERT INTO Questions (Question) VALUES ("Where can you use old cheese?");
 
 INSERT INTO Answers (idQuestion, answer, correct) VALUES (10, "Spaghetti", 1);
-INSERT INTO Answers (idQuestion, answer, correct) VALUES (10, "In photos?", 0);
-INSERT INTO Answers (idQuestion, answer, correct) VALUES (10, "Cheesy jokes", 0);
+INSERT INTO Answers (idQuestion, answer, correct) VALUES (10, "In photos", 0);
+INSERT INTO Answers (idQuestion, answer, correct) VALUES (10, "In jokes", 0);
 INSERT INTO Answers (idQuestion, answer, correct) VALUES (10, "Garbage", 0);
 
 INSERT INTO Levels (idPlanet, idQuestion) VALUES (1, 10);
@@ -222,7 +222,7 @@ INSERT INTO Levels (idPlanet, idQuestion) VALUES (1, 10);
 # Question 11
 INSERT INTO Questions (Question) VALUES ("Where should you generally store your dairy products?");
 
-INSERT INTO Answers (idQuestion, answer, correct) VALUES (11, "Refrigerator", 1);
+INSERT INTO Answers (idQuestion, answer, correct) VALUES (11, "Fridge", 1);
 INSERT INTO Answers (idQuestion, answer, correct) VALUES (11, "Balcony", 0);
 INSERT INTO Answers (idQuestion, answer, correct) VALUES (11, "Oven", 0);
 INSERT INTO Answers (idQuestion, answer, correct) VALUES (11, "Bag", 0);
@@ -297,9 +297,9 @@ INSERT INTO Levels (idPlanet, idQuestion) VALUES (2, 17);
 INSERT INTO Questions (Question) VALUES ("How can you make bananas last longer?");
 
 INSERT INTO Answers (idQuestion, answer, correct) VALUES (18, "Ask nicely?", 0);
-INSERT INTO Answers (idQuestion, answer, correct) VALUES (18, "Wrap the top", 1);
-INSERT INTO Answers (idQuestion, answer, correct) VALUES (18, "Split them!", 0);
-INSERT INTO Answers (idQuestion, answer, correct) VALUES (18, "Stretch them?", 0);
+INSERT INTO Answers (idQuestion, answer, correct) VALUES (18, "Wrap top", 1);
+INSERT INTO Answers (idQuestion, answer, correct) VALUES (18, "Split them", 0);
+INSERT INTO Answers (idQuestion, answer, correct) VALUES (18, "Bribery", 0);
 
 INSERT INTO Levels (idPlanet, idQuestion) VALUES (2, 18);
 
@@ -307,8 +307,8 @@ INSERT INTO Levels (idPlanet, idQuestion) VALUES (2, 18);
 INSERT INTO Questions (Question) VALUES ("Where should you leave apples?");
 
 INSERT INTO Answers (idQuestion, answer, correct) VALUES (19, "iPhones", 0);
-INSERT INTO Answers (idQuestion, answer, correct) VALUES (19, "In fridge", 1);
-INSERT INTO Answers (idQuestion, answer, correct) VALUES (19, "The floor", 0);
+INSERT INTO Answers (idQuestion, answer, correct) VALUES (19, "Fridge", 1);
+INSERT INTO Answers (idQuestion, answer, correct) VALUES (19, "Floors", 0);
 INSERT INTO Answers (idQuestion, answer, correct) VALUES (19, "With Eve", 0);
 
 INSERT INTO Levels (idPlanet, idQuestion) VALUES (2, 19);
@@ -346,7 +346,7 @@ INSERT INTO Levels (idPlanet, idQuestion) VALUES (1, 22);
 # Question 9
 INSERT INTO Questions (Question) VALUES ("You tell if fruits/veggies are fresh if they are:");
 
-INSERT INTO Answers (idQuestion, answer, correct) VALUES (23, "Bright & firm", 1);
+INSERT INTO Answers (idQuestion, answer, correct) VALUES (23, "Firm", 1);
 INSERT INTO Answers (idQuestion, answer, correct) VALUES (23, "Browning", 0);
 INSERT INTO Answers (idQuestion, answer, correct) VALUES (23, "Soggy", 0);
 INSERT INTO Answers (idQuestion, answer, correct) VALUES (23, "Trendy", 0);
@@ -394,7 +394,7 @@ INSERT INTO Answers (idQuestion, answer, correct) VALUES (27, "420", 0);
 INSERT INTO Levels (idPlanet, idQuestion) VALUES (1, 27);
 
 # Question 14
-INSERT INTO Questions (Question) VALUES ("Perishable food lifespan can be prolonged by");
+INSERT INTO Questions (Question) VALUES ("Perishable food lifespan can be prolonged by:");
 
 INSERT INTO Answers (idQuestion, answer, correct) VALUES (28, "Freezing", 1);
 INSERT INTO Answers (idQuestion, answer, correct) VALUES (28, "Medicine", 0);
@@ -410,7 +410,7 @@ INSERT INTO Questions (Question) VALUES ("Can bread be composted?");
 
 INSERT INTO Answers (idQuestion, answer, correct) VALUES (29, "Yes!", 1);
 INSERT INTO Answers (idQuestion, answer, correct) VALUES (29, "No!", 0);
-INSERT INTO Answers (idQuestion, answer, correct) VALUES (29, "Canada Post", 0);
+INSERT INTO Answers (idQuestion, answer, correct) VALUES (29, "Parcels", 0);
 INSERT INTO Answers (idQuestion, answer, correct) VALUES (29, "Impossible!", 0);
 
 INSERT INTO Levels (idPlanet, idQuestion) VALUES (3, 29);
@@ -438,7 +438,7 @@ INSERT INTO Levels (idPlanet, idQuestion) VALUES (3, 31);
 # Question 4 and answers
 INSERT INTO Questions (Question) VALUES ("Which of these pastries are wasted the most?");
 
-INSERT INTO Answers (idQuestion, answer, correct) VALUES (32, "Apple pie", 0);
+INSERT INTO Answers (idQuestion, answer, correct) VALUES (32, "Pie", 0);
 INSERT INTO Answers (idQuestion, answer, correct) VALUES (32, "Bread", 1);
 INSERT INTO Answers (idQuestion, answer, correct) VALUES (32, "Croissants", 0);
 INSERT INTO Answers (idQuestion, answer, correct) VALUES (32, "Pretzels", 0);
@@ -466,12 +466,12 @@ INSERT INTO Answers (idQuestion, answer, correct) VALUES (34, "Freezer", 1);
 INSERT INTO Levels (idPlanet, idQuestion) VALUES (3, 34);
 
 # Question 7 and answers
-INSERT INTO Questions (Question) VALUES ("You can you save bread that has become hard by splashing water on it, and then:");
+INSERT INTO Questions (Question) VALUES ("To save bread that has become hard, splash water on it, and then:");
 
-INSERT INTO Answers (idQuestion, answer, correct) VALUES (35, "Trashing it", 0);
-INSERT INTO Answers (idQuestion, answer, correct) VALUES (35, "Calling 911", 0);
-INSERT INTO Answers (idQuestion, answer, correct) VALUES (35, "Waiting", 0);
-INSERT INTO Answers (idQuestion, answer, correct) VALUES (35, "Reheating", 1);
+INSERT INTO Answers (idQuestion, answer, correct) VALUES (35, "Trash it", 0);
+INSERT INTO Answers (idQuestion, answer, correct) VALUES (35, "Call 911", 0);
+INSERT INTO Answers (idQuestion, answer, correct) VALUES (35, "Wait", 0);
+INSERT INTO Answers (idQuestion, answer, correct) VALUES (35, "Reheat it", 1);
 
 INSERT INTO Levels (idPlanet, idQuestion) VALUES (3, 35);
 
@@ -541,7 +541,7 @@ INSERT INTO Levels (idPlanet, idQuestion) VALUES (4, 41);
 # Question 4 and answers
 INSERT INTO Questions (Question) VALUES ("Between what temperatures (degrees Celsius) should meat be frozen?");
 
-INSERT INTO Answers (idQuestion, answer, correct) VALUES (42, "-10 to -15", 0);
+INSERT INTO Answers (idQuestion, answer, correct) VALUES (42, "15 to 25", 0);
 INSERT INTO Answers (idQuestion, answer, correct) VALUES (42, "0 to 5", 0);
 INSERT INTO Answers (idQuestion, answer, correct) VALUES (42, "10 to 15", 0);
 INSERT INTO Answers (idQuestion, answer, correct) VALUES (42, "-23 to -29", 1);
@@ -581,7 +581,7 @@ INSERT INTO Levels (idPlanet, idQuestion) VALUES (4, 45);
 # Question 8 and answers
 INSERT INTO Questions (Question) VALUES ("How long can meat be frozen before eating it?");
 
-INSERT INTO Answers (idQuestion, answer, correct) VALUES (46, "1 year", 0);
+INSERT INTO Answers (idQuestion, answer, correct) VALUES (46, "4 years", 0);
 INSERT INTO Answers (idQuestion, answer, correct) VALUES (46, "4-12 months", 1);
 INSERT INTO Answers (idQuestion, answer, correct) VALUES (46, "2 years", 0);
 INSERT INTO Answers (idQuestion, answer, correct) VALUES (46, "3 years", 0);
@@ -599,12 +599,12 @@ INSERT INTO Answers (idQuestion, answer, correct) VALUES (47, "28", 0);
 INSERT INTO Levels (idPlanet, idQuestion) VALUES (4, 47);
 
 # Question 10 and answers
-INSERT INTO Questions (Question) VALUES ("You can keep meat fresh by wrapping it and:");
+INSERT INTO Questions (Question) VALUES ("How to keep meat fresh - wrap it and then:");
 
-INSERT INTO Answers (idQuestion, answer, correct) VALUES (48, "Waiting", 0);
-INSERT INTO Answers (idQuestion, answer, correct) VALUES (48, "Refrigerating", 1);
-INSERT INTO Answers (idQuestion, answer, correct) VALUES (48, "Unwrapping", 0);
-INSERT INTO Answers (idQuestion, answer, correct) VALUES (48, "Praying", 0);
+INSERT INTO Answers (idQuestion, answer, correct) VALUES (48, "Wait", 0);
+INSERT INTO Answers (idQuestion, answer, correct) VALUES (48, "Refrigerate", 1);
+INSERT INTO Answers (idQuestion, answer, correct) VALUES (48, "Unwrap", 0);
+INSERT INTO Answers (idQuestion, answer, correct) VALUES (48, "Pray", 0);
 
 INSERT INTO Levels (idPlanet, idQuestion) VALUES (4, 48);
 
