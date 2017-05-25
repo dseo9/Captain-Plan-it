@@ -14,7 +14,13 @@
 </div>
 
 <!-- FLOATING ABOUT US BUTTON -->
-
+<div style="height: 7%; float: right;">
 <a href="aboutus.php">
-  <img src="images/about_us.png" style="float: right; color: pink; width: 5%; right: 3%"/>
+  <img src="images/about_us.png" class="img-responsive"/>
 </a>
+</div>
+<div class="twitter" style="float:right; right: 7%;">
+  <a href="https://twitter.com/share" class="twitter-share-button" data-text="This webapp is not only informative but also fun!" data-url="https://goo.gl/a6FfMi" data-hashtags="CaptainPlanIt" data-show-count="false"></a>
+
+  <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
