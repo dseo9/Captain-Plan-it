@@ -57,11 +57,13 @@
         </div>
 		
 		<div class="form-group row">
-		  <div class="col-xs-2 col-md-1 col-xs-offset-2">
+		  <div class="col-xs-2 col-md-2 col-xs-offset-2">
+			<img style="width:60px;height:60px;" src="images/fruit_page/level_key.png" class="img-responsive center-block">
           </div>
-		  <div class="col-xs-2 col-md-1">
+		  <div style="background-color:white;" class="col-xs-2 col-md-1">
+			<p># Keys</p>
           </div>
-          <div class="col-xs-4 col-xs-offset-1">
+          <div class="col-xs-4 col-xs-offset">
             <button type="button" class="btn btn-success btn-lg btn-block" id="accessory">SAVE</button>
           </div>
         </div>
