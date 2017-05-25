@@ -35,6 +35,8 @@
 
 
     <script src="js/script.js"></script>
+	<link rel="shortcut icon" href="images/cp.png" type="image/x-icon"/>
+
 
     <!--Avatar page-->
     <link href="css/main4.css" rel="stylesheet" type="text/css" />
