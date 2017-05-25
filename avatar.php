@@ -4,12 +4,18 @@
   <div class="row mainbody container-fluid">
     <div class="title_header"><h5>Customize your Avatar</h5></div>
     <br>
+    <div class="welcome">
+      <h4>Hello</h4>
+    </div>
     <div class="row subbody container-fluid">
 
       <div class="col-xs-6 avatar_div">
-        <img src="images/girl.png" class="img-responsive center-block avatar_img"/>
-      </div>
+        <button class="btn btn-warning btn-lg" type="button">Keys <span class="badge">3</span>
+        </button>
 
+        <img src="images/girl.png" class="img-responsive center-block avatar_img"/>
+        <button type="button" class="btn btn-success btn-lg" name="save">SAVE</button>
+      </div>
 
       <div class="col-xs-6">
         <div class="form-group row">
@@ -62,8 +68,8 @@
           <!-- </div> -->
         </div>
 
-      </div> <!-- COL XS 9 END -->
-    </div> <!-- ROW END -->
+      </div> <!-- COL XS 6 END -->
+    </div> <!-- ROW SUBBODY END -->
   </div> <!-- ROW MAINBODY END -->
 
 <?php include 'statics/footer.php'; ?>
