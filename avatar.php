@@ -4,21 +4,25 @@
   <div class="row mainbody container-fluid">
     <div class="title_header"><h5>Customize your Avatar</h5></div>
     <br>
-    <div class="welcome">
+    <!-- <div class="welcome">
       <h4>Hello</h4>
-    </div>
+    </div> -->
     <div class="row subbody container-fluid">
 
-      <div class="col-xs-6 avatar_div">
+      <!-- <div class="col-xs-6 avatar_div"> -->
         <button class="btn btn-warning btn-lg" type="button">Keys <span class="badge">3</span>
         </button>
 
+        <div class="img-responsive center-block">
+          <canvas id=<?php if ($_GET['avatar_genre']=='girl') {
+            echo "scene";
+          } else {
+            echo "scene2";
+          }; ?> width="500" height="500"></canvas>
+        </div>
 
-        <canvas id=<?php if ($_GET['avatar_genre']=='girl') {
-          echo "scene";
-        } else {
-          echo "scene2";
-        }; ?> width="500" height="500"></canvas>
+
+        <button type="button" class="btn btn-success btn-lg" name="save">SAVE</button>
 
         <!-- If is girl or boy, change the picture -->
         <!-- <img src=
@@ -62,7 +66,7 @@
 
         </div> -->
 
-      </div> <!-- COL XS 6 END -->
+      <!-- </div> <!-- COL XS 6 END --> -->
     </div> <!-- ROW SUBBODY END -->
   </div> <!-- ROW MAINBODY END -->
 
