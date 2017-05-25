@@ -36,6 +36,12 @@
 
     <script src="js/script.js"></script>
 
+    <!--Avatar page-->
+    <link href="css/main4.css" rel="stylesheet" type="text/css" />
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="js/girl_avatar.js"></script>
+    <script type="text/javascript" src="js/boy_avatar.js"></script>
+
     <!-- Custom styles for this template -->
     <link href="css/main.css" rel="stylesheet" media="screen">
     <link href="css/main2.css" rel="stylesheet" media="screen">
