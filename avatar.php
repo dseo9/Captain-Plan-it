@@ -17,7 +17,8 @@
             <img src="images/avatar_skin/skin1.png" class="img-responsive center-block">
           </div> -->
           <!-- <div class="col-xs-4 col-xs-offset-1"> -->
-            <button type="button" class="btn btn-primary btn-lg btn-block" id="accessory"><p>SKIN</p></button>
+          <a href=""><img src="images/avatar_labels/skin.png" class="img-responsive center-block" alt="skin"></a>
+            <!-- <button type="button" class="btn btn-primary btn-lg btn-block" id="accessory"><p>SKIN</p></button> -->
           <!-- </div> -->
         </div>
 
@@ -26,7 +27,8 @@
             <img src="images/avatar_skin/skin2.png" class="img-responsive center-block">
           </div> -->
           <!-- <div class="col-xs-4 col-xs-offset-1"> -->
-            <button type="button" class="btn btn-primary btn-lg btn-block" id="accessory"><p>HAIR</p></button>
+          <a href=""><img src="images/avatar_labels/hair.png" class="img-responsive center-block" alt="skin"></a>
+            <!-- <button type="button" class="btn btn-primary btn-lg btn-block" id="accessory"><p>HAIR</p></button> -->
           <!-- </div> -->
         </div>
 
@@ -35,7 +37,8 @@
             <img src="images/avatar_skin/skin3.png" class="img-responsive center-block">
           </div> -->
           <!-- <div class="col-xs-4 col-xs-offset-1"> -->
-            <button type="button" class="btn btn-primary btn-lg btn-block" id="accessory"><p>TOP</p></button>
+          <a href=""><img src="images/avatar_labels/top.png" class="img-responsive center-block" alt="skin"></a>
+            <!-- <button type="button" class="btn btn-primary btn-lg btn-block" id="accessory"><p>TOP</p></button> -->
           <!-- </div> -->
         </div>
 
@@ -44,7 +47,8 @@
             <img src="images/avatar_skin/skin4.png" class="img-responsive center-block">
           </div> -->
           <!-- <div class="col-xs-4 col-xs-offset-1"> -->
-            <button type="button" class="btn btn-primary btn-lg btn-block" id="accessory"><p>BOTTOM</p></button>
+          <a href=""><img src="images/avatar_labels/buttom.png" class="img-responsive center-block" alt="skin"></a>
+            <!-- <button type="button" class="btn btn-primary btn-lg btn-block" id="accessory"><p>BOTTOM</p></button> -->
           <!-- </div> -->
         </div>
 
@@ -53,7 +57,8 @@
             <img src="images/avatar_skin/skin5.png" class="img-responsive center-block">
           </div> -->
           <!-- <div class="col-xs-4 col-xs-offset-1"> -->
-            <button type="button" class="btn btn-primary btn-lg btn-block" id="accessory"><p>ACCESSORY</p></button>
+          <a href=""><img src="images/avatar_labels/access.png" class="img-responsive center-block" alt="skin"></a>
+            <!-- <button type="button" class="btn btn-primary btn-lg btn-block" id="accessory"><p>ACCESSORY</p></button> -->
           <!-- </div> -->
         </div>
 
