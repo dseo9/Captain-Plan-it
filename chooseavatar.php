@@ -18,12 +18,12 @@
         </a>
 
       <div class="row">
-          <a href="avatar.php">
+          <a href="avatar.php?avatar_genre=boy">
             <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-1">
               <button class="btn btn-info btn-xs"><p>BOY</p></button>
             </div>
           </a>
-          <a href="avatar.php">
+          <a href="avatar.php?avatar_genre=girl">
             <div class="col-xs-5 col-sm-4 col-sm-offset-2">
               <button class="btn btn-warning btn-xs"><p>GIRL</p></button>
             </div>

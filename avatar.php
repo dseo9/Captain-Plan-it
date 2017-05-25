@@ -14,10 +14,10 @@
         </button>
 
 
-        <canvas id=<?php if ($_GET['avatar_genre']=='boy') {
-          echo "scene2";
-        } else {
+        <canvas id=<?php if ($_GET['avatar_genre']=='girl') {
           echo "scene";
+        } else {
+          echo "scene2";
         }; ?> width="500" height="500"></canvas>
 
         <!-- If is girl or boy, change the picture -->
