@@ -56,7 +56,7 @@
                 <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
                   <div class="row">
                     <div class="col-xs-3">
-                      <a href="#" target="_blank"><img src="images/affiliates/race.png" class="img-responsive center-block"/></a>
+                      <a href="http://racetozero.byethost12.com/index.php?i=1" target="_blank"><img src="images/affiliates/race.png" class="img-responsive center-block"/></a>
                     </div>
                     <div class="col-xs-9">
                       <div class="card-block">
@@ -79,7 +79,7 @@
                 <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
                   <div class="row">
                     <div class="col-xs-3">
-                      <a href="162.221.205.237" target="_blank"><img src="images/affiliates/fuber.png" class="img-responsive center-block"/></a>
+                      <a href="http://162.221.205.237/" target="_blank"><img src="images/affiliates/fuber.png" class="img-responsive center-block"/></a>
                     </div>
                     <div class="col-xs-9">
                       <div class="card-block">
