@@ -260,7 +260,7 @@ $(function(){
             });
             setInterval(drawScene, 40); // loop drawScene
 
-  } 
+  }
 
   if (canvas = document.getElementById('scene2')){
 
