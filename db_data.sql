@@ -613,29 +613,38 @@ INSERT INTO Levels (idPlanet, idQuestion) VALUES (4, 48);
 #SELECT * FROM Answers;
 
 
-# Levels Session #############################
-# Planet 1
+
+
+-- # Levels Session #############################
+-- # Planet 1
+
 -- INSERT INTO Levels (idPlanet, idQuestion) VALUES (1, 1);
 -- INSERT INTO Levels (idPlanet, idQuestion) VALUES (1, 2);
 -- INSERT INTO Levels (idPlanet, idQuestion) VALUES (1, 3);
 -- INSERT INTO Levels (idPlanet, idQuestion) VALUES (1, 4);
 -- INSERT INTO Levels (idPlanet, idQuestion) VALUES (1, 5);
 
-# Planet 2
+--
+-- # Planet 2
+
 -- INSERT INTO Levels (idPlanet, idQuestion) VALUES (2, 6);
 -- INSERT INTO Levels (idPlanet, idQuestion) VALUES (2, 7);
 -- INSERT INTO Levels (idPlanet, idQuestion) VALUES (2, 8);
 -- INSERT INTO Levels (idPlanet, idQuestion) VALUES (2, 9);
 -- INSERT INTO Levels (idPlanet, idQuestion) VALUES (2, 10);
 
-# Planet 3
+--
+-- # Planet 3
+
 -- INSERT INTO Levels (idPlanet, idQuestion) VALUES (3, 11);
 -- INSERT INTO Levels (idPlanet, idQuestion) VALUES (3, 12);
 -- INSERT INTO Levels (idPlanet, idQuestion) VALUES (3, 13);
 -- INSERT INTO Levels (idPlanet, idQuestion) VALUES (3, 14);
 -- INSERT INTO Levels (idPlanet, idQuestion) VALUES (3, 15);
 
-# Planet 4
+--
+-- # Planet 4
+
 -- INSERT INTO Levels (idPlanet, idQuestion) VALUES (4, 16);
 -- INSERT INTO Levels (idPlanet, idQuestion) VALUES (4, 17);
 -- INSERT INTO Levels (idPlanet, idQuestion) VALUES (4, 18);
