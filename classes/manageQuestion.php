@@ -70,8 +70,8 @@ ini_set('display_errors', 1);
       return $result;
     }
 
-    function getDetails($id_level) {
-      $query = $this->link->query("SELECT * FROM Details WHERE idLevel='$id_level' ORDER BY idLevel DESC");
+    function getDetails($id_game) {
+      $query = $this->link->query("SELECT * FROM Details WHERE idGame='$id_game' ORDER BY idLevel DESC");
       $counts = $query->rowCount();
 
       if($counts >= 1)

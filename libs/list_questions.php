@@ -54,14 +54,14 @@
     $db_id_level = (int)$_GET['lv_id'];
     $db_id_question = (int)$_GET['id_question'];
     // echo "ID LEVEL: ".$init->getDetails($db_id_level)[0]['idQuestion'];
-    if($init->getDetails($db_id_level)[0]['idQuestion'] != $_GET['id_question']) {
+    if($init->getDetails($db_id_game)[0]['idQuestion'] != $_GET['id_question']) {
       // echo "RECORDING NEW DATA". $db_id_game, $db_level, $db_attempts, $db_id_level, $db_id_question;
       $recorded = $init->addDetails($db_id_game, $db_level, $db_attempts, $db_id_level, $db_id_question);
       // echo "WHAT IS RECORDED IS ". $recorded;
       // echo " RESULT OF NEW DATA: ". $recorded;
     } else {
       // echo "Nothing to Store here";
-      $recorded_attempt = $init->getDetails($db_id_level);
+      $recorded_attempt = $init->getDetails($db_id_game);
       // echo "SCORE: ". ((int)$recorded_attempt[0]['attempts'])+1;
       $updateAttempt = $init->setDetails((int)$recorded_attempt[0]['attempts']+1, "attempts",  (int)$recorded_attempt[0]['idDetails']);
     }
@@ -70,14 +70,15 @@
     // print_r($response);
     if($response[0]['correct'] == 1){
       $result_ans = "Right answer";
-      $updateDetails = $init->setDetails("yes", "Done",  (int)$init->getDetails($db_id_level)[0]['idDetails']);
+      $updateDetails = $init->setDetails("yes", "Done",  (int)$init->getDetails($db_id_game)[0]['idDetails']);
     } else {
       $result_ans = "Wrong answer";
 
     }
   }
-
-  $gameInfo = $init->getGameInfo($_SESSION['player_id']);
+  $GAME_ID = $init->getGameInfo($_SESSION['player_id'])[0]['idGame'];
+  // echo $GAME_ID;
+  $levelInfo = $init->getDetails($GAME_ID);
   // echo "DATA FROM ".$gameInfo[0]['idPlanet'];
 
 

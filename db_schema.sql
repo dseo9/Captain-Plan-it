@@ -31,7 +31,7 @@ CREATE TABLE IF NOT EXISTS `db_captain`.`Players` (
   `num_keys` INT NULL,
   `stamps` INT NULL,
   `lastLogin` DATETIME NULL,
-  `createdAt` DATETIME NULL DEFAULT now(),
+  `createdAt` DATETIME DEFAULT CURRENT_TIMESTAMP,
   `privileges` SMALLINT(2) NULL DEFAULT 0,
   PRIMARY KEY (`idPlayer`))
 ENGINE = InnoDB;
