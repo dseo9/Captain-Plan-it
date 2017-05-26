@@ -25,6 +25,7 @@
     }
 
     $level = $init->showQuestion($id_planet);
+    shuffle($level);
     // print_r($level[0]['idQuestion']);
   }
 
@@ -81,6 +82,8 @@
   // echo $GAME_ID;
   $levelInfo = $init->getDetails($GAME_ID);
   // echo "DATA FROM ".$gameInfo[0]['idPlanet'];
+
+  if($levelInfo[0]['level'])
 
 
  ?>
