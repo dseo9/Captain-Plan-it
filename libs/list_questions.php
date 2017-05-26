@@ -83,7 +83,9 @@
   $levelInfo = $init->getDetails($GAME_ID);
   // echo "DATA FROM ".$gameInfo[0]['idPlanet'];
 
-  if($levelInfo[0]['level'])
+  if($levelInfo[0]['level'] == 6 && $levelInfo[0]['Done'] == "yes") {
+    $result = $init->endGame($levelInfo[0]['idGame']);
+  }
 
 
  ?>

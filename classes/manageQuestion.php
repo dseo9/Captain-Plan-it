@@ -31,6 +31,12 @@ ini_set('display_errors', 1);
       return $counts;
     }
 
+    function endGame($gameID) {
+      $query = $this->link->query("UPDATE Game SET finished = 'true' WHERE idGame = '$gameID'");
+      $counts = $query->rowCount();
+      return $counts;
+    }
+
     function getGameInfo($playerId) {
       $query = $this->link->query("SELECT * FROM Game WHERE idPlayer='$playerId' ORDER BY idGame DESC");
       $counts = $query->rowCount();

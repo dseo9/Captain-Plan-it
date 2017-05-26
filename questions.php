@@ -6,7 +6,13 @@
 
 		<!-- TITLE OF THE LEVEL AT THE TOP -->
 		<div class="title_header">
-			<h5><?php echo $_GET['p_name']." "."Level ". $_GET['lv']; ?></h5>
+			<h5><?php
+			if($_GET['lv'] == 6) {
+				$LV="Key";
+			} else {
+				$LV=$_GET['lv'];
+			};
+			echo $_GET['p_name']." "."Level ". $LV ?></h5>
 		</div>
 
 		<br/>

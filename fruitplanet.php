@@ -120,7 +120,7 @@
           <a href="questions.php?id_question=<?php echo $level[2]['idQuestion']; ?>&p_name=<?php echo $_GET['p_name']; ?>&bg=<?php echo $_GET['bg']; ?>&btn=a_meat&page=<?php echo $_GET['page'];?>&lv=3&lv_id=<?php echo $level[2]['idLevel']; ?>"><img src="images\<?php echo $_GET['page']?>\<?php echo $images_level[3]; ?>" alt="level 3" class="img-responsive center-block"/></a>
         </div>
         <div class="col-xs-4 col-xs-offset-4 col-sm-3 col-sm-offset-6 col-md-2 col-md-offset-6 col-lg-2 col-lg-offset-6">
-          <a href="questions.php?id_question=<?php echo $level[5]['idQuestion']; ?>&p_name=<?php echo $_GET['p_name']; ?>&bg=<?php echo $_GET['bg']; ?>&btn=a_meat&page=<?php echo $_GET['page'];?>&lv=key&lv_id=<?php echo $level[5]['idLevel']; ?>"><img src="images\<?php echo $_GET['page']?>\<?php echo $images_level[6]; ?>" alt="key level" class="img-responsive center-block"/></a>
+          <a href="questions.php?id_question=<?php echo $level[5]['idQuestion']; ?>&p_name=<?php echo $_GET['p_name']; ?>&bg=<?php echo $_GET['bg']; ?>&btn=a_meat&page=<?php echo $_GET['page'];?>&lv=6&lv_id=<?php echo $level[5]['idLevel']; ?>"><img src="images\<?php echo $_GET['page']?>\<?php echo $images_level[6]; ?>" alt="key level" class="img-responsive center-block"/></a>
         </div>
       </div>
 
