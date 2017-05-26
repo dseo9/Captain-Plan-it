@@ -147,6 +147,23 @@ ini_set('display_errors', 1);
           return $counts;
     }
 
+    function getUserInfo($idUser) {
+      $query = $this->link->query("SELECT * FROM Players WHERE idPlayer = '$idUser'");
+      $rowcount = $query->rowCount();
+      if($rowcount == 1) {
+        $result = $query->fetchAll();
+        return $result;
+      } else {
+        return $rowcount;
+      }
+    }
+
+    function setPlayerStats($value, $field, $id_player) {
+      $query = $this->link->query("UPDATE Players SET $field = '$value' WHERE idPlayer = '$id_player'");
+          $counts = $query->rowCount();
+          return $counts;
+    }
+
     function getQuestion($id_question)
     {
         // $query = $this->link->query("SELECT Question FROM level l, Planets p, Questions q WHERE p.idPlanet=l.idPlanet AND l.idQuestion=q.idQuestion AND p.idPlanet = '$id_planet'");

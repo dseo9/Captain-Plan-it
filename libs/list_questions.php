@@ -87,6 +87,7 @@
   // echo "DATA FROM ".$gameInfo[0]['idPlanet'];
 
   if($levelInfo[0]['level'] == 6 && $levelInfo[0]['Done'] == "yes") {
+    $p_result = $init->setPlayerStats((int)$init->getUserInfo($_SESSION['player_id'])[0]['num_keys']+1, "num_keys", $_SESSION['player_id']);
     $result = $init->endGame($levelInfo[0]['idGame']);
     header("location: planets.php?cleaned=".$GAME_ID[0]['idPlanet']);
   }

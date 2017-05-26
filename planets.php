@@ -50,7 +50,7 @@
       <div class="row" id="planets">
         <!-- fruit fortress planet -->
         <div class="col-xs-5 col-sm-5 col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1">
-          <?php if($planet_done[2]) { ?>
+          <?php if($planet_done[2] || $planet_done[3] || $planet_done[4]) { ?>
             <img src="images\fruit_fortress_ckd.png" alt="Fruit_Fortress" class="img-responsive center-block"/>
           <?php } elseif(!$planet_done[1]) { ?>
             <img src="images\fruit_fortress_lck.png" alt="Fruit_Fortress" class="img-responsive center-block"/>
@@ -61,7 +61,7 @@
         </div>
         <!-- pastry palace planet -->
         <div class="col-xs-5 col-xs-offset-2 col-sm-5 col-sm-offset-2 col-md-4 col-md-offset-2 col-lg-4 col-lg-offset-2">
-          <?php if($planet_done[3]) { ?>
+          <?php if($planet_done[3] || $planet_done[4]) { ?>
           <img src="images\pastry_palace_ckd.png" alt="Pastry_Palace" class="img-responsive center-block"/>
           <?php } elseif(!$planet_done[2]) { ?>
             <img src="images\pastry_palace_lck.png" alt="Pastry_Palace" class="img-responsive center-block"/>
@@ -79,6 +79,8 @@
         <div class="col-xs-5 col-sm-5 col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1">
           <?php if($planet_done[1]) { ?>
             <img src="images\dairy_dome_ckd.png" alt="Fruit_Fortress" class="img-responsive center-block"/>
+            <?php } elseif($planet_done[2] || $planet_done[3] || $planet_done[4]) { ?>
+              <img src="images\dairy_dome_ckd.png" alt="Fruit_Fortress" class="img-responsive center-block"/>
           <?php } else { ?>
           <a href="fruitplanet.php?p_name=Dairy Dome&bg=dairyheader.php&page=dairy_page">
             <img src="images\dairy_dome.png" alt="Fruit_Fortress" class="img-responsive center-block"/></a>
