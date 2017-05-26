@@ -13,60 +13,17 @@
         <button class="btn btn-warning btn-lg" type="button">Keys <span class="badge">3</span>
         </button>
 
-        <div class="img-responsive center-block">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding-top: 10px;">
           <canvas id=<?php if ($_GET['avatar_genre']=='girl') {
             echo "scene";
           } else {
             echo "scene2";
-          }; ?> width="500" height="500"></canvas>
+          }; ?> height=450 style="width:100%;"></canvas>
         </div>
 
-
+        <div>
         <button type="button" class="btn btn-success btn-lg" name="save">SAVE</button>
-
-        <!-- If is girl or boy, change the picture -->
-        <!-- <img src=
-          <?php if ($_GET['avatar_genre']=='boy') {
-            echo "images/boy.png";
-          } else {
-            echo "images/girl.png";
-          }; ?> class="img-responsive center-block avatar_img"
-        />
-        <button type="button" class="btn btn-success btn-lg" name="save">SAVE</button>
-      </div>
-
-      <div class="col-xs-6">
-        <div class="form-group row">
-
-          <a href=""><img src="images/avatar_labels/skin.png" class="img-responsive center-block" alt="skin"></a>
-
         </div>
-
-        <div class="form-group row">
-
-          <a href=""><img src="images/avatar_labels/hair.png" class="img-responsive center-block" alt="skin"></a>
-
-        </div>
-
-        <div class="form-group row">
-
-          <a href=""><img src="images/avatar_labels/top.png" class="img-responsive center-block" alt="skin"></a>
-
-        </div>
-
-        <div class="form-group row">
-
-          <a href=""><img src="images/avatar_labels/buttom.png" class="img-responsive center-block" alt="skin"></a>
-
-        </div>
-
-        <div class="form-group row">
-
-          <a href=""><img src="images/avatar_labels/access.png" class="img-responsive center-block" alt="skin"></a>
-
-        </div> -->
-
-      <!-- </div> <!-- COL XS 6 END --> -->
     </div> <!-- ROW SUBBODY END -->
   </div> <!-- ROW MAINBODY END -->
 

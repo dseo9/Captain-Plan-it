@@ -83,32 +83,32 @@ function drawScene() { // main drawScene function
 
     // draw controls
     ctx.textAlign = 'center';
-    ctx.fillStyle = '#000';
+    ctx.fillStyle = '#FFF';
 
-    ctx.font = '30px Verdana';
+    ctx.font = '10px Verdana';
     if (iSel == 0)
-        ctx.font = 'bold 30px Verdana';
-    ctx.fillText('< Skin >', 400, 80);
+        ctx.font = 'bold 14px Verdana';
+    ctx.fillText('< Skin >', 40, 220);
 
-    ctx.font = '30px Verdana';
+    ctx.font = '10px Verdana';
     if (iSel == 1)
-        ctx.font = 'bold 30px Verdana';
-    ctx.fillText('< Hair >', 400, 180);
+        ctx.font = 'bold 14px Verdana';
+    ctx.fillText('< Hair >', 240, 220);
 
-    ctx.font = '30px Verdana';
+    ctx.font = '10px Verdana';
     if (iSel == 2)
-        ctx.font = 'bold 30px Verdana';
-    ctx.fillText('< Top >', 400, 280);
+        ctx.font = 'bold 14px Verdana';
+    ctx.fillText('< Top >', 40, 240);
 
-    ctx.font = '30px Verdana';
+    ctx.font = '10px Verdana';
     if (iSel == 3)
-        ctx.font = 'bold 30px Verdana';
-    ctx.fillText('< Bottom >', 400, 380);
+        ctx.font = 'bold 14px Verdana';
+    ctx.fillText('< Bottom >', 240, 240);
 
-	ctx.font = '30px Verdana';
+	ctx.font = '10px Verdana';
     if (iSel == 4)
-        ctx.font = 'bold 30px Verdana';
-    ctx.fillText('< Accessories >', 400, 480);
+        ctx.font = 'bold 14px Verdana';
+    ctx.fillText('< Extras >', 40, 260);
 }
 
 // -------------------------------------------------------------

@@ -16,8 +16,11 @@
       <?php
 				if ($result_ans == "Right answer") {
 					echo "<p>".$result_ans."</p>";
-					header("refresh:2; url=fruitplanet.php?p_name=".$_GET['p_name']."&bg=".$_GET['bg']."&page=".$_GET['page'], true, 303);
+					$('instructions').css("background-color","green");
+					header("refresh:1; url=fruitplanet.php?p_name=".$_GET['p_name']."&bg=".$_GET['bg']."&page=".$_GET['page'], true, 303);
 				} else {
+					$(document).
+					$('instructions').css("background-color","red");
 					echo "<p>".$result_ans."</p>";
 				}
 			?>
