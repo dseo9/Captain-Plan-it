@@ -16,7 +16,7 @@
     // Start a new game
     // echo $_SESSION['player_id'];
     $current_game = $init->getGameInfo($_SESSION['player_id']);
-    if($current_game == 0 || $current_game[0]['finished'] == 'yes') {
+    if($current_game == 0 || $current_game[0]['finished'] == 'yessssss') {
       // start a new game
       $recorded_game = $init->startGame($_SESSION['player_id'], $id_planet);
     } else {
@@ -78,7 +78,7 @@
   }
 
   $gameInfo = $init->getGameInfo($_SESSION['player_id']);
-
+  // echo "DATA FROM ".$gameInfo[0]['idPlanet'];
 
 
  ?>
