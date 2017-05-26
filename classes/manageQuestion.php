@@ -32,7 +32,7 @@ ini_set('display_errors', 1);
     }
 
     function endGame($gameID) {
-      $query = $this->link->query("UPDATE Game SET finished = 'true' WHERE idGame = '$gameID'");
+      $query = $this->link->query("UPDATE Game SET finished = 'yes' WHERE idGame = '$gameID'");
       $counts = $query->rowCount();
       return $counts;
     }
@@ -77,7 +77,7 @@ ini_set('display_errors', 1);
     }
 
     function getDetails($id_game) {
-      $query = $this->link->query("SELECT * FROM Details WHERE idGame='$id_game' ORDER BY idLevel DESC");
+      $query = $this->link->query("SELECT * FROM Details WHERE idGame='$id_game' ORDER BY game_start DESC");
       $counts = $query->rowCount();
 
       if($counts >= 1)

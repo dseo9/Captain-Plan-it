@@ -17,7 +17,7 @@
     // Start a new game
     // echo $_SESSION['player_id'];
     $current_game = $init->getGameInfo($_SESSION['player_id']);
-    if($current_game == 0 || $current_game[0]['finished'] == 'yessssss') {
+    if($current_game == 0 || $current_game[0]['finished'] == 'yes') {
       // start a new game
       $recorded_game = $init->startGame($_SESSION['player_id'], $id_planet);
     } else {
@@ -55,37 +55,40 @@
     $db_attempts =  (int)1;
     $db_id_level = (int)$_GET['lv_id'];
     $db_id_question = (int)$_GET['id_question'];
-    // echo "ID LEVEL: ".$init->getDetails($db_id_level)[0]['idQuestion'];
-    if($init->getDetails($db_id_game)[0]['idQuestion'] != $_GET['id_question']) {
+    // echo " ID LEVEL: ".$init->getDetails($db_id_game)[0]['idLevel'];
+    // echo " LEVELLEVEL ".$db_id_level;
+    if($init->getDetails($db_id_game)[0]['idLevel'] == $db_id_level) {
       // echo "RECORDING NEW DATA". $db_id_game, $db_level, $db_attempts, $db_id_level, $db_id_question;
-      $recorded = $init->addDetails($db_id_game, $db_level, $db_attempts, $db_id_level, $db_id_question);
+      $recorded_attempt = $init->getDetails($db_id_game);
       // echo "WHAT IS RECORDED IS ". $recorded;
+      $updateAttempt = $init->setDetails((int)$recorded_attempt[0]['attempts']+1, "attempts",  (int)$recorded_attempt[0]['idDetails']);
       // echo " RESULT OF NEW DATA: ". $recorded;
     } else {
+      $recorded = $init->addDetails($db_id_game, $db_level, $db_attempts, $db_id_level, $db_id_question);
+      // echo "CREATING NEW DETAILS";
       // echo "Nothing to Store here";
-      $recorded_attempt = $init->getDetails($db_id_game);
       // echo "SCORE: ". ((int)$recorded_attempt[0]['attempts'])+1;
-      $updateAttempt = $init->setDetails((int)$recorded_attempt[0]['attempts']+1, "attempts",  (int)$recorded_attempt[0]['idDetails']);
     }
     // if ($recorded == 0){
     // }
     // print_r($response);
     if($response[0]['correct'] == 1){
       $result_ans = "Right answer";
+      $updateAttempt = $init->setDetails((int)$init->getDetails($db_id_game)[0]['attempts'], "attempts",  (int)$init->getDetails($db_id_game)[0]['idDetails']);
       $updateDetails = $init->setDetails("yes", "Done",  (int)$init->getDetails($db_id_game)[0]['idDetails']);
     } else {
       $result_ans = "Wrong answer";
 
     }
   }
-  $GAME_ID = $init->getGameInfo($_SESSION['player_id'])[0]['idGame'];
+  $GAME_ID = $init->getGameInfo($_SESSION['player_id']);
   // echo $GAME_ID;
-  $levelInfo = $init->getDetails($GAME_ID);
+  $levelInfo = $init->getDetails($GAME_ID[0]['idGame']);
   // echo "DATA FROM ".$gameInfo[0]['idPlanet'];
 
   if($levelInfo[0]['level'] == 6 && $levelInfo[0]['Done'] == "yes") {
     $result = $init->endGame($levelInfo[0]['idGame']);
+    header("location: planets.php?cleaned=".$GAME_ID[0]['idPlanet']);
   }
-
 
  ?>
