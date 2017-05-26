@@ -1,5 +1,6 @@
 <?php include_once('head.php'); ?>
-<?php include_once('libs/login_users.php'); ?>
+<?php include_once('libs/login_users.php');
+session_start();?>
 
   <body onload="myFunction()" style="margin:0;">
     <div class="container fill" style="margin: auto; max-height: 100%;">

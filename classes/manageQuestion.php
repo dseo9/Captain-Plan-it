@@ -1,4 +1,8 @@
 <?php
+//Show errors
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
   include_once('database.php');
 
   class ManageQuestion {
@@ -19,9 +23,55 @@
       return $counts;
     }
 
+    function startGame($playerId, $planetId) {
+      $query = $this->link->prepare("INSERT INTO Game (idPlayer, idPlanet) VALUES (?, ?)");
+      $values = array($playerId, $planetId);
+      $query->execute($values);
+      $counts = $query->rowCount();
+      return $counts;
+    }
+
+    function getGameInfo($playerId) {
+      $query = $this->link->query("SELECT * FROM Game WHERE idPlayer='$playerId' ORDER BY idGame DESC");
+      $counts = $query->rowCount();
+
+      if($counts >= 1)
+      {
+        $result = $query->fetchAll();
+      }
+      else
+      {
+        $result = $counts;
+      }
+      return $result;
+    }
+
+    function addDetails($id_game, $level, $attempts, $id_level, $id_question) {
+      $query = $this->link->prepare("INSERT INTO Details (idGame, level, attempts, idLevel, idQuestion) VALUES (?,?,?,?,?)");
+      $values = array($id_game, $level, $attempts, $id_level, $id_question);
+      $query->execute($values);
+      $counts = $query->rowCount();
+      return $counts;
+    }
+
     function getPlanetID($planet_name)
     {
       $query = $this->link->query("SELECT idPlanet FROM Planets WHERE Planet_name='$planet_name'");
+      $counts = $query->rowCount();
+
+      if($counts >= 1)
+      {
+        $result = $query->fetchAll();
+      }
+      else
+      {
+        $result = $counts;
+      }
+      return $result;
+    }
+
+    function getDetails($id_game) {
+      $query = $this->link->query("SELECT * FROM Details WHERE idGame='$id_game' ORDER BY idLevel DESC");
       $counts = $query->rowCount();
 
       if($counts >= 1)
@@ -55,7 +105,7 @@
     {
         // $query = $this->link->query("SELECT Question FROM level l, Planets p, Questions q WHERE p.idPlanet=l.idPlanet AND l.idQuestion=q.idQuestion AND p.idPlanet = '$id_planet'");
 
-        $query = $this->link->query("SELECT Questions.idQuestion, Questions.Question FROM (Planets INNER JOIN Levels ON Planets.idPlanet=Levels.idPlanet) INNER JOIN Questions ON Levels.idQuestion=Questions.idQuestion WHERE Planets.idPlanet='$idPlanet'");
+        $query = $this->link->query("SELECT Questions.idQuestion, Questions.Question, Levels.idLevel FROM (Planets INNER JOIN Levels ON Planets.idPlanet=Levels.idPlanet) INNER JOIN Questions ON Levels.idQuestion=Questions.idQuestion WHERE Planets.idPlanet='$idPlanet'");
         $counts = $query->rowCount();
 
       if($counts >= 1)
@@ -83,6 +133,12 @@
           $result = $counts;
         }
         return $result;
+    }
+
+    function setDetails($value, $field, $id_details) {
+      $query = $this->link->query("UPDATE Details SET $field = '$value' WHERE idDetails = '$id_details'");
+          $counts = $query->rowCount();
+          return $counts;
     }
 
     function getQuestion($id_question)
