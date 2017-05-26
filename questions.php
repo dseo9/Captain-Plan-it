@@ -16,11 +16,14 @@
       <?php
 				if ($result_ans == "Right answer") {
 					echo "<p>".$result_ans."</p>";
-					$('instructions').css("background-color","green");
+					$(document).ready(function() {
+						$('instructions').css("background-color","yellow");
+					})
 					header("refresh:1; url=fruitplanet.php?p_name=".$_GET['p_name']."&bg=".$_GET['bg']."&page=".$_GET['page'], true, 303);
 				} else {
-					$(document).
-					$('instructions').css("background-color","red");
+					$(document).ready(function() {
+						$('instructions').css("background-color","red");
+					})
 					echo "<p>".$result_ans."</p>";
 				}
 			?>
