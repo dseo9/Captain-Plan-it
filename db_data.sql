@@ -171,7 +171,7 @@ INSERT INTO Levels (idPlanet, idQuestion) VALUES (1, 5);
 # Question 6
 INSERT INTO Questions (Question) VALUES ("What should you look at before buying milk?");
 
-INSERT INTO Answers (idQuestion, answer, correct) VALUES (6, "'Use By' date", 1);
+INSERT INTO Answers (idQuestion, answer, correct) VALUES (6, "Use By date", 1);
 INSERT INTO Answers (idQuestion, answer, correct) VALUES (6, "What's milk?", 0);
 INSERT INTO Answers (idQuestion, answer, correct) VALUES (6, "Moo?", 0);
 INSERT INTO Answers (idQuestion, answer, correct) VALUES (6, "The cow", 0);
@@ -613,34 +613,34 @@ INSERT INTO Levels (idPlanet, idQuestion) VALUES (4, 48);
 #SELECT * FROM Answers;
 
 
-# Levels Session #############################
-# Planet 1
-INSERT INTO Levels (idPlanet, idQuestion) VALUES (1, 1);
-INSERT INTO Levels (idPlanet, idQuestion) VALUES (1, 2);
-INSERT INTO Levels (idPlanet, idQuestion) VALUES (1, 3);
-INSERT INTO Levels (idPlanet, idQuestion) VALUES (1, 4);
-INSERT INTO Levels (idPlanet, idQuestion) VALUES (1, 5);
-
-# Planet 2
-INSERT INTO Levels (idPlanet, idQuestion) VALUES (2, 6);
-INSERT INTO Levels (idPlanet, idQuestion) VALUES (2, 7);
-INSERT INTO Levels (idPlanet, idQuestion) VALUES (2, 8);
-INSERT INTO Levels (idPlanet, idQuestion) VALUES (2, 9);
-INSERT INTO Levels (idPlanet, idQuestion) VALUES (2, 10);
-
-# Planet 3
-INSERT INTO Levels (idPlanet, idQuestion) VALUES (3, 11);
-INSERT INTO Levels (idPlanet, idQuestion) VALUES (3, 12);
-INSERT INTO Levels (idPlanet, idQuestion) VALUES (3, 13);
-INSERT INTO Levels (idPlanet, idQuestion) VALUES (3, 14);
-INSERT INTO Levels (idPlanet, idQuestion) VALUES (3, 15);
-
-# Planet 4
-INSERT INTO Levels (idPlanet, idQuestion) VALUES (4, 16);
-INSERT INTO Levels (idPlanet, idQuestion) VALUES (4, 17);
-INSERT INTO Levels (idPlanet, idQuestion) VALUES (4, 18);
-INSERT INTO Levels (idPlanet, idQuestion) VALUES (4, 19);
-INSERT INTO Levels (idPlanet, idQuestion) VALUES (4, 20);
+-- # Levels Session #############################
+-- # Planet 1
+-- INSERT INTO Levels (idPlanet, idQuestion) VALUES (1, 1);
+-- INSERT INTO Levels (idPlanet, idQuestion) VALUES (1, 2);
+-- INSERT INTO Levels (idPlanet, idQuestion) VALUES (1, 3);
+-- INSERT INTO Levels (idPlanet, idQuestion) VALUES (1, 4);
+-- INSERT INTO Levels (idPlanet, idQuestion) VALUES (1, 5);
+--
+-- # Planet 2
+-- INSERT INTO Levels (idPlanet, idQuestion) VALUES (2, 6);
+-- INSERT INTO Levels (idPlanet, idQuestion) VALUES (2, 7);
+-- INSERT INTO Levels (idPlanet, idQuestion) VALUES (2, 8);
+-- INSERT INTO Levels (idPlanet, idQuestion) VALUES (2, 9);
+-- INSERT INTO Levels (idPlanet, idQuestion) VALUES (2, 10);
+--
+-- # Planet 3
+-- INSERT INTO Levels (idPlanet, idQuestion) VALUES (3, 11);
+-- INSERT INTO Levels (idPlanet, idQuestion) VALUES (3, 12);
+-- INSERT INTO Levels (idPlanet, idQuestion) VALUES (3, 13);
+-- INSERT INTO Levels (idPlanet, idQuestion) VALUES (3, 14);
+-- INSERT INTO Levels (idPlanet, idQuestion) VALUES (3, 15);
+--
+-- # Planet 4
+-- INSERT INTO Levels (idPlanet, idQuestion) VALUES (4, 16);
+-- INSERT INTO Levels (idPlanet, idQuestion) VALUES (4, 17);
+-- INSERT INTO Levels (idPlanet, idQuestion) VALUES (4, 18);
+-- INSERT INTO Levels (idPlanet, idQuestion) VALUES (4, 19);
+-- INSERT INTO Levels (idPlanet, idQuestion) VALUES (4, 20);
 
 #SELECT * FROM Levels;
 
